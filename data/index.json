@@ -734,7 +734,15 @@
   "stars": 0,
   "lang": "CSS",
   "desc": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
-  "topics": [],
+  "topics": [
+   "agent",
+   "ai",
+   "blog",
+   "github-pages",
+   "jekyll",
+   "markdown",
+   "personal-website"
+  ],
   "note": "个人技术博客（Jekyll + GitHub Pages）。"
  },
  {
@@ -764,7 +772,13 @@
   "stars": 0,
   "lang": "Vue",
   "desc": "kangyang-digital-twin graduation project",
-  "topics": [],
+  "topics": [
+   "3d-visualization",
+   "digital-twin",
+   "graduation-project",
+   "visualization",
+   "vue"
+  ],
   "note": "康养数字孪生可视化（Vue + 3D）。"
  }
 ]
