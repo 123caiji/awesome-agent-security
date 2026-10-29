@@ -69,6 +69,19 @@ async function countCommitsSince(fullName) {
   }
 }
 
+// GitHub 的 repo.size 字段在历史被重写后会滞后很久（要等服务端 GC），
+// 所以体积偏大时再取一次当前分支的 HEAD 树大小做交叉验证：
+// HEAD 很小说明只是历史残留，不该再报阻塞。
+async function headSizeKB(fullName, branch) {
+  try {
+    const { json } = await api(`/repos/${fullName}/git/trees/${encodeURIComponent(branch)}?recursive=1`)
+    if (!Array.isArray(json.tree)) return null
+    return Math.round(json.tree.reduce((sum, x) => sum + (x.size || 0), 0) / 1024)
+  } catch {
+    return null
+  }
+}
+
 async function main() {
   const [profile, repos] = await Promise.all([
     api(`/users/${OWNER}`).then(r => r.json),
@@ -97,6 +110,7 @@ async function main() {
       commits7d,
       archived: Boolean(repo.archived),
       isProfile: repo.name === OWNER,
+      defaultBranch: repo.default_branch,
     })
   }
 
@@ -134,7 +148,18 @@ async function main() {
       suggestions.push({ repo: r.name, problem: '许可证未被 GitHub 识别', advice: '用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE' })
     }
     if (r.sizeKB > BIG_SIZE_KB) {
-      blocking.push({ repo: r.name, problem: `仓库体积 ${(r.sizeKB / 1024).toFixed(0)} MB`, advice: '清理历史大文件（git filter-repo / BFG），或把二进制移出仓库' })
+      // 先看 HEAD 实际内容：历史重写后 size 字段会滞后
+      if (r.headKB === undefined) r.headKB = await headSizeKB(`${OWNER}/${r.name}`, r.defaultBranch)
+      const headMB = r.headKB === null ? null : (r.headKB / 1024).toFixed(1)
+      if (headMB !== null && r.headKB < BIG_SIZE_KB / 2) {
+        suggestions.push({
+          repo: r.name,
+          problem: `体积记录 ${(r.sizeKB / 1024).toFixed(0)} MB，但当前 HEAD 只有 ${headMB} MB`,
+          advice: '历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理',
+        })
+      } else {
+        blocking.push({ repo: r.name, problem: `仓库体积 ${(r.sizeKB / 1024).toFixed(0)} MB`, advice: '清理历史大文件（git filter-repo / BFG），或把二进制移出仓库' })
+      }
     }
     if (r.staleDays > STALE_DAYS) {
       blocking.push({ repo: r.name, problem: `${r.staleDays} 天没有推送`, advice: '补一次依赖更新、README 或归档' })
@@ -257,11 +282,12 @@ async function main() {
 
   md.push('## 自有仓库')
   md.push('')
-  md.push('| 仓库 | 语言 | ★ | Fork | Issue/PR | 体积 | 近 7 天提交 | 最后推送 | 许可 |')
-  md.push('| --- | --- | --- | --- | --- | --- | --- | --- | --- |')
+  md.push('| 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |')
+  md.push('| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |')
   for (const r of ownRows) {
     const size = r.sizeKB >= 1024 ? `${(r.sizeKB / 1024).toFixed(0)} MB` : `${r.sizeKB} KB`
-    md.push(`| [${r.name}](${r.url}) | ${r.language} | ${r.stars} | ${r.forks} | ${r.issues} | ${size} | ${r.commits7d < 0 ? '—' : r.commits7d} | ${fmtDate(r.pushedAt)} | ${r.license || '缺失'} |`)
+    const headSize = r.headKB === undefined || r.headKB === null ? '—' : r.headKB >= 1024 ? `${(r.headKB / 1024).toFixed(1)} MB` : `${r.headKB} KB`
+    md.push(`| [${r.name}](${r.url}) | ${r.language} | ${r.stars} | ${r.forks} | ${r.issues} | ${size} | ${headSize} | ${r.commits7d < 0 ? '—' : r.commits7d} | ${fmtDate(r.pushedAt)} | ${r.license || '缺失'} |`)
   }
   md.push('')
 
@@ -274,7 +300,7 @@ async function main() {
     md.push(`| [${r.name}](${r.html_url}) | ${fmtDate(r.pushed_at)} | ${d > STALE_DAYS ? `${d} 天未动` : '有更新'} |`)
   }
   md.push('')
-  md.push(`_统计口径：GitHub 公开 API 的 /users/${OWNER}/repos。阻塞阈值：无许可证、体积 > ${BIG_SIZE_KB / 1024} MB、超过 ${STALE_DAYS} 天无推送。_`)
+  md.push(`_统计口径：GitHub 公开 API 的 /users/${OWNER}/repos。阻塞阈值：无许可证、体积 > ${BIG_SIZE_KB / 1024} MB、超过 ${STALE_DAYS} 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。_`)
   md.push('')
 
   if (CHECK_ONLY) {
