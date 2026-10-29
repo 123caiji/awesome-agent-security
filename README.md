@@ -5,7 +5,7 @@
 **AI Agent 安全 · DeepSeek Harness 生态 · 代码审计 —— 精选清单**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![entries](https://img.shields.io/badge/entries-52-2f81f7)
+![entries](https://img.shields.io/badge/entries-35-2f81f7)
 ![updated](https://img.shields.io/badge/auto--refreshed-daily-3fb950)
 
 </div>
@@ -44,7 +44,6 @@
 | [Hexstrike-ai-6.2](https://github.com/Coff0xc/Hexstrike-ai-6.2) | 13 | Python | HexStrike 社区分支，强化了 MCP 集成与工具链。 |
 | [AgentRed](https://github.com/Coff0xc/AgentRed) | 9 | TypeScript | TypeScript 写的 AI 红队工作台：任务编排、证据追踪、可交付报告。 |
 | [vero](https://github.com/Coff0xc/vero) | 6 | Go | Go 写的证据驱动自主红队 Agent，面向授权渗透测试。 |
-| [coff0xc.github.io](https://github.com/Coff0xc/coff0xc.github.io) | 2 | TypeScript | — |
 <!-- INDEX:END AI 安全与红队工具 -->
 
 ## 2. DeepSeek Harness 插件生态
@@ -54,34 +53,19 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 265424 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
-| [dalian-nailong](https://github.com/zp-home/dalian-nailong) | 3 | HTML | 大连奶龙大学 · 以大连东软校园为灵感的非官方趣味创作静态站 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
 | [architecture-open-source-research](https://github.com/zp-home/architecture-open-source-research) | 1 | Python | Evidence-led open-source architecture research, technology selection, codebase analysis, and im… |
 | [astah-diagram-automation](https://github.com/zp-home/astah-diagram-automation) | 1 | PowerShell | 根据需求自动生成asta 类图时序图等文件可直接生成 asta文件 |
-| [christmas-tree-3d](https://github.com/zp-home/christmas-tree-3d) | 1 | Vue | 圣诞树 |
 | [orbit-token-widget](https://github.com/zp-home/orbit-token-widget) | 1 | PowerShell | Windows 桌面常驻的 token 用量气泡：数字底下烧着一排火焰，火势由实时 token 消耗速率驱动。纯 PowerShell + WinForms。 |
 | [pc-space-cleanup](https://github.com/zp-home/pc-space-cleanup) | 1 | PowerShell | Claude Code skill: Windows C/D 盘空间整理 —— 体检、清缓存、CloudDrive2 上云逐文件校验、云端整理 |
 | [skillhub-publish-optimizer](https://github.com/zp-home/skillhub-publish-optimizer) | 1 | PowerShell | Automated Skill validation, packaging, GitHub release handoff, and SkillHub publishing workflow. |
-| [xingrui](https://github.com/zp-home/xingrui) | 1 | Python | — |
-| [alphastar-guide](https://github.com/zp-home/alphastar-guide) | 0 | HTML | — |
-| [campus-puzzle-web](https://github.com/zp-home/campus-puzzle-web) | 0 | HTML | Static site deployed by OpenClaw. |
-| [deepseek-harness-desktop-rc8](https://github.com/zp-home/deepseek-harness-desktop-rc8) | 0 | — | Independent rc8 maintenance fork of DSH Desktop for issue and PR integration |
 | [dsh-best-dev-optimizer](https://github.com/zp-home/dsh-best-dev-optimizer) | 0 | TypeScript | 面向 DSH 插件开发流程的优化器。 |
 | [dsh-plugin-registry](https://github.com/zp-home/dsh-plugin-registry) | 0 | JavaScript | DSH 插件注册表 / 索引基础设施。 |
 | [dsh-skill-adapter](https://github.com/zp-home/dsh-skill-adapter) | 0 | JavaScript | 把 Skills 适配进 DSH 运行时的插件。 |
-| [industrial-menu-pages](https://github.com/zp-home/industrial-menu-pages) | 0 | CSS | Static site deployed by OpenClaw. |
 | [kb-graph](https://github.com/zp-home/kb-graph) | 0 | HTML | 把 markdown 知识库渲染成可交互 3D 关系图。单个 HTML，无后端，数据不离开浏览器。 |
-| [love-heart](https://github.com/zp-home/love-heart) | 0 | Vue | Anniversary memorial site |
-| [mini-web-toys](https://github.com/zp-home/mini-web-toys) | 0 | HTML | Static site deployed by OpenClaw. |
-| [rl-knowledge-tree](https://github.com/zp-home/rl-knowledge-tree) | 0 | HTML | — |
-| [rl-learning-report](https://github.com/zp-home/rl-learning-report) | 0 | HTML | — |
-| [rl-learning-roadmap](https://github.com/zp-home/rl-learning-roadmap) | 0 | HTML | — |
-| [rl-learning-summary](https://github.com/zp-home/rl-learning-summary) | 0 | HTML | — |
-| [xyingsoft-web-portal](https://github.com/zp-home/xyingsoft-web-portal) | 0 | CSS | Static company portal for Xiying Software (Dalian) |
-| [zp-home-3d](https://github.com/zp-home/zp-home-3d) | 0 | Astro | zp-home 的 3D 交互演示版（Astro + three.js） |
-| [zp-home.github.io](https://github.com/zp-home/zp-home.github.io) | 0 | Astro | Projects, reusable agent skills, and engineering knowledge notes |
 <!-- INDEX:END DeepSeek Harness 插件生态 -->
 
 ## 3. 代码审计与安全学习
@@ -96,7 +80,6 @@
 | [Code-Audit](https://github.com/well-lzz/Code-Audit) | 1 | — | 成体系的代码审计 Skills 集合，可直接作为 Agent 的审计知识库。 |
 | [cyber-psyche](https://github.com/well-lzz/cyber-psyche) | 1 | JavaScript | 攻击者视角的心理/行为建模小项目。 |
 | [term3-lab](https://github.com/well-lzz/term3-lab) | 1 | Python | 终端安全实验环境。 |
-| [good-lzz](https://github.com/well-lzz/good-lzz) | 0 | — | — |
 <!-- INDEX:END 代码审计与安全学习 -->
 
 ## 4. 我的项目
