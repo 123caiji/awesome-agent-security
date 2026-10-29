@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:08:03.574Z",
+  "generatedAt": "2026-10-29T12:14:13.308Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -10,15 +10,15 @@
     "own": 10,
     "forks": 18,
     "stars": 16,
-    "openIssues": 5,
-    "active7d": 9,
-    "commits7d": 21,
+    "openIssues": 4,
+    "active7d": 10,
+    "commits7d": 27,
     "wikiOn": 0,
     "blocking": 2,
-    "suggestions": 5
+    "suggestions": 4
   },
   "trend": {
-    "since": "2026-10-29T12:04:25.607Z",
+    "since": "2026-10-29T12:08:03.574Z",
     "changes": [
       {
         "key": "repos",
@@ -38,22 +38,22 @@
         "key": "openIssues",
         "label": "未关闭 issue/PR",
         "before": 5,
-        "after": 5,
-        "delta": 0
+        "after": 4,
+        "delta": -1
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 9,
-        "after": 9,
-        "delta": 0
+        "after": 10,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
         "before": 21,
-        "after": 21,
-        "delta": 0
+        "after": 27,
+        "delta": 6
       },
       {
         "key": "blocking",
@@ -66,8 +66,8 @@
         "key": "suggestions",
         "label": "建议项",
         "before": 5,
-        "after": 5,
-        "delta": 0
+        "after": 4,
+        "delta": -1
       }
     ]
   },
@@ -103,11 +103,6 @@
       "repo": "dsh-memory-toolkit",
       "problem": "issue #3 已挂 48 天",
       "advice": "回复、处理或关闭，维护节奏比数量更重要"
-    },
-    {
-      "repo": "AI-LLM-Agent-Learning",
-      "problem": "PR #1 已挂 47 天",
-      "advice": "回复、处理或关闭，维护节奏比数量更重要"
     }
   ],
   "openThreads": [
@@ -137,27 +132,94 @@
       "author": "Shrbuz",
       "ageDays": 48,
       "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/3"
-    },
-    {
-      "repo": "AI-LLM-Agent-Learning",
-      "number": 1,
-      "kind": "PR",
-      "title": "docs: v5.8 证据导向核查修正（41 处，保留原文+核查注记，遵循 CONTRIBUTING.md）",
-      "author": "hedongli1",
-      "ageDays": 47,
-      "url": "https://github.com/123caiji/AI-LLM-Agent-Learning/pull/1"
-    },
-    {
-      "repo": "awesome-agent-security",
-      "number": 4,
-      "kind": "PR",
-      "title": "chore(actions): bump actions/setup-node from 4 to 7",
-      "author": "dependabot[bot]",
-      "ageDays": 0,
-      "url": "https://github.com/123caiji/awesome-agent-security/pull/4"
     }
   ],
   "own": [
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 6,
+      "pushedAt": "2026-10-29T12:13:58Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "hasWiki": false,
+      "commits7d": 3,
+      "archived": false,
+      "isProfile": true
+    },
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "sizeKB": 37,
+      "pushedAt": "2026-10-29T12:13:49Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": false,
+      "commits7d": 14,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "AI-LLM-Agent-Learning",
+      "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
+      "language": "Python",
+      "stars": 7,
+      "forks": 1,
+      "issues": 0,
+      "sizeKB": 5369,
+      "pushedAt": "2026-10-29T12:11:31Z",
+      "staleDays": 0,
+      "license": "NOASSERTION",
+      "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "dsh-memory-toolkit",
+      "url": "https://github.com/123caiji/dsh-memory-toolkit",
+      "language": "TypeScript",
+      "stars": 4,
+      "forks": 0,
+      "issues": 3,
+      "sizeKB": 1656,
+      "pushedAt": "2026-10-29T12:10:07Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
+      "hasWiki": false,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "dsh-live",
+      "url": "https://github.com/123caiji/dsh-live",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 20,
+      "pushedAt": "2026-10-29T12:10:05Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
+      "hasWiki": false,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
     {
       "name": "security-research-toolkit",
       "url": "https://github.com/123caiji/security-research-toolkit",
@@ -240,91 +302,6 @@
       "description": "kangyang-digital-twin graduation project",
       "hasWiki": false,
       "commits7d": 1,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 1,
-      "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:02:06Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": false,
-      "commits7d": 11,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "dsh-memory-toolkit",
-      "url": "https://github.com/123caiji/dsh-memory-toolkit",
-      "language": "TypeScript",
-      "stars": 4,
-      "forks": 0,
-      "issues": 3,
-      "sizeKB": 1656,
-      "pushedAt": "2026-10-29T11:11:21Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
-      "hasWiki": false,
-      "commits7d": 2,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "dsh-live",
-      "url": "https://github.com/123caiji/dsh-live",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 20,
-      "pushedAt": "2026-10-29T09:08:47Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
-      "hasWiki": false,
-      "commits7d": 2,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "—",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 6,
-      "pushedAt": "2026-10-29T09:06:05Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "hasWiki": false,
-      "commits7d": 1,
-      "archived": false,
-      "isProfile": true
-    },
-    {
-      "name": "AI-LLM-Agent-Learning",
-      "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
-      "language": "Python",
-      "stars": 7,
-      "forks": 1,
-      "issues": 1,
-      "sizeKB": 5369,
-      "pushedAt": "2026-10-16T04:51:40Z",
-      "staleDays": 13,
-      "license": "NOASSERTION",
-      "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
-      "hasWiki": false,
-      "commits7d": 0,
       "archived": false,
       "isProfile": false
     }
