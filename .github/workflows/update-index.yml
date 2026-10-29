@@ -27,7 +27,7 @@ jobs:
       - name: Render README tables
         run: node scripts/render.mjs
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: refresh index (stars + descriptions)"
           commit_user_name: github-actions[bot]
