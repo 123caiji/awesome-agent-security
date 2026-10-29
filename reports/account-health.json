@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:39:46.034Z",
+  "generatedAt": "2026-10-29T12:40:23.480Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -12,13 +12,13 @@
     "stars": 16,
     "openIssues": 4,
     "active7d": 10,
-    "commits7d": 35,
+    "commits7d": 36,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 6
   },
   "trend": {
-    "since": "2026-10-29T12:36:46.615Z",
+    "since": "2026-10-29T12:39:46.034Z",
     "changes": [
       {
         "key": "repos",
@@ -51,23 +51,23 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 34,
-        "after": 35,
+        "before": 35,
+        "after": 36,
         "delta": 1
       },
       {
         "key": "blocking",
         "label": "阻塞项",
-        "before": 2,
+        "before": 0,
         "after": 0,
-        "delta": -2
+        "delta": 0
       },
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 4,
+        "before": 6,
         "after": 6,
-        "delta": 2
+        "delta": 0
       }
     ]
   },
@@ -151,12 +151,12 @@
       "forks": 0,
       "issues": 1,
       "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:36:51Z",
+      "pushedAt": "2026-10-29T12:40:07Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 19,
+      "commits7d": 20,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
