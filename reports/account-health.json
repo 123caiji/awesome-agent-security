@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:25:45.729Z",
+  "generatedAt": "2026-10-29T12:36:46.615Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -12,13 +12,13 @@
     "stars": 16,
     "openIssues": 4,
     "active7d": 10,
-    "commits7d": 31,
+    "commits7d": 34,
     "wikiOn": 0,
     "blocking": 2,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-10-29T12:14:13.308Z",
+    "since": "2026-10-29T12:25:45.729Z",
     "changes": [
       {
         "key": "repos",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 27,
-        "after": 31,
-        "delta": 4
+        "before": 31,
+        "after": 34,
+        "delta": 3
       },
       {
         "key": "blocking",
@@ -145,6 +145,40 @@
   ],
   "own": [
     {
+      "name": "stm32-iot-smart-home",
+      "url": "https://github.com/123caiji/stm32-iot-smart-home",
+      "language": "—",
+      "stars": 2,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 267740,
+      "pushedAt": "2026-10-29T12:36:30Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
+      "hasWiki": false,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "kangyang-digital-twin",
+      "url": "https://github.com/123caiji/kangyang-digital-twin",
+      "language": "Vue",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 72770,
+      "pushedAt": "2026-10-29T12:32:42Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "kangyang-digital-twin graduation project",
+      "hasWiki": false,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
+    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
@@ -152,12 +186,12 @@
       "forks": 0,
       "issues": 1,
       "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:25:37Z",
+      "pushedAt": "2026-10-29T12:25:50Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 17,
+      "commits7d": 18,
       "archived": false,
       "isProfile": false
     },
@@ -247,23 +281,6 @@
       "isProfile": false
     },
     {
-      "name": "stm32-iot-smart-home",
-      "url": "https://github.com/123caiji/stm32-iot-smart-home",
-      "language": "C",
-      "stars": 2,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 267740,
-      "pushedAt": "2026-10-29T12:03:29Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
-      "hasWiki": false,
-      "commits7d": 1,
-      "archived": false,
-      "isProfile": false
-    },
-    {
       "name": "wulao",
       "url": "https://github.com/123caiji/wulao",
       "language": "—",
@@ -292,23 +309,6 @@
       "staleDays": 0,
       "license": "MIT",
       "description": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
-      "hasWiki": false,
-      "commits7d": 1,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "kangyang-digital-twin",
-      "url": "https://github.com/123caiji/kangyang-digital-twin",
-      "language": "Vue",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 72770,
-      "pushedAt": "2026-10-29T12:03:22Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "kangyang-digital-twin graduation project",
       "hasWiki": false,
       "commits7d": 1,
       "archived": false,
