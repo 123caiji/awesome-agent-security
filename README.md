@@ -125,7 +125,7 @@
 
 ## 自动更新机制
 
-```
+```text
 .github/workflows/update-index.yml   每天 03:17 UTC 跑一次
   ├─ scripts/refresh-stars.mjs       用 GitHub API 拉每个仓库的最新 star / 语言 / 简介 → data/index.json
   └─ scripts/render.mjs              按章节渲染表格 → 写回 README 的 <!-- INDEX:START ... --> 区块
