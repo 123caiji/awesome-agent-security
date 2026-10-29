@@ -55,11 +55,13 @@ jobs:
           title="账号维护：${count} 项待处理"
           if [ "${count}" = "0" ]; then title="账号维护：无阻塞项"; fi
           number=$(gh issue list --label account-health --state open --json number --jq '.[0].number // empty')
-          body=$(cat reports/account-health.md)
           if [ -n "${number}" ]; then
+            # 已经有体检 issue：刷新正文；阻塞项清空就直接关掉，保持 issue 列表干净
             gh issue edit "${number}" --title "${title}" --body-file reports/account-health.md
-          else
-            # 报告正文太长，issue 里只放摘要 + 指向文件
-            gh issue create --title "${title}" --label account-health \
-              --body "每日自动体检结果见 [reports/account-health.md](reports/account-health.md)。阻塞项：${count}，建议项见报告。"
+            if [ "${count}" = "0" ]; then
+              gh issue comment "${number}" --body "阻塞项已清零，自动关闭。"
+              gh issue close "${number}"
+            fi
+          elif [ "${count}" != "0" ]; then
+            gh issue create --title "${title}" --label account-health --body-file reports/account-health.md
           fi
