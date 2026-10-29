@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "render": "node scripts/render.mjs",
-    "refresh": "node scripts/refresh-stars.mjs"
+    "refresh": "node scripts/refresh-stars.mjs",
+    "scan": "node scripts/account-scan.mjs",
+    "scan:check": "node scripts/account-scan.mjs --check"
   }
 }
