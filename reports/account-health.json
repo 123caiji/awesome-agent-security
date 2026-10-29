@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:14:13.308Z",
+  "generatedAt": "2026-10-29T12:25:45.729Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -12,13 +12,13 @@
     "stars": 16,
     "openIssues": 4,
     "active7d": 10,
-    "commits7d": 27,
+    "commits7d": 31,
     "wikiOn": 0,
     "blocking": 2,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-10-29T12:08:03.574Z",
+    "since": "2026-10-29T12:14:13.308Z",
     "changes": [
       {
         "key": "repos",
@@ -37,23 +37,23 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 5,
+        "before": 4,
         "after": 4,
-        "delta": -1
+        "delta": 0
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
-        "before": 9,
+        "before": 10,
         "after": 10,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 21,
-        "after": 27,
-        "delta": 6
+        "before": 27,
+        "after": 31,
+        "delta": 4
       },
       {
         "key": "blocking",
@@ -65,9 +65,9 @@
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 5,
+        "before": 4,
         "after": 4,
-        "delta": -1
+        "delta": 0
       }
     ]
   },
@@ -132,26 +132,18 @@
       "author": "Shrbuz",
       "ageDays": 48,
       "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/3"
+    },
+    {
+      "repo": "awesome-agent-security",
+      "number": 5,
+      "kind": "issue",
+      "title": "账号维护：2 项待处理",
+      "author": "github-actions[bot]",
+      "ageDays": 0,
+      "url": "https://github.com/123caiji/awesome-agent-security/issues/5"
     }
   ],
   "own": [
-    {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 6,
-      "pushedAt": "2026-10-29T12:13:58Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "hasWiki": false,
-      "commits7d": 3,
-      "archived": false,
-      "isProfile": true
-    },
     {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
@@ -160,14 +152,31 @@
       "forks": 0,
       "issues": 1,
       "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:13:49Z",
+      "pushedAt": "2026-10-29T12:25:37Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 14,
+      "commits7d": 17,
       "archived": false,
       "isProfile": false
+    },
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 6,
+      "pushedAt": "2026-10-29T12:14:27Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "hasWiki": false,
+      "commits7d": 4,
+      "archived": false,
+      "isProfile": true
     },
     {
       "name": "AI-LLM-Agent-Learning",
