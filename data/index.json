@@ -590,5 +590,22 @@
    "vue"
   ],
   "note": "康养数字孪生可视化（Vue + 3D）。"
+ },
+ {
+  "section": "我的项目",
+  "owner": "123caiji",
+  "name": "ai-world",
+  "url": "https://github.com/123caiji/ai-world",
+  "stars": 0,
+  "lang": "JavaScript",
+  "desc": "AI 大世界 · 实时 AI 情报站：每小时自动采集新闻/论文/新模型/GitHub 涨星/DSH 插件，每条都带可核验证据。",
+  "topics": [
+   "ai",
+   "aggregator",
+   "github-actions",
+   "radar",
+   "rss"
+  ],
+  "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
  }
 ]

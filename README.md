@@ -5,7 +5,7 @@
 **AI Agent 安全 · DeepSeek Harness 生态 · 代码审计 —— 精选清单**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![entries](https://img.shields.io/badge/entries-35-2f81f7)
+![entries](https://img.shields.io/badge/entries-36-2f81f7)
 ![updated](https://img.shields.io/badge/auto--refreshed-daily-3fb950)
 
 </div>
@@ -98,6 +98,7 @@
 | [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | 0 | CSS | 个人技术博客（Jekyll + GitHub Pages）。 |
 | [dsh-live](https://github.com/123caiji/dsh-live) | 0 | JavaScript | DSH 会话现场驾驶舱：当前在做什么、要不要人管、本轮花了多少 token。 |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | 0 | Vue | 康养数字孪生可视化（Vue + 3D）。 |
+| [ai-world](https://github.com/123caiji/ai-world) | 0 | JavaScript | 纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。 |
 <!-- INDEX:END 我的项目 -->
 
 ## 怎么读这份清单
