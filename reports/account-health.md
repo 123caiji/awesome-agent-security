@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-29T12:39:46.034Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-29T12:40:23.480Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,7 +10,7 @@
 | 自有仓库 star 合计 | 16 |
 | 自有仓库未关闭 issue/PR | 4 |
 | 近 7 天有推送的仓库 | 10 / 10 |
-| 近 7 天提交数 | 35 |
+| 近 7 天提交数 | 36 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 6 |
 
@@ -22,9 +22,9 @@
 | 自有仓库 star | 16 | 16 | 持平 |
 | 未关闭 issue/PR | 4 | 4 | 持平 |
 | 近 7 天活跃仓库 | 10 | 10 | 持平 |
-| 近 7 天提交 | 34 | 35 | +1 |
-| 阻塞项 | 2 | 0 | -2 |
-| 建议项 | 4 | 6 | +2 |
+| 近 7 天提交 | 35 | 36 | +1 |
+| 阻塞项 | 0 | 0 | 持平 |
+| 建议项 | 6 | 6 | 持平 |
 
 ## 待处理
 
@@ -52,7 +52,7 @@
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | — | 19 | 2026-10-29 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | — | 20 | 2026-10-29 | MIT |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 2 | 2026-10-29 | MIT |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 6.5 MB | 2 | 2026-10-29 | MIT |
 | [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | — | 4 | 2026-10-29 | 缺失 |
