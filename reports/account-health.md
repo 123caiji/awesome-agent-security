@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-29T12:40:23.480Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-29T12:42:25.058Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -8,11 +8,11 @@
 | --- | --- |
 | 公开仓库 | 28（自有 10 / fork 18） |
 | 自有仓库 star 合计 | 16 |
-| 自有仓库未关闭 issue/PR | 4 |
+| 自有仓库未关闭 issue/PR | 0 |
 | 近 7 天有推送的仓库 | 10 / 10 |
-| 近 7 天提交数 | 36 |
+| 近 7 天提交数 | 37 |
 | 待处理（阻塞） | 0 |
-| 待处理（建议） | 6 |
+| 待处理（建议） | 3 |
 
 ## 较上一次扫描（2026-10-29）
 
@@ -20,11 +20,11 @@
 | --- | --- | --- | --- |
 | 公开仓库 | 28 | 28 | 持平 |
 | 自有仓库 star | 16 | 16 | 持平 |
-| 未关闭 issue/PR | 4 | 4 | 持平 |
+| 未关闭 issue/PR | 4 | 0 | -4 |
 | 近 7 天活跃仓库 | 10 | 10 | 持平 |
-| 近 7 天提交 | 35 | 36 | +1 |
+| 近 7 天提交 | 36 | 37 | +1 |
 | 阻塞项 | 0 | 0 | 持平 |
-| 建议项 | 6 | 6 | 持平 |
+| 建议项 | 6 | 3 | -3 |
 
 ## 待处理
 
@@ -35,29 +35,17 @@
 | stm32-iot-smart-home | 体积记录 261 MB，但当前 HEAD 只有 0.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | kangyang-digital-twin | 体积记录 71 MB，但当前 HEAD 只有 6.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | AI-LLM-Agent-Learning | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
-| dsh-memory-toolkit | issue #1 已挂 69 天 | 回复、处理或关闭，维护节奏比数量更重要 |
-| dsh-memory-toolkit | issue #2 已挂 67 天 | 回复、处理或关闭，维护节奏比数量更重要 |
-| dsh-memory-toolkit | issue #3 已挂 48 天 | 回复、处理或关闭，维护节奏比数量更重要 |
-
-## 未关闭的 issue / PR
-
-| 仓库 | 类型 | 标题 | 作者 | 挂了多久 |
-| --- | --- | --- | --- | --- |
-| dsh-memory-toolkit | [issue #1](https://github.com/123caiji/dsh-memory-toolkit/issues/1) | Cannot boot on DSH (Node 24): 3 stacked issues — TS-only dist (ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING), require() inside !!js overlay (ESM ReferenceError), unclosed quote in cordis.patch.yml | bryanchen3777 | 69 天 |
-| dsh-memory-toolkit | [issue #2](https://github.com/123caiji/dsh-memory-toolkit/issues/2) | [Bug] graph-memory fails to load on DSH 0.1.1-rc.2 (Node 24) — three integration bugs | Irvington258 | 67 天 |
-| dsh-memory-toolkit | [issue #3](https://github.com/123caiji/dsh-memory-toolkit/issues/3) | README 中的安装/验证命令缺少 --profile 参数，在 dsh 0.1.5-rc.1 上会报错 | Shrbuz | 48 天 |
-| awesome-agent-security | [issue #5](https://github.com/123caiji/awesome-agent-security/issues/5) | 账号维护：2 项待处理 | github-actions[bot] | 0 天 |
 
 ## 自有仓库
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | — | 20 | 2026-10-29 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 0 | 37 KB | — | 21 | 2026-10-29 | MIT |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 2 | 2026-10-29 | MIT |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 6.5 MB | 2 | 2026-10-29 | MIT |
 | [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | — | 4 | 2026-10-29 | 缺失 |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 5 MB | — | 1 | 2026-10-29 | NOASSERTION |
-| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 3 | 2 MB | — | 2 | 2026-10-29 | MIT |
+| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 0 | 2 MB | — | 2 | 2026-10-29 | MIT |
 | [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | — | 2 | 2026-10-29 | MIT |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 1 | 2026-10-29 | MIT |
 | [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 218 KB | — | 1 | 2026-10-29 | MIT |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:40:23.480Z",
+  "generatedAt": "2026-10-29T12:42:25.058Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -10,15 +10,15 @@
     "own": 10,
     "forks": 18,
     "stars": 16,
-    "openIssues": 4,
+    "openIssues": 0,
     "active7d": 10,
-    "commits7d": 36,
+    "commits7d": 37,
     "wikiOn": 0,
     "blocking": 0,
-    "suggestions": 6
+    "suggestions": 3
   },
   "trend": {
-    "since": "2026-10-29T12:39:46.034Z",
+    "since": "2026-10-29T12:40:23.480Z",
     "changes": [
       {
         "key": "repos",
@@ -38,8 +38,8 @@
         "key": "openIssues",
         "label": "未关闭 issue/PR",
         "before": 4,
-        "after": 4,
-        "delta": 0
+        "after": 0,
+        "delta": -4
       },
       {
         "key": "active7d",
@@ -51,8 +51,8 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 35,
-        "after": 36,
+        "before": 36,
+        "after": 37,
         "delta": 1
       },
       {
@@ -66,8 +66,8 @@
         "key": "suggestions",
         "label": "建议项",
         "before": 6,
-        "after": 6,
-        "delta": 0
+        "after": 3,
+        "delta": -3
       }
     ]
   },
@@ -87,61 +87,9 @@
       "repo": "AI-LLM-Agent-Learning",
       "problem": "许可证未被 GitHub 识别",
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
-    },
-    {
-      "repo": "dsh-memory-toolkit",
-      "problem": "issue #1 已挂 69 天",
-      "advice": "回复、处理或关闭，维护节奏比数量更重要"
-    },
-    {
-      "repo": "dsh-memory-toolkit",
-      "problem": "issue #2 已挂 67 天",
-      "advice": "回复、处理或关闭，维护节奏比数量更重要"
-    },
-    {
-      "repo": "dsh-memory-toolkit",
-      "problem": "issue #3 已挂 48 天",
-      "advice": "回复、处理或关闭，维护节奏比数量更重要"
     }
   ],
-  "openThreads": [
-    {
-      "repo": "dsh-memory-toolkit",
-      "number": 1,
-      "kind": "issue",
-      "title": "Cannot boot on DSH (Node 24): 3 stacked issues — TS-only dist (ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING), require() inside !!js overlay (ESM ReferenceError), unclosed quote in cordis.patch.yml",
-      "author": "bryanchen3777",
-      "ageDays": 69,
-      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/1"
-    },
-    {
-      "repo": "dsh-memory-toolkit",
-      "number": 2,
-      "kind": "issue",
-      "title": "[Bug] graph-memory fails to load on DSH 0.1.1-rc.2 (Node 24) — three integration bugs",
-      "author": "Irvington258",
-      "ageDays": 67,
-      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/2"
-    },
-    {
-      "repo": "dsh-memory-toolkit",
-      "number": 3,
-      "kind": "issue",
-      "title": "README 中的安装/验证命令缺少 --profile 参数，在 dsh 0.1.5-rc.1 上会报错",
-      "author": "Shrbuz",
-      "ageDays": 48,
-      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/3"
-    },
-    {
-      "repo": "awesome-agent-security",
-      "number": 5,
-      "kind": "issue",
-      "title": "账号维护：2 项待处理",
-      "author": "github-actions[bot]",
-      "ageDays": 0,
-      "url": "https://github.com/123caiji/awesome-agent-security/issues/5"
-    }
-  ],
+  "openThreads": [],
   "own": [
     {
       "name": "awesome-agent-security",
@@ -149,14 +97,14 @@
       "language": "JavaScript",
       "stars": 0,
       "forks": 0,
-      "issues": 1,
+      "issues": 0,
       "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:40:07Z",
+      "pushedAt": "2026-10-29T12:40:29Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 20,
+      "commits7d": 21,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -241,7 +189,7 @@
       "language": "TypeScript",
       "stars": 4,
       "forks": 0,
-      "issues": 3,
+      "issues": 0,
       "sizeKB": 1656,
       "pushedAt": "2026-10-29T12:10:07Z",
       "staleDays": 0,
