@@ -1,5 +1,21 @@
 [
  {
+  "section": "DeepSeek Harness 插件生态",
+  "owner": "deepseek-ai",
+  "name": "deepseek-harness",
+  "url": "https://github.com/deepseek-ai/deepseek-harness",
+  "stars": 265424,
+  "lang": "TypeScript",
+  "desc": "DeepSeek Harness: Everything is a Plugin.",
+  "topics": [
+   "ai-agents",
+   "cordis",
+   "dsh",
+   "dsh-plugin"
+  ],
+  "note": "DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。"
+ },
+ {
   "section": "AI 安全与红队工具",
   "owner": "Coff0xc",
   "name": "AutoRedTeam-Orchestrator",
@@ -251,25 +267,6 @@
  {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
-  "name": "dalian-nailong",
-  "url": "https://github.com/zp-home/dalian-nailong",
-  "stars": 3,
-  "lang": "HTML",
-  "desc": "大连奶龙大学 · 以大连东软校园为灵感的非官方趣味创作静态站",
-  "topics": [
-   "dalian",
-   "fan-site",
-   "github-actions",
-   "nailong",
-   "neusoft",
-   "static-site",
-   "vanilla-js"
-  ],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
   "name": "dsh-weixin-clawbot",
   "url": "https://github.com/zp-home/dsh-weixin-clawbot",
   "stars": 3,
@@ -288,17 +285,6 @@
    "weixin"
   ],
   "note": "把微信接入 DeepSeek Harness 的桥接插件。"
- },
- {
-  "section": "AI 安全与红队工具",
-  "owner": "Coff0xc",
-  "name": "coff0xc.github.io",
-  "url": "https://github.com/Coff0xc/coff0xc.github.io",
-  "stars": 2,
-  "lang": "TypeScript",
-  "desc": "",
-  "topics": [],
-  "note": ""
  },
  {
   "section": "DeepSeek Harness 插件生态",
@@ -389,17 +375,6 @@
  {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
-  "name": "christmas-tree-3d",
-  "url": "https://github.com/zp-home/christmas-tree-3d",
-  "stars": 1,
-  "lang": "Vue",
-  "desc": "圣诞树",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
   "name": "orbit-token-widget",
   "url": "https://github.com/zp-home/orbit-token-widget",
   "stars": 1,
@@ -433,17 +408,6 @@
   "stars": 1,
   "lang": "PowerShell",
   "desc": "Automated Skill validation, packaging, GitHub release handoff, and SkillHub publishing workflow.",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "xingrui",
-  "url": "https://github.com/zp-home/xingrui",
-  "stars": 1,
-  "lang": "Python",
-  "desc": "",
   "topics": [],
   "note": ""
  },
@@ -525,39 +489,6 @@
  {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
-  "name": "alphastar-guide",
-  "url": "https://github.com/zp-home/alphastar-guide",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "campus-puzzle-web",
-  "url": "https://github.com/zp-home/campus-puzzle-web",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "Static site deployed by OpenClaw.",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "deepseek-harness-desktop-rc8",
-  "url": "https://github.com/zp-home/deepseek-harness-desktop-rc8",
-  "stars": 0,
-  "lang": "",
-  "desc": "Independent rc8 maintenance fork of DSH Desktop for issue and PR integration",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
   "name": "dsh-best-dev-optimizer",
   "url": "https://github.com/zp-home/dsh-best-dev-optimizer",
   "stars": 0,
@@ -597,132 +528,11 @@
  {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
-  "name": "industrial-menu-pages",
-  "url": "https://github.com/zp-home/industrial-menu-pages",
-  "stars": 0,
-  "lang": "CSS",
-  "desc": "Static site deployed by OpenClaw.",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
   "name": "kb-graph",
   "url": "https://github.com/zp-home/kb-graph",
   "stars": 0,
   "lang": "HTML",
   "desc": "把 markdown 知识库渲染成可交互 3D 关系图。单个 HTML，无后端，数据不离开浏览器。",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "love-heart",
-  "url": "https://github.com/zp-home/love-heart",
-  "stars": 0,
-  "lang": "Vue",
-  "desc": "Anniversary memorial site",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "mini-web-toys",
-  "url": "https://github.com/zp-home/mini-web-toys",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "Static site deployed by OpenClaw.",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "rl-knowledge-tree",
-  "url": "https://github.com/zp-home/rl-knowledge-tree",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "rl-learning-report",
-  "url": "https://github.com/zp-home/rl-learning-report",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "rl-learning-roadmap",
-  "url": "https://github.com/zp-home/rl-learning-roadmap",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "rl-learning-summary",
-  "url": "https://github.com/zp-home/rl-learning-summary",
-  "stars": 0,
-  "lang": "HTML",
-  "desc": "",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "xyingsoft-web-portal",
-  "url": "https://github.com/zp-home/xyingsoft-web-portal",
-  "stars": 0,
-  "lang": "CSS",
-  "desc": "Static company portal for Xiying Software (Dalian)",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "zp-home-3d",
-  "url": "https://github.com/zp-home/zp-home-3d",
-  "stars": 0,
-  "lang": "Astro",
-  "desc": "zp-home 的 3D 交互演示版（Astro + three.js）",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "DeepSeek Harness 插件生态",
-  "owner": "zp-home",
-  "name": "zp-home.github.io",
-  "url": "https://github.com/zp-home/zp-home.github.io",
-  "stars": 0,
-  "lang": "Astro",
-  "desc": "Projects, reusable agent skills, and engineering knowledge notes",
-  "topics": [],
-  "note": ""
- },
- {
-  "section": "代码审计与安全学习",
-  "owner": "well-lzz",
-  "name": "good-lzz",
-  "url": "https://github.com/well-lzz/good-lzz",
-  "stars": 0,
-  "lang": "",
-  "desc": "",
   "topics": [],
   "note": ""
  },
@@ -734,15 +544,7 @@
   "stars": 0,
   "lang": "CSS",
   "desc": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
-  "topics": [
-   "agent",
-   "ai",
-   "blog",
-   "github-pages",
-   "jekyll",
-   "markdown",
-   "personal-website"
-  ],
+  "topics": [],
   "note": "个人技术博客（Jekyll + GitHub Pages）。"
  },
  {
@@ -772,13 +574,7 @@
   "stars": 0,
   "lang": "Vue",
   "desc": "kangyang-digital-twin graduation project",
-  "topics": [
-   "3d-visualization",
-   "digital-twin",
-   "graduation-project",
-   "visualization",
-   "vue"
-  ],
+  "topics": [],
   "note": "康养数字孪生可视化（Vue + 3D）。"
  }
 ]
