@@ -12,7 +12,7 @@
  * 内置 GITHUB_TOKEN 也能跑（GITHUB_TOKEN 不是用户 token，/user 系列接口不可用）。
  */
 
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 
 const OWNER = process.env.SCAN_OWNER || '123caiji'
@@ -128,8 +128,10 @@ async function main() {
   const suggestions = []
   for (const r of ownRows) {
     if (r.archived) continue
-    if (!r.isProfile && (!r.license || r.license === 'NOASSERTION')) {
+    if (!r.isProfile && !r.license) {
       blocking.push({ repo: r.name, problem: '缺少许可证', advice: '选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件' })
+    } else if (!r.isProfile && r.license === 'NOASSERTION') {
+      suggestions.push({ repo: r.name, problem: '许可证未被 GitHub 识别', advice: '用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE' })
     }
     if (r.sizeKB > BIG_SIZE_KB) {
       blocking.push({ repo: r.name, problem: `仓库体积 ${(r.sizeKB / 1024).toFixed(0)} MB`, advice: '清理历史大文件（git filter-repo / BFG），或把二进制移出仓库' })
@@ -160,6 +162,34 @@ async function main() {
     suggestions: suggestions.length,
   }
 
+  // 与上一次扫描结果对比，给出趋势（数据来源是仓库里已提交的上一份 json）
+  let previous = null
+  try {
+    previous = JSON.parse(readFileSync(join(process.cwd(), 'reports', 'account-health.json'), 'utf8'))
+  } catch {
+    previous = null
+  }
+  let trend = null
+  if (previous && previous.totals) {
+    const before = previous.totals
+    const tracked = [
+      ['repos', '公开仓库'],
+      ['stars', '自有仓库 star'],
+      ['openIssues', '未关闭 issue/PR'],
+      ['active7d', '近 7 天活跃仓库'],
+      ['commits7d', '近 7 天提交'],
+      ['blocking', '阻塞项'],
+      ['suggestions', '建议项'],
+    ]
+    trend = {
+      since: previous.generatedAt || null,
+      changes: tracked.map(([key, label]) => {
+        const old = typeof before[key] === 'number' ? before[key] : null
+        return { key, label, before: old, after: totals[key], delta: old === null ? null : totals[key] - old }
+      }),
+    }
+  }
+
   const md = []
   md.push(`# 账号健康报告 · ${OWNER}`)
   md.push('')
@@ -174,10 +204,22 @@ async function main() {
   md.push(`| 自有仓库未关闭 issue/PR | ${totals.openIssues} |`)
   md.push(`| 近 7 天有推送的仓库 | ${totals.active7d} / ${totals.own} |`)
   md.push(`| 近 7 天提交数 | ${totals.commits7d} |`)
-  md.push(`| 开着但未使用的 Wiki | ${totals.wikiOn} 个仓库（GitHub 默认开启，建议关掉） |`)
+  if (totals.wikiOn > 0) md.push(`| 开着但未使用的 Wiki | ${totals.wikiOn} 个仓库（GitHub 默认开启，建议关掉） |`)
   md.push(`| 待处理（阻塞） | ${totals.blocking} |`)
   md.push(`| 待处理（建议） | ${totals.suggestions} |`)
   md.push('')
+
+  if (trend && trend.changes.some(c => c.delta)) {
+    md.push(`## 较上一次扫描（${String(trend.since || '').slice(0, 10) || '—'}）`)
+    md.push('')
+    md.push('| 指标 | 上次 | 现在 | 变化 |')
+    md.push('| --- | --- | --- | --- |')
+    for (const c of trend.changes) {
+      const delta = c.delta === null ? '—' : c.delta > 0 ? `+${c.delta}` : c.delta < 0 ? `${c.delta}` : '持平'
+      md.push(`| ${c.label} | ${c.before === null ? '—' : c.before} | ${c.after} | ${delta} |`)
+    }
+    md.push('')
+  }
 
   md.push('## 待处理')
   md.push('')
@@ -245,7 +287,7 @@ async function main() {
   writeFileSync(join(outDir, 'account-health.md'), md.join('\n'), 'utf8')
   writeFileSync(
     join(outDir, 'account-health.json'),
-    JSON.stringify({ generatedAt: now.toISOString(), owner: OWNER, profile: { followers: profile.followers, publicRepos: profile.public_repos }, totals, blocking, suggestions, openThreads,
+    JSON.stringify({ generatedAt: now.toISOString(), owner: OWNER, profile: { followers: profile.followers, publicRepos: profile.public_repos }, totals, trend, blocking, suggestions, openThreads,
     own: ownRows, forks: forks.map(r => ({ name: r.name, url: r.html_url, pushedAt: r.pushed_at })) }, null, 2) + '\n',
     'utf8',
   )
