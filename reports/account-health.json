@@ -1,0 +1,410 @@
+{
+  "generatedAt": "2026-10-29T12:01:07.997Z",
+  "owner": "123caiji",
+  "profile": {
+    "followers": 4,
+    "publicRepos": 28
+  },
+  "totals": {
+    "repos": 28,
+    "own": 10,
+    "forks": 18,
+    "stars": 16,
+    "openIssues": 5,
+    "active7d": 4,
+    "commits7d": 15,
+    "wikiOn": 8,
+    "blocking": 11,
+    "suggestions": 4
+  },
+  "blocking": [
+    {
+      "repo": "AI-LLM-Agent-Learning",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "kangyang-digital-twin",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "kangyang-digital-twin",
+      "problem": "仓库体积 71 MB",
+      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
+    },
+    {
+      "repo": "123caiji.github.io",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "wulao",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "wulao",
+      "problem": "97 天没有推送",
+      "advice": "补一次依赖更新、README 或归档"
+    },
+    {
+      "repo": "security-research-toolkit",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "security-research-toolkit",
+      "problem": "104 天没有推送",
+      "advice": "补一次依赖更新、README 或归档"
+    },
+    {
+      "repo": "stm32-iot-smart-home",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    },
+    {
+      "repo": "stm32-iot-smart-home",
+      "problem": "仓库体积 261 MB",
+      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
+    },
+    {
+      "repo": "stm32-iot-smart-home",
+      "problem": "297 天没有推送",
+      "advice": "补一次依赖更新、README 或归档"
+    }
+  ],
+  "suggestions": [
+    {
+      "repo": "dsh-memory-toolkit",
+      "problem": "issue #1 已挂 69 天",
+      "advice": "回复、处理或关闭，维护节奏比数量更重要"
+    },
+    {
+      "repo": "dsh-memory-toolkit",
+      "problem": "issue #2 已挂 67 天",
+      "advice": "回复、处理或关闭，维护节奏比数量更重要"
+    },
+    {
+      "repo": "dsh-memory-toolkit",
+      "problem": "issue #3 已挂 48 天",
+      "advice": "回复、处理或关闭，维护节奏比数量更重要"
+    },
+    {
+      "repo": "AI-LLM-Agent-Learning",
+      "problem": "PR #1 已挂 47 天",
+      "advice": "回复、处理或关闭，维护节奏比数量更重要"
+    }
+  ],
+  "openThreads": [
+    {
+      "repo": "dsh-memory-toolkit",
+      "number": 1,
+      "kind": "issue",
+      "title": "Cannot boot on DSH (Node 24): 3 stacked issues — TS-only dist (ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING), require() inside !!js overlay (ESM ReferenceError), unclosed quote in cordis.patch.yml",
+      "author": "bryanchen3777",
+      "ageDays": 69,
+      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/1"
+    },
+    {
+      "repo": "dsh-memory-toolkit",
+      "number": 2,
+      "kind": "issue",
+      "title": "[Bug] graph-memory fails to load on DSH 0.1.1-rc.2 (Node 24) — three integration bugs",
+      "author": "Irvington258",
+      "ageDays": 67,
+      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/2"
+    },
+    {
+      "repo": "dsh-memory-toolkit",
+      "number": 3,
+      "kind": "issue",
+      "title": "README 中的安装/验证命令缺少 --profile 参数，在 dsh 0.1.5-rc.1 上会报错",
+      "author": "Shrbuz",
+      "ageDays": 48,
+      "url": "https://github.com/123caiji/dsh-memory-toolkit/issues/3"
+    },
+    {
+      "repo": "AI-LLM-Agent-Learning",
+      "number": 1,
+      "kind": "PR",
+      "title": "docs: v5.8 证据导向核查修正（41 处，保留原文+核查注记，遵循 CONTRIBUTING.md）",
+      "author": "hedongli1",
+      "ageDays": 47,
+      "url": "https://github.com/123caiji/AI-LLM-Agent-Learning/pull/1"
+    },
+    {
+      "repo": "awesome-agent-security",
+      "number": 4,
+      "kind": "PR",
+      "title": "chore(actions): bump actions/setup-node from 4 to 7",
+      "author": "dependabot[bot]",
+      "ageDays": 0,
+      "url": "https://github.com/123caiji/awesome-agent-security/pull/4"
+    }
+  ],
+  "own": [
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "sizeKB": 37,
+      "pushedAt": "2026-10-29T11:12:20Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": true,
+      "commits7d": 10,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "dsh-memory-toolkit",
+      "url": "https://github.com/123caiji/dsh-memory-toolkit",
+      "language": "TypeScript",
+      "stars": 4,
+      "forks": 0,
+      "issues": 3,
+      "sizeKB": 1580,
+      "pushedAt": "2026-10-29T11:11:21Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
+      "hasWiki": true,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "dsh-live",
+      "url": "https://github.com/123caiji/dsh-live",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 20,
+      "pushedAt": "2026-10-29T09:08:47Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
+      "hasWiki": true,
+      "commits7d": 2,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "—",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 6,
+      "pushedAt": "2026-10-29T09:06:05Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "hasWiki": true,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": true
+    },
+    {
+      "name": "AI-LLM-Agent-Learning",
+      "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
+      "language": "Python",
+      "stars": 7,
+      "forks": 1,
+      "issues": 1,
+      "sizeKB": 5369,
+      "pushedAt": "2026-10-16T04:51:40Z",
+      "staleDays": 13,
+      "license": "NOASSERTION",
+      "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
+      "hasWiki": true,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "kangyang-digital-twin",
+      "url": "https://github.com/123caiji/kangyang-digital-twin",
+      "language": "Vue",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 72770,
+      "pushedAt": "2026-09-29T10:40:43Z",
+      "staleDays": 30,
+      "license": null,
+      "description": "kangyang-digital-twin graduation project",
+      "hasWiki": true,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "123caiji.github.io",
+      "url": "https://github.com/123caiji/123caiji.github.io",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 7,
+      "pushedAt": "2026-09-14T07:50:57Z",
+      "staleDays": 45,
+      "license": null,
+      "description": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
+      "hasWiki": false,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "wulao",
+      "url": "https://github.com/123caiji/wulao",
+      "language": "—",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 218,
+      "pushedAt": "2026-07-24T06:07:16Z",
+      "staleDays": 97,
+      "license": null,
+      "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
+      "hasWiki": true,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "security-research-toolkit",
+      "url": "https://github.com/123caiji/security-research-toolkit",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 1949,
+      "pushedAt": "2026-07-16T14:47:22Z",
+      "staleDays": 104,
+      "license": null,
+      "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
+      "hasWiki": true,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "stm32-iot-smart-home",
+      "url": "https://github.com/123caiji/stm32-iot-smart-home",
+      "language": "C",
+      "stars": 2,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 267740,
+      "pushedAt": "2026-01-05T07:43:34Z",
+      "staleDays": 297,
+      "license": null,
+      "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
+      "hasWiki": false,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false
+    }
+  ],
+  "forks": [
+    {
+      "name": "dsh-recommend",
+      "url": "https://github.com/123caiji/dsh-recommend",
+      "pushedAt": "2026-10-29T08:41:22Z"
+    },
+    {
+      "name": "chronos",
+      "url": "https://github.com/123caiji/chronos",
+      "pushedAt": "2026-10-24T14:43:05Z"
+    },
+    {
+      "name": "AutoRedTeam-Orchestrator",
+      "url": "https://github.com/123caiji/AutoRedTeam-Orchestrator",
+      "pushedAt": "2026-09-17T09:52:26Z"
+    },
+    {
+      "name": "kb-graph",
+      "url": "https://github.com/123caiji/kb-graph",
+      "pushedAt": "2026-09-10T10:35:30Z"
+    },
+    {
+      "name": "AgentRed",
+      "url": "https://github.com/123caiji/AgentRed",
+      "pushedAt": "2026-09-08T05:43:51Z"
+    },
+    {
+      "name": "deepseek-harness",
+      "url": "https://github.com/123caiji/deepseek-harness",
+      "pushedAt": "2026-08-27T17:06:36Z"
+    },
+    {
+      "name": "architecture-open-source-research",
+      "url": "https://github.com/123caiji/architecture-open-source-research",
+      "pushedAt": "2026-08-12T20:05:09Z"
+    },
+    {
+      "name": "vero",
+      "url": "https://github.com/123caiji/vero",
+      "pushedAt": "2026-08-07T09:35:54Z"
+    },
+    {
+      "name": "Github-API-scan",
+      "url": "https://github.com/123caiji/Github-API-scan",
+      "pushedAt": "2026-07-29T04:49:37Z"
+    },
+    {
+      "name": "term3-lab",
+      "url": "https://github.com/123caiji/term3-lab",
+      "pushedAt": "2026-07-14T14:40:37Z"
+    },
+    {
+      "name": "Bad-Guy",
+      "url": "https://github.com/123caiji/Bad-Guy",
+      "pushedAt": "2026-07-02T14:09:22Z"
+    },
+    {
+      "name": "astah-diagram-automation",
+      "url": "https://github.com/123caiji/astah-diagram-automation",
+      "pushedAt": "2026-07-01T03:54:49Z"
+    },
+    {
+      "name": "Code-Audit",
+      "url": "https://github.com/123caiji/Code-Audit",
+      "pushedAt": "2026-06-30T14:11:48Z"
+    },
+    {
+      "name": "catchclaw",
+      "url": "https://github.com/123caiji/catchclaw",
+      "pushedAt": "2026-06-21T06:32:18Z"
+    },
+    {
+      "name": "LLM-Security-Assessment-Framework",
+      "url": "https://github.com/123caiji/LLM-Security-Assessment-Framework",
+      "pushedAt": "2026-06-03T10:37:41Z"
+    },
+    {
+      "name": "coffee-skill",
+      "url": "https://github.com/123caiji/coffee-skill",
+      "pushedAt": "2026-05-22T07:31:01Z"
+    },
+    {
+      "name": "Hexstrike-ai-6.2",
+      "url": "https://github.com/123caiji/Hexstrike-ai-6.2",
+      "pushedAt": "2026-04-21T10:00:15Z"
+    },
+    {
+      "name": "CTF-MCP",
+      "url": "https://github.com/123caiji/CTF-MCP",
+      "pushedAt": "2026-03-14T06:31:00Z"
+    }
+  ]
+}
