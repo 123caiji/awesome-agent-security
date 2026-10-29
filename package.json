@@ -1,0 +1,10 @@
+{
+  "name": "awesome-agent-security",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "refresh": "node scripts/refresh-stars.mjs"
+  }
+}
