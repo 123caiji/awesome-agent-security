@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:36:46.615Z",
+  "generatedAt": "2026-10-29T12:39:46.034Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -12,13 +12,13 @@
     "stars": 16,
     "openIssues": 4,
     "active7d": 10,
-    "commits7d": 34,
+    "commits7d": 35,
     "wikiOn": 0,
-    "blocking": 2,
-    "suggestions": 4
+    "blocking": 0,
+    "suggestions": 6
   },
   "trend": {
-    "since": "2026-10-29T12:25:45.729Z",
+    "since": "2026-10-29T12:36:46.615Z",
     "changes": [
       {
         "key": "repos",
@@ -51,39 +51,38 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 31,
-        "after": 34,
-        "delta": 3
+        "before": 34,
+        "after": 35,
+        "delta": 1
       },
       {
         "key": "blocking",
         "label": "阻塞项",
         "before": 2,
-        "after": 2,
-        "delta": 0
+        "after": 0,
+        "delta": -2
       },
       {
         "key": "suggestions",
         "label": "建议项",
         "before": 4,
-        "after": 4,
-        "delta": 0
+        "after": 6,
+        "delta": 2
       }
     ]
   },
-  "blocking": [
+  "blocking": [],
+  "suggestions": [
     {
       "repo": "stm32-iot-smart-home",
-      "problem": "仓库体积 261 MB",
-      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
+      "problem": "体积记录 261 MB，但当前 HEAD 只有 0.5 MB",
+      "advice": "历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理"
     },
     {
       "repo": "kangyang-digital-twin",
-      "problem": "仓库体积 71 MB",
-      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
-    }
-  ],
-  "suggestions": [
+      "problem": "体积记录 71 MB，但当前 HEAD 只有 6.5 MB",
+      "advice": "历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理"
+    },
     {
       "repo": "AI-LLM-Agent-Learning",
       "problem": "许可证未被 GitHub 识别",
@@ -145,6 +144,24 @@
   ],
   "own": [
     {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 1,
+      "sizeKB": 37,
+      "pushedAt": "2026-10-29T12:36:51Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": false,
+      "commits7d": 19,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
       "name": "stm32-iot-smart-home",
       "url": "https://github.com/123caiji/stm32-iot-smart-home",
       "language": "—",
@@ -159,7 +176,9 @@
       "hasWiki": false,
       "commits7d": 2,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main",
+      "headKB": 510
     },
     {
       "name": "kangyang-digital-twin",
@@ -176,24 +195,9 @@
       "hasWiki": false,
       "commits7d": 2,
       "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 1,
-      "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:25:50Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": false,
-      "commits7d": 18,
-      "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main",
+      "headKB": 6697
     },
     {
       "name": "123caiji",
@@ -210,7 +214,8 @@
       "hasWiki": false,
       "commits7d": 4,
       "archived": false,
-      "isProfile": true
+      "isProfile": true,
+      "defaultBranch": "main"
     },
     {
       "name": "AI-LLM-Agent-Learning",
@@ -227,7 +232,8 @@
       "hasWiki": false,
       "commits7d": 1,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main"
     },
     {
       "name": "dsh-memory-toolkit",
@@ -244,7 +250,8 @@
       "hasWiki": false,
       "commits7d": 2,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main"
     },
     {
       "name": "dsh-live",
@@ -261,7 +268,8 @@
       "hasWiki": false,
       "commits7d": 2,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main"
     },
     {
       "name": "security-research-toolkit",
@@ -278,7 +286,8 @@
       "hasWiki": false,
       "commits7d": 1,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "cybersecurity-skills"
     },
     {
       "name": "wulao",
@@ -295,7 +304,8 @@
       "hasWiki": false,
       "commits7d": 1,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main"
     },
     {
       "name": "123caiji.github.io",
@@ -312,7 +322,8 @@
       "hasWiki": false,
       "commits7d": 1,
       "archived": false,
-      "isProfile": false
+      "isProfile": false,
+      "defaultBranch": "main"
     }
   ],
   "forks": [

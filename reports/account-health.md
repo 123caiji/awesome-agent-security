@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-29T12:36:46.615Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-29T12:39:46.034Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,9 +10,9 @@
 | 自有仓库 star 合计 | 16 |
 | 自有仓库未关闭 issue/PR | 4 |
 | 近 7 天有推送的仓库 | 10 / 10 |
-| 近 7 天提交数 | 34 |
-| 待处理（阻塞） | 2 |
-| 待处理（建议） | 4 |
+| 近 7 天提交数 | 35 |
+| 待处理（阻塞） | 0 |
+| 待处理（建议） | 6 |
 
 ## 较上一次扫描（2026-10-29）
 
@@ -22,23 +22,18 @@
 | 自有仓库 star | 16 | 16 | 持平 |
 | 未关闭 issue/PR | 4 | 4 | 持平 |
 | 近 7 天活跃仓库 | 10 | 10 | 持平 |
-| 近 7 天提交 | 31 | 34 | +3 |
-| 阻塞项 | 2 | 2 | 持平 |
-| 建议项 | 4 | 4 | 持平 |
+| 近 7 天提交 | 34 | 35 | +1 |
+| 阻塞项 | 2 | 0 | -2 |
+| 建议项 | 4 | 6 | +2 |
 
 ## 待处理
-
-### 阻塞项
-
-| 仓库 | 问题 | 建议 |
-| --- | --- | --- |
-| stm32-iot-smart-home | 仓库体积 261 MB | 清理历史大文件（git filter-repo / BFG），或把二进制移出仓库 |
-| kangyang-digital-twin | 仓库体积 71 MB | 清理历史大文件（git filter-repo / BFG），或把二进制移出仓库 |
 
 ### 建议
 
 | 仓库 | 问题 | 建议 |
 | --- | --- | --- |
+| stm32-iot-smart-home | 体积记录 261 MB，但当前 HEAD 只有 0.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
+| kangyang-digital-twin | 体积记录 71 MB，但当前 HEAD 只有 6.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | AI-LLM-Agent-Learning | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 | dsh-memory-toolkit | issue #1 已挂 69 天 | 回复、处理或关闭，维护节奏比数量更重要 |
 | dsh-memory-toolkit | issue #2 已挂 67 天 | 回复、处理或关闭，维护节奏比数量更重要 |
@@ -55,18 +50,18 @@
 
 ## 自有仓库
 
-| 仓库 | 语言 | ★ | Fork | Issue/PR | 体积 | 近 7 天提交 | 最后推送 | 许可 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 2 | 2026-10-29 | MIT |
-| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 2 | 2026-10-29 | MIT |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | 18 | 2026-10-29 | MIT |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | 4 | 2026-10-29 | 缺失 |
-| [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 5 MB | 1 | 2026-10-29 | NOASSERTION |
-| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 3 | 2 MB | 2 | 2026-10-29 | MIT |
-| [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | 2 | 2026-10-29 | MIT |
-| [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | 1 | 2026-10-29 | MIT |
-| [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 218 KB | 1 | 2026-10-29 | MIT |
-| [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | CSS | 0 | 0 | 0 | 7 KB | 1 | 2026-10-29 | MIT |
+| 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | — | 19 | 2026-10-29 | MIT |
+| [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 2 | 2026-10-29 | MIT |
+| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 6.5 MB | 2 | 2026-10-29 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | — | 4 | 2026-10-29 | 缺失 |
+| [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 5 MB | — | 1 | 2026-10-29 | NOASSERTION |
+| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 3 | 2 MB | — | 2 | 2026-10-29 | MIT |
+| [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | — | 2 | 2026-10-29 | MIT |
+| [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 1 | 2026-10-29 | MIT |
+| [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 218 KB | — | 1 | 2026-10-29 | MIT |
+| [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | CSS | 0 | 0 | 0 | 7 KB | — | 1 | 2026-10-29 | MIT |
 
 ## Fork
 
@@ -91,4 +86,4 @@
 | [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 191 天未动 |
 | [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 229 天未动 |
 
-_统计口径：GitHub 公开 API 的 /users/123caiji/repos。阻塞阈值：无许可证、体积 > 50 MB、超过 90 天无推送。_
+_统计口径：GitHub 公开 API 的 /users/123caiji/repos。阻塞阈值：无许可证、体积 > 50 MB、超过 90 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。_
