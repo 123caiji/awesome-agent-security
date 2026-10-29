@@ -39,5 +39,9 @@ for (const section of SECTIONS) {
   }
   readme = readme.slice(0, head + start.length) + "\n" + table(rows) + "\n" + readme.slice(tail);
 }
+// 保持 README 顶部的 entries 徽章与 data/index.json 条数一致，避免手动增删后徽章漂移。
+const badge = /(!\[entries\]\(https:\/\/img\.shields\.io\/badge\/entries-)(\d+)(-)/;
+readme = readme.replace(badge, (m, pre, count, post) => pre + entries.length + post);
+if (!badge.test(readme)) console.warn("entries badge not found in README");
 fs.writeFileSync(readmePath, readme);
 console.log("rendered " + entries.length + " entries into " + SECTIONS.length + " sections");
