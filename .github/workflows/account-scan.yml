@@ -1,0 +1,65 @@
+name: account-scan
+
+# 每天扫一遍账号下所有仓库，产出 reports/account-health.md / .json：
+# 缺许可证、体积过大、长期没推送、挂太久的 issue/PR，都会写进报告，
+# 有待处理项时自动开（或更新）一个 account-health issue。
+# 提交者用账号本人的 noreply 邮箱，自动提交会计入贡献图。
+
+on:
+  schedule:
+    - cron: "43 2 * * *" # 每天 02:43 UTC / 10:43 北京时间
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: account-scan
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # 需要上一份报告做趋势对比
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: 生成报告
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCAN_OWNER: 123caiji
+        run: node scripts/account-scan.mjs
+
+      - name: 提交报告
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          file_pattern: "reports/**"
+          commit_message: "chore(scan): 账号健康扫描"
+          commit_user_name: 123caiji
+          commit_user_email: 166346449+123caiji@users.noreply.github.com
+          commit_author: 123caiji <166346449+123caiji@users.noreply.github.com>
+
+      - name: 更新待处理 issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          count=$(node -e "const r=require('./reports/account-health.json');console.log(r.totals.blocking)")
+          gh label create account-health --color BFD4F2 --description "账号体检自动汇总" 2>/dev/null || true
+          title="账号维护：${count} 项待处理"
+          if [ "${count}" = "0" ]; then title="账号维护：无阻塞项"; fi
+          number=$(gh issue list --label account-health --state open --json number --jq '.[0].number // empty')
+          body=$(cat reports/account-health.md)
+          if [ -n "${number}" ]; then
+            gh issue edit "${number}" --title "${title}" --body-file reports/account-health.md
+          else
+            # 报告正文太长，issue 里只放摘要 + 指向文件
+            gh issue create --title "${title}" --label account-health \
+              --body "每日自动体检结果见 [reports/account-health.md](reports/account-health.md)。阻塞项：${count}，建议项见报告。"
+          fi
