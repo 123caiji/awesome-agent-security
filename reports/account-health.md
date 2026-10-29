@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-29T12:14:13.308Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-29T12:25:45.729Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,7 +10,7 @@
 | 自有仓库 star 合计 | 16 |
 | 自有仓库未关闭 issue/PR | 4 |
 | 近 7 天有推送的仓库 | 10 / 10 |
-| 近 7 天提交数 | 27 |
+| 近 7 天提交数 | 31 |
 | 待处理（阻塞） | 2 |
 | 待处理（建议） | 4 |
 
@@ -20,11 +20,11 @@
 | --- | --- | --- | --- |
 | 公开仓库 | 28 | 28 | 持平 |
 | 自有仓库 star | 16 | 16 | 持平 |
-| 未关闭 issue/PR | 5 | 4 | -1 |
-| 近 7 天活跃仓库 | 9 | 10 | +1 |
-| 近 7 天提交 | 21 | 27 | +6 |
+| 未关闭 issue/PR | 4 | 4 | 持平 |
+| 近 7 天活跃仓库 | 10 | 10 | 持平 |
+| 近 7 天提交 | 27 | 31 | +4 |
 | 阻塞项 | 2 | 2 | 持平 |
-| 建议项 | 5 | 4 | -1 |
+| 建议项 | 4 | 4 | 持平 |
 
 ## 待处理
 
@@ -51,13 +51,14 @@
 | dsh-memory-toolkit | [issue #1](https://github.com/123caiji/dsh-memory-toolkit/issues/1) | Cannot boot on DSH (Node 24): 3 stacked issues — TS-only dist (ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING), require() inside !!js overlay (ESM ReferenceError), unclosed quote in cordis.patch.yml | bryanchen3777 | 69 天 |
 | dsh-memory-toolkit | [issue #2](https://github.com/123caiji/dsh-memory-toolkit/issues/2) | [Bug] graph-memory fails to load on DSH 0.1.1-rc.2 (Node 24) — three integration bugs | Irvington258 | 67 天 |
 | dsh-memory-toolkit | [issue #3](https://github.com/123caiji/dsh-memory-toolkit/issues/3) | README 中的安装/验证命令缺少 --profile 参数，在 dsh 0.1.5-rc.1 上会报错 | Shrbuz | 48 天 |
+| awesome-agent-security | [issue #5](https://github.com/123caiji/awesome-agent-security/issues/5) | 账号维护：2 项待处理 | github-actions[bot] | 0 天 |
 
 ## 自有仓库
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | 3 | 2026-10-29 | 缺失 |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | 14 | 2026-10-29 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | 17 | 2026-10-29 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | 4 | 2026-10-29 | 缺失 |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 5 MB | 1 | 2026-10-29 | NOASSERTION |
 | [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 3 | 2 MB | 2 | 2026-10-29 | MIT |
 | [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | 2 | 2026-10-29 | MIT |
