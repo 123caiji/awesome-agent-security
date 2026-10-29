@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-29T12:25:45.729Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-29T12:36:46.615Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,7 +10,7 @@
 | 自有仓库 star 合计 | 16 |
 | 自有仓库未关闭 issue/PR | 4 |
 | 近 7 天有推送的仓库 | 10 / 10 |
-| 近 7 天提交数 | 31 |
+| 近 7 天提交数 | 34 |
 | 待处理（阻塞） | 2 |
 | 待处理（建议） | 4 |
 
@@ -22,7 +22,7 @@
 | 自有仓库 star | 16 | 16 | 持平 |
 | 未关闭 issue/PR | 4 | 4 | 持平 |
 | 近 7 天活跃仓库 | 10 | 10 | 持平 |
-| 近 7 天提交 | 27 | 31 | +4 |
+| 近 7 天提交 | 31 | 34 | +3 |
 | 阻塞项 | 2 | 2 | 持平 |
 | 建议项 | 4 | 4 | 持平 |
 
@@ -57,16 +57,16 @@
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | 17 | 2026-10-29 | MIT |
+| [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 2 | 2026-10-29 | MIT |
+| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 2 | 2026-10-29 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 1 | 37 KB | 18 | 2026-10-29 | MIT |
 | [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 6 KB | 4 | 2026-10-29 | 缺失 |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 5 MB | 1 | 2026-10-29 | NOASSERTION |
 | [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 3 | 2 MB | 2 | 2026-10-29 | MIT |
 | [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | 2 | 2026-10-29 | MIT |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | 1 | 2026-10-29 | MIT |
-| [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | C | 2 | 0 | 0 | 261 MB | 1 | 2026-10-29 | MIT |
 | [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 218 KB | 1 | 2026-10-29 | MIT |
 | [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | CSS | 0 | 0 | 0 | 7 KB | 1 | 2026-10-29 | MIT |
-| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 71 MB | 1 | 2026-10-29 | MIT |
 
 ## Fork
 
