@@ -27,6 +27,7 @@
 - [4. 我的项目](#4-我的项目)
 - [怎么读这份清单](#怎么读这份清单)
 - [自动更新机制](#自动更新机制)
+- [账号自动体检](#账号自动体检)
 
 ## 1. AI 安全与红队工具
 
@@ -116,6 +117,20 @@
 
 - 表格区块由脚本生成，**手改会被下一次自动提交覆盖**；要加项目请改 `data/index.json` 并提 PR。
 - 本地预览：`node scripts/render.mjs`。
+
+## 账号自动体检
+
+清单刷新之外，仓库还承担整个账号的日常巡检：
+
+```text
+.github/workflows/account-scan.yml   每天 02:43 UTC 跑一次
+  └─ scripts/account-scan.mjs        扫 123caiji 名下全部公开仓库 → reports/account-health.md / .json
+```
+
+- 检查项：缺许可证、仓库体积 > 50 MB、超过 90 天没推送、issue/PR 挂了太久、默认开启却没用的 Wiki、近 7 天提交数、未关闭 issue 数。
+- 有阻塞项时会自动开一个带 `account-health` 标签的 issue，之后每天**更新同一个 issue**，不刷屏。
+- 本地跑：`node scripts/account-scan.mjs`（需要 `GH_TOKEN`），或 `node scripts/account-scan.mjs --check` 只检查不写文件。
+- 每天两次自动提交（03:17 刷新清单星数 + 02:43 体检报告），仓库不会长时间停更。
 
 ## 来源与致谢
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:01:07.997Z",
+  "generatedAt": "2026-10-29T12:08:03.574Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -11,70 +11,84 @@
     "forks": 18,
     "stars": 16,
     "openIssues": 5,
-    "active7d": 4,
-    "commits7d": 15,
-    "wikiOn": 8,
-    "blocking": 11,
-    "suggestions": 4
+    "active7d": 9,
+    "commits7d": 21,
+    "wikiOn": 0,
+    "blocking": 2,
+    "suggestions": 5
+  },
+  "trend": {
+    "since": "2026-10-29T12:04:25.607Z",
+    "changes": [
+      {
+        "key": "repos",
+        "label": "公开仓库",
+        "before": 28,
+        "after": 28,
+        "delta": 0
+      },
+      {
+        "key": "stars",
+        "label": "自有仓库 star",
+        "before": 16,
+        "after": 16,
+        "delta": 0
+      },
+      {
+        "key": "openIssues",
+        "label": "未关闭 issue/PR",
+        "before": 5,
+        "after": 5,
+        "delta": 0
+      },
+      {
+        "key": "active7d",
+        "label": "近 7 天活跃仓库",
+        "before": 9,
+        "after": 9,
+        "delta": 0
+      },
+      {
+        "key": "commits7d",
+        "label": "近 7 天提交",
+        "before": 21,
+        "after": 21,
+        "delta": 0
+      },
+      {
+        "key": "blocking",
+        "label": "阻塞项",
+        "before": 2,
+        "after": 2,
+        "delta": 0
+      },
+      {
+        "key": "suggestions",
+        "label": "建议项",
+        "before": 5,
+        "after": 5,
+        "delta": 0
+      }
+    ]
   },
   "blocking": [
-    {
-      "repo": "AI-LLM-Agent-Learning",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
-    {
-      "repo": "kangyang-digital-twin",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
-    {
-      "repo": "kangyang-digital-twin",
-      "problem": "仓库体积 71 MB",
-      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
-    },
-    {
-      "repo": "123caiji.github.io",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
-    {
-      "repo": "wulao",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
-    {
-      "repo": "wulao",
-      "problem": "97 天没有推送",
-      "advice": "补一次依赖更新、README 或归档"
-    },
-    {
-      "repo": "security-research-toolkit",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
-    {
-      "repo": "security-research-toolkit",
-      "problem": "104 天没有推送",
-      "advice": "补一次依赖更新、README 或归档"
-    },
-    {
-      "repo": "stm32-iot-smart-home",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    },
     {
       "repo": "stm32-iot-smart-home",
       "problem": "仓库体积 261 MB",
       "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
     },
     {
-      "repo": "stm32-iot-smart-home",
-      "problem": "297 天没有推送",
-      "advice": "补一次依赖更新、README 或归档"
+      "repo": "kangyang-digital-twin",
+      "problem": "仓库体积 71 MB",
+      "advice": "清理历史大文件（git filter-repo / BFG），或把二进制移出仓库"
     }
   ],
   "suggestions": [
+    {
+      "repo": "AI-LLM-Agent-Learning",
+      "problem": "许可证未被 GitHub 识别",
+      "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
+    },
     {
       "repo": "dsh-memory-toolkit",
       "problem": "issue #1 已挂 69 天",
@@ -145,6 +159,91 @@
   ],
   "own": [
     {
+      "name": "security-research-toolkit",
+      "url": "https://github.com/123caiji/security-research-toolkit",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 1949,
+      "pushedAt": "2026-10-29T12:04:01Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "stm32-iot-smart-home",
+      "url": "https://github.com/123caiji/stm32-iot-smart-home",
+      "language": "C",
+      "stars": 2,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 267740,
+      "pushedAt": "2026-10-29T12:03:29Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "wulao",
+      "url": "https://github.com/123caiji/wulao",
+      "language": "—",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 218,
+      "pushedAt": "2026-10-29T12:03:26Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "123caiji.github.io",
+      "url": "https://github.com/123caiji/123caiji.github.io",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 7,
+      "pushedAt": "2026-10-29T12:03:24Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
+      "name": "kangyang-digital-twin",
+      "url": "https://github.com/123caiji/kangyang-digital-twin",
+      "language": "Vue",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 72770,
+      "pushedAt": "2026-10-29T12:03:22Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "kangyang-digital-twin graduation project",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false
+    },
+    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
@@ -152,12 +251,12 @@
       "forks": 0,
       "issues": 1,
       "sizeKB": 37,
-      "pushedAt": "2026-10-29T11:12:20Z",
+      "pushedAt": "2026-10-29T12:02:06Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": true,
-      "commits7d": 10,
+      "hasWiki": false,
+      "commits7d": 11,
       "archived": false,
       "isProfile": false
     },
@@ -168,12 +267,12 @@
       "stars": 4,
       "forks": 0,
       "issues": 3,
-      "sizeKB": 1580,
+      "sizeKB": 1656,
       "pushedAt": "2026-10-29T11:11:21Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
-      "hasWiki": true,
+      "hasWiki": false,
       "commits7d": 2,
       "archived": false,
       "isProfile": false
@@ -190,7 +289,7 @@
       "staleDays": 0,
       "license": "MIT",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
-      "hasWiki": true,
+      "hasWiki": false,
       "commits7d": 2,
       "archived": false,
       "isProfile": false
@@ -207,7 +306,7 @@
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "hasWiki": true,
+      "hasWiki": false,
       "commits7d": 1,
       "archived": false,
       "isProfile": true
@@ -224,91 +323,6 @@
       "staleDays": 13,
       "license": "NOASSERTION",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
-      "hasWiki": true,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "kangyang-digital-twin",
-      "url": "https://github.com/123caiji/kangyang-digital-twin",
-      "language": "Vue",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 72770,
-      "pushedAt": "2026-09-29T10:40:43Z",
-      "staleDays": 30,
-      "license": null,
-      "description": "kangyang-digital-twin graduation project",
-      "hasWiki": true,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "123caiji.github.io",
-      "url": "https://github.com/123caiji/123caiji.github.io",
-      "language": "CSS",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 7,
-      "pushedAt": "2026-09-14T07:50:57Z",
-      "staleDays": 45,
-      "license": null,
-      "description": "龙天彪的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
-      "hasWiki": false,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "wulao",
-      "url": "https://github.com/123caiji/wulao",
-      "language": "—",
-      "stars": 1,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 218,
-      "pushedAt": "2026-07-24T06:07:16Z",
-      "staleDays": 97,
-      "license": null,
-      "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
-      "hasWiki": true,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "security-research-toolkit",
-      "url": "https://github.com/123caiji/security-research-toolkit",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 1949,
-      "pushedAt": "2026-07-16T14:47:22Z",
-      "staleDays": 104,
-      "license": null,
-      "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
-      "hasWiki": true,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false
-    },
-    {
-      "name": "stm32-iot-smart-home",
-      "url": "https://github.com/123caiji/stm32-iot-smart-home",
-      "language": "C",
-      "stars": 2,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 267740,
-      "pushedAt": "2026-01-05T07:43:34Z",
-      "staleDays": 297,
-      "license": null,
-      "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
       "hasWiki": false,
       "commits7d": 0,
       "archived": false,
