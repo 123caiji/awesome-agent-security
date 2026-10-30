@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 265481,
+  "stars": 266187,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -52,7 +52,7 @@
   "owner": "Coff0xc",
   "name": "Github-API-scan",
   "url": "https://github.com/Coff0xc/Github-API-scan",
-  "stars": 84,
+  "stars": 85,
   "lang": "Python",
   "desc": "企业级AI密钥管理平台 | 23平台全覆盖 | 深度验证(余额/权限/评分) | 实时WebSocket推送 | Web可视化Dashboard | Docker一键部署 | 生产就绪",
   "topics": [
@@ -99,7 +99,7 @@
   "owner": "Coff0xc",
   "name": "CTF-MCP",
   "url": "https://github.com/Coff0xc/CTF-MCP",
-  "stars": 30,
+  "stars": 31,
   "lang": "Python",
   "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn | CTF 挑战 MCP 服务器 - Web/密码学/二进制利用工具集",
   "topics": [
@@ -226,7 +226,7 @@
   "owner": "Coff0xc",
   "name": "vero",
   "url": "https://github.com/Coff0xc/vero",
-  "stars": 6,
+  "stars": 7,
   "lang": "Go",
   "desc": "Evidence-Driven Autonomous Red Team Agent - The first AI penetration testing tool you can actually trust",
   "topics": [],
@@ -598,7 +598,7 @@
   "url": "https://github.com/123caiji/ai-world",
   "stars": 0,
   "lang": "JavaScript",
-  "desc": "AI 大世界 · 实时 AI 情报站：每小时自动采集新闻/论文/新模型/GitHub 涨星/DSH 插件，每条都带可核验证据。",
+  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验来源",
   "topics": [
    "ai",
    "aggregator",
