@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-10-30T07:09:51.524Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-10-30T08:58:56.373Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,22 +10,21 @@
 | 自有仓库 star 合计 | 16 |
 | 自有仓库未关闭 issue/PR | 0 |
 | 近 7 天有推送的仓库 | 11 / 11 |
-| 近 7 天提交数 | 72 |
-| 开着但未使用的 Wiki | 1 个仓库（GitHub 默认开启，建议关掉） |
+| 近 7 天提交数 | 81 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 2 |
 
-## 较上一次扫描（2026-10-29）
+## 较上一次扫描（2026-10-30）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
-| 公开仓库 | 28 | 29 | +1 |
+| 公开仓库 | 29 | 29 | 持平 |
 | 自有仓库 star | 16 | 16 | 持平 |
 | 未关闭 issue/PR | 0 | 0 | 持平 |
-| 近 7 天活跃仓库 | 10 | 11 | +1 |
-| 近 7 天提交 | 37 | 72 | +35 |
+| 近 7 天活跃仓库 | 11 | 11 | 持平 |
+| 近 7 天提交 | 72 | 81 | +9 |
 | 阻塞项 | 0 | 0 | 持平 |
-| 建议项 | 3 | 2 | -1 |
+| 建议项 | 2 | 2 | 持平 |
 
 ## 待处理
 
@@ -40,9 +39,9 @@
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 0 | 0 | 0 | 1 MB | — | 33 | 2026-10-30 | MIT |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 12 KB | — | 4 | 2026-10-30 | 缺失 |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 0 | 77 KB | — | 23 | 2026-10-29 | MIT |
+| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 0 | 0 | 0 | 1 MB | — | 36 | 2026-10-30 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 14 KB | — | 7 | 2026-10-30 | 缺失 |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 0 | 91 KB | — | 26 | 2026-10-30 | MIT |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 2 | 2026-10-29 | MIT |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 2 MB | — | 2 | 2026-10-29 | MIT |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 7 | 1 | 0 | 6 MB | — | 1 | 2026-10-29 | NOASSERTION |
@@ -71,7 +70,7 @@
 | [Code-Audit](https://github.com/123caiji/Code-Audit) | 2026-06-30 | 121 天未动 |
 | [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 131 天未动 |
 | [LLM-Security-Assessment-Framework](https://github.com/123caiji/LLM-Security-Assessment-Framework) | 2026-06-03 | 148 天未动 |
-| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 160 天未动 |
+| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 161 天未动 |
 | [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 191 天未动 |
 | [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 230 天未动 |
 
