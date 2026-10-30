@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-29T12:42:25.058Z",
+  "generatedAt": "2026-10-30T07:09:51.524Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
-    "publicRepos": 28
+    "publicRepos": 29
   },
   "totals": {
-    "repos": 28,
-    "own": 10,
+    "repos": 29,
+    "own": 11,
     "forks": 18,
     "stars": 16,
     "openIssues": 0,
-    "active7d": 10,
-    "commits7d": 37,
-    "wikiOn": 0,
+    "active7d": 11,
+    "commits7d": 72,
+    "wikiOn": 1,
     "blocking": 0,
-    "suggestions": 3
+    "suggestions": 2
   },
   "trend": {
-    "since": "2026-10-29T12:40:23.480Z",
+    "since": "2026-10-29T12:42:25.058Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 28,
-        "after": 28,
-        "delta": 0
+        "after": 29,
+        "delta": 1
       },
       {
         "key": "stars",
@@ -37,23 +37,23 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 4,
+        "before": 0,
         "after": 0,
-        "delta": -4
+        "delta": 0
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 10,
-        "after": 10,
-        "delta": 0
+        "after": 11,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 36,
-        "after": 37,
-        "delta": 1
+        "before": 37,
+        "after": 72,
+        "delta": 35
       },
       {
         "key": "blocking",
@@ -65,9 +65,9 @@
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 6,
-        "after": 3,
-        "delta": -3
+        "before": 3,
+        "after": 2,
+        "delta": -1
       }
     ]
   },
@@ -79,11 +79,6 @@
       "advice": "历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理"
     },
     {
-      "repo": "kangyang-digital-twin",
-      "problem": "体积记录 71 MB，但当前 HEAD 只有 6.5 MB",
-      "advice": "历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理"
-    },
-    {
       "repo": "AI-LLM-Agent-Learning",
       "problem": "许可证未被 GitHub 识别",
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
@@ -92,19 +87,55 @@
   "openThreads": [],
   "own": [
     {
+      "name": "ai-world",
+      "url": "https://github.com/123caiji/ai-world",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 1109,
+      "pushedAt": "2026-10-30T06:44:20Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验来源",
+      "hasWiki": true,
+      "commits7d": 33,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 12,
+      "pushedAt": "2026-10-30T03:57:00Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "hasWiki": false,
+      "commits7d": 4,
+      "archived": false,
+      "isProfile": true,
+      "defaultBranch": "main"
+    },
+    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 37,
-      "pushedAt": "2026-10-29T12:40:29Z",
+      "sizeKB": 77,
+      "pushedAt": "2026-10-29T15:46:32Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 21,
+      "commits7d": 23,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -116,7 +147,7 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 267740,
+      "sizeKB": 267750,
       "pushedAt": "2026-10-29T12:36:30Z",
       "staleDays": 0,
       "license": "MIT",
@@ -135,7 +166,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 72770,
+      "sizeKB": 2055,
       "pushedAt": "2026-10-29T12:32:42Z",
       "staleDays": 0,
       "license": "MIT",
@@ -144,25 +175,6 @@
       "commits7d": 2,
       "archived": false,
       "isProfile": false,
-      "defaultBranch": "main",
-      "headKB": 6697
-    },
-    {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 6,
-      "pushedAt": "2026-10-29T12:14:27Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "hasWiki": false,
-      "commits7d": 4,
-      "archived": false,
-      "isProfile": true,
       "defaultBranch": "main"
     },
     {
@@ -172,7 +184,7 @@
       "stars": 7,
       "forks": 1,
       "issues": 0,
-      "sizeKB": 5369,
+      "sizeKB": 5784,
       "pushedAt": "2026-10-29T12:11:31Z",
       "staleDays": 0,
       "license": "NOASSERTION",
@@ -226,7 +238,7 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 1949,
+      "sizeKB": 1951,
       "pushedAt": "2026-10-29T12:04:01Z",
       "staleDays": 0,
       "license": "MIT",
@@ -244,7 +256,7 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 218,
+      "sizeKB": 219,
       "pushedAt": "2026-10-29T12:03:26Z",
       "staleDays": 0,
       "license": "MIT",
@@ -262,7 +274,7 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 7,
+      "sizeKB": 9,
       "pushedAt": "2026-10-29T12:03:24Z",
       "staleDays": 0,
       "license": "MIT",
