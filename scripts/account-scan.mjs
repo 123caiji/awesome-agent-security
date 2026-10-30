@@ -174,6 +174,12 @@ async function main() {
     }
   }
 
+  // Wiki 默认开启但基本没人用：点名到具体仓库，否则报告里的计数无法落地
+  for (const r of ownRows.filter(row => row.hasWiki)) {
+    if (r.isProfile) continue
+    suggestions.push({ repo: r.name, problem: 'Wiki 开着但仓库里没有 Wiki 内容', advice: '仓库 Settings → Features 取消勾选 Wiki（或 gh api -X PATCH repos/123caiji/' + r.name + ' -F has_wiki=false）' })
+  }
+
   const totals = {
     repos: repos.length,
     own: own.length,
