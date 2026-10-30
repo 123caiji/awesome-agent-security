@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 266187,
+  "stars": 266346,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -351,6 +351,17 @@
   "note": "STM32 + LoRa + FreeRTOS 的环境监测智能家居毕业设计。"
  },
  {
+  "section": "代码审计与安全学习",
+  "owner": "well-lzz",
+  "name": "chronos",
+  "url": "https://github.com/well-lzz/chronos",
+  "stars": 2,
+  "lang": "Go",
+  "desc": "",
+  "topics": [],
+  "note": "Go 写的安全实验/调度项目。"
+ },
+ {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
   "name": "architecture-open-source-research",
@@ -421,17 +432,6 @@
   "desc": "",
   "topics": [],
   "note": "红队练习靶场与工具集。"
- },
- {
-  "section": "代码审计与安全学习",
-  "owner": "well-lzz",
-  "name": "chronos",
-  "url": "https://github.com/well-lzz/chronos",
-  "stars": 1,
-  "lang": "Go",
-  "desc": "",
-  "topics": [],
-  "note": "Go 写的安全实验/调度项目。"
  },
  {
   "section": "代码审计与安全学习",
@@ -598,7 +598,7 @@
   "url": "https://github.com/123caiji/ai-world",
   "stars": 0,
   "lang": "JavaScript",
-  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验来源",
+  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
   "topics": [
    "ai",
    "aggregator",

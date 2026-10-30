@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266187 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266346 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
@@ -76,8 +76,8 @@
 <!-- INDEX:START 代码审计与安全学习 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
+| [chronos](https://github.com/well-lzz/chronos) | 2 | Go | Go 写的安全实验/调度项目。 |
 | [Bad-Guy](https://github.com/well-lzz/Bad-Guy) | 1 | Python | 红队练习靶场与工具集。 |
-| [chronos](https://github.com/well-lzz/chronos) | 1 | Go | Go 写的安全实验/调度项目。 |
 | [Code-Audit](https://github.com/well-lzz/Code-Audit) | 1 | — | 成体系的代码审计 Skills 集合，可直接作为 Agent 的审计知识库。 |
 | [cyber-psyche](https://github.com/well-lzz/cyber-psyche) | 1 | JavaScript | 攻击者视角的心理/行为建模小项目。 |
 | [term3-lab](https://github.com/well-lzz/term3-lab) | 1 | Python | 终端安全实验环境。 |
