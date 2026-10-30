@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:09:51.524Z",
+  "generatedAt": "2026-10-30T08:58:56.373Z",
   "owner": "123caiji",
   "profile": {
     "followers": 4,
@@ -12,20 +12,20 @@
     "stars": 16,
     "openIssues": 0,
     "active7d": 11,
-    "commits7d": 72,
-    "wikiOn": 1,
+    "commits7d": 81,
+    "wikiOn": 0,
     "blocking": 0,
     "suggestions": 2
   },
   "trend": {
-    "since": "2026-10-29T12:42:25.058Z",
+    "since": "2026-10-30T07:09:51.524Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
-        "before": 28,
+        "before": 29,
         "after": 29,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "stars",
@@ -44,16 +44,16 @@
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
-        "before": 10,
+        "before": 11,
         "after": 11,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 37,
-        "after": 72,
-        "delta": 35
+        "before": 72,
+        "after": 81,
+        "delta": 9
       },
       {
         "key": "blocking",
@@ -65,9 +65,9 @@
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 3,
+        "before": 2,
         "after": 2,
-        "delta": -1
+        "delta": 0
       }
     ]
   },
@@ -93,13 +93,13 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 1109,
-      "pushedAt": "2026-10-30T06:44:20Z",
+      "sizeKB": 1149,
+      "pushedAt": "2026-10-30T08:43:44Z",
       "staleDays": 0,
       "license": "MIT",
-      "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验来源",
-      "hasWiki": true,
-      "commits7d": 33,
+      "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
+      "hasWiki": false,
+      "commits7d": 36,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -111,13 +111,13 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 12,
-      "pushedAt": "2026-10-30T03:57:00Z",
+      "sizeKB": 14,
+      "pushedAt": "2026-10-30T08:34:15Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "hasWiki": false,
-      "commits7d": 4,
+      "commits7d": 7,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -129,13 +129,13 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 77,
-      "pushedAt": "2026-10-29T15:46:32Z",
+      "sizeKB": 91,
+      "pushedAt": "2026-10-30T07:15:55Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 23,
+      "commits7d": 26,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
