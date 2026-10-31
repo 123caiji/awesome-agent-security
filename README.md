@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266853 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266992 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
