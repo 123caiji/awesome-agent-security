@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266346 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266853 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
@@ -90,7 +90,7 @@
 <!-- INDEX:START 我的项目 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | 7 | Python | LLM / Agent 学习路线与笔记（RAG、MCP、LangGraph、提示工程）。 |
+| [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | 8 | Python | LLM / Agent 学习路线与笔记（RAG、MCP、LangGraph、提示工程）。 |
 | [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | 4 | TypeScript | 给 Agent 加长期记忆与知识图谱的 DSH 插件（图记忆 + 向量检索 + token 优化）。 |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | 2 | Python | Web 安全研究工具箱：侦察、SQLi/SSRF/XSS 验证脚本与 CTF 记录。 |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | 2 | C | STM32 + LoRa + FreeRTOS 的环境监测智能家居毕业设计。 |

@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 266346,
+  "stars": 266853,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -202,7 +202,7 @@
   "owner": "123caiji",
   "name": "AI-LLM-Agent-Learning",
   "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
-  "stars": 7,
+  "stars": 8,
   "lang": "Python",
   "desc": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
   "topics": [
@@ -601,9 +601,13 @@
   "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
   "topics": [
    "ai",
-   "aggregator",
-   "github-actions",
-   "radar",
+   "ai-news",
+   "automation",
+   "deepseek-harness",
+   "github-pages",
+   "intelligence",
+   "llm",
+   "news-aggregator",
    "rss"
   ],
   "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
