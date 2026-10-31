@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T05:10:37.934Z",
+  "generatedAt": "2026-10-31T08:52:37.306Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -12,13 +12,13 @@
     "stars": 17,
     "openIssues": 6,
     "active7d": 11,
-    "commits7d": 91,
+    "commits7d": 95,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 2
   },
   "trend": {
-    "since": "2026-10-30T08:58:56.373Z",
+    "since": "2026-10-31T05:10:37.934Z",
     "changes": [
       {
         "key": "repos",
@@ -30,16 +30,16 @@
       {
         "key": "stars",
         "label": "自有仓库 star",
-        "before": 16,
+        "before": 17,
         "after": 17,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 0,
+        "before": 6,
         "after": 6,
-        "delta": 6
+        "delta": 0
       },
       {
         "key": "active7d",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 81,
-        "after": 91,
-        "delta": 10
+        "before": 91,
+        "after": 95,
+        "delta": 4
       },
       {
         "key": "blocking",
@@ -87,37 +87,55 @@
   "openThreads": [],
   "own": [
     {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 38,
-      "pushedAt": "2026-10-31T03:41:42Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "hasWiki": false,
-      "commits7d": 8,
-      "archived": false,
-      "isProfile": true,
-      "defaultBranch": "main"
-    },
-    {
       "name": "ai-world",
       "url": "https://github.com/123caiji/ai-world",
       "language": "JavaScript",
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 1868,
-      "pushedAt": "2026-10-31T03:34:10Z",
+      "sizeKB": 1985,
+      "pushedAt": "2026-10-31T06:20:33Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "hasWiki": false,
-      "commits7d": 43,
+      "commits7d": 44,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 39,
+      "pushedAt": "2026-10-31T05:11:46Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "hasWiki": false,
+      "commits7d": 9,
+      "archived": false,
+      "isProfile": true,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 103,
+      "pushedAt": "2026-10-31T05:11:19Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": false,
+      "commits7d": 30,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -154,24 +172,6 @@
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "hasWiki": false,
       "commits7d": 2,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 97,
-      "pushedAt": "2026-10-30T09:58:33Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": false,
-      "commits7d": 28,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
