@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-11-01T05:11:39.706Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-11-01T09:42:13.388Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -10,19 +10,19 @@
 | 自有仓库 star 合计 | 17 |
 | 自有仓库未关闭 issue/PR | 0 |
 | 近 7 天有推送的仓库 | 11 / 11 |
-| 近 7 天提交数 | 116 |
+| 近 7 天提交数 | 121 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 2 |
 
-## 较上一次扫描（2026-10-31）
+## 较上一次扫描（2026-11-01）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
 | 公开仓库 | 29 | 29 | 持平 |
 | 自有仓库 star | 17 | 17 | 持平 |
-| 未关闭 issue/PR | 6 | 0 | -6 |
+| 未关闭 issue/PR | 0 | 0 | 持平 |
 | 近 7 天活跃仓库 | 11 | 11 | 持平 |
-| 近 7 天提交 | 95 | 116 | +21 |
+| 近 7 天提交 | 116 | 121 | +5 |
 | 阻塞项 | 0 | 0 | 持平 |
 | 建议项 | 2 | 2 | 持平 |
 
@@ -39,11 +39,11 @@
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 0 | 0 | 0 | 2 MB | — | 52 | 2026-11-01 | MIT |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 40 KB | — | 10 | 2026-11-01 | 缺失 |
+| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 0 | 0 | 0 | 2 MB | — | 54 | 2026-11-01 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 0 | 115 KB | — | 34 | 2026-11-01 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 44 KB | — | 11 | 2026-11-01 | 缺失 |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 0 | 0 | 0 | 2 MB | — | 9 | 2026-10-31 | MIT |
 | [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 4 | 0 | 0 | 2 MB | — | 5 | 2026-10-31 | MIT |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 0 | 0 | 0 | 109 KB | — | 32 | 2026-10-31 | MIT |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 2 | 2026-10-29 | MIT |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 8 | 1 | 0 | 6 MB | — | 1 | 2026-10-29 | NOASSERTION |
 | [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | — | 2 | 2026-10-29 | MIT |
@@ -68,10 +68,10 @@
 | [Bad-Guy](https://github.com/123caiji/Bad-Guy) | 2026-07-02 | 121 天未动 |
 | [astah-diagram-automation](https://github.com/123caiji/astah-diagram-automation) | 2026-07-01 | 123 天未动 |
 | [Code-Audit](https://github.com/123caiji/Code-Audit) | 2026-06-30 | 123 天未动 |
-| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 132 天未动 |
+| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 133 天未动 |
 | [LLM-Security-Assessment-Framework](https://github.com/123caiji/LLM-Security-Assessment-Framework) | 2026-06-03 | 150 天未动 |
-| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 162 天未动 |
+| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 163 天未动 |
 | [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 193 天未动 |
-| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 231 天未动 |
+| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 232 天未动 |
 
 _统计口径：GitHub 公开 API 的 /users/123caiji/repos。阻塞阈值：无许可证、体积 > 50 MB、超过 90 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。_

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T05:11:39.706Z",
+  "generatedAt": "2026-11-01T09:42:13.388Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -12,13 +12,13 @@
     "stars": 17,
     "openIssues": 0,
     "active7d": 11,
-    "commits7d": 116,
+    "commits7d": 121,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 2
   },
   "trend": {
-    "since": "2026-10-31T08:52:37.306Z",
+    "since": "2026-11-01T05:11:39.706Z",
     "changes": [
       {
         "key": "repos",
@@ -37,9 +37,9 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 6,
+        "before": 0,
         "after": 0,
-        "delta": -6
+        "delta": 0
       },
       {
         "key": "active7d",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 95,
-        "after": 116,
-        "delta": 21
+        "before": 116,
+        "after": 121,
+        "delta": 5
       },
       {
         "key": "blocking",
@@ -93,13 +93,31 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 2392,
-      "pushedAt": "2026-11-01T04:25:38Z",
+      "sizeKB": 1790,
+      "pushedAt": "2026-11-01T07:11:27Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "hasWiki": false,
-      "commits7d": 52,
+      "commits7d": 54,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 115,
+      "pushedAt": "2026-11-01T05:12:42Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": false,
+      "commits7d": 34,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -111,13 +129,13 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 40,
-      "pushedAt": "2026-11-01T03:49:10Z",
+      "sizeKB": 44,
+      "pushedAt": "2026-11-01T05:12:04Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "hasWiki": false,
-      "commits7d": 10,
+      "commits7d": 11,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -154,24 +172,6 @@
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "hasWiki": false,
       "commits7d": 5,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 109,
-      "pushedAt": "2026-10-31T09:36:37Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": false,
-      "commits7d": 32,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
