@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 267860,
+  "stars": 269002,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -287,6 +287,17 @@
   "note": "把微信接入 DeepSeek Harness 的桥接插件。"
  },
  {
+  "section": "代码审计与安全学习",
+  "owner": "well-lzz",
+  "name": "chronos",
+  "url": "https://github.com/well-lzz/chronos",
+  "stars": 3,
+  "lang": "Go",
+  "desc": "",
+  "topics": [],
+  "note": "Go 写的安全实验/调度项目。"
+ },
+ {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
   "name": "dsh-dev-sandbox",
@@ -349,17 +360,6 @@
    "stm32"
   ],
   "note": "STM32 + LoRa + FreeRTOS 的环境监测智能家居毕业设计。"
- },
- {
-  "section": "代码审计与安全学习",
-  "owner": "well-lzz",
-  "name": "chronos",
-  "url": "https://github.com/well-lzz/chronos",
-  "stars": 2,
-  "lang": "Go",
-  "desc": "",
-  "topics": [],
-  "note": "Go 写的安全实验/调度项目。"
  },
  {
   "section": "DeepSeek Harness 插件生态",
