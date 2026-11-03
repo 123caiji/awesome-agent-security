@@ -36,7 +36,7 @@
 <!-- INDEX:START AI 安全与红队工具 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | 268 | Python | MCP 原生的安全自动化工作台，SDK + CLI + MCP 三件套，把授权测试从侦察一路编排到报告。 |
+| [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | 269 | Python | MCP 原生的安全自动化工作台，SDK + CLI + MCP 三件套，把授权测试从侦察一路编排到报告。 |
 | [Github-API-scan](https://github.com/Coff0xc/Github-API-scan) | 85 | Python | 多平台 AI 密钥泄露扫描与可用性验证（23 个平台），带 Web Dashboard 与 Docker 一键部署。 |
 | [catchclaw](https://github.com/Coff0xc/catchclaw) | 32 | Rust | Rust 实现的多平台 AI Agent 安全评估，覆盖 OpenClaw / Dify / FastGPT / LobeChat / NextChat。 |
 | [CTF-MCP](https://github.com/Coff0xc/CTF-MCP) | 31 | Python | 126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。 |
@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 269002 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 270461 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
@@ -76,7 +76,7 @@
 <!-- INDEX:START 代码审计与安全学习 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [chronos](https://github.com/well-lzz/chronos) | 3 | Go | Go 写的安全实验/调度项目。 |
+| [chronos](https://github.com/well-lzz/chronos) | 4 | Go | Go 写的安全实验/调度项目。 |
 | [Bad-Guy](https://github.com/well-lzz/Bad-Guy) | 1 | Python | 红队练习靶场与工具集。 |
 | [Code-Audit](https://github.com/well-lzz/Code-Audit) | 1 | — | 成体系的代码审计 Skills 集合，可直接作为 Agent 的审计知识库。 |
 | [cyber-psyche](https://github.com/well-lzz/cyber-psyche) | 1 | JavaScript | 攻击者视角的心理/行为建模小项目。 |

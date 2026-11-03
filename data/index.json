@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 269002,
+  "stars": 270461,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -20,7 +20,7 @@
   "owner": "Coff0xc",
   "name": "AutoRedTeam-Orchestrator",
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
-  "stars": 268,
+  "stars": 269,
   "lang": "Python",
   "desc": "MCP-native security automation workbench (SDK + CLI + MCP) — authorized testing + static AI/MCP attack-surface self-audit to SARIF / GitHub Code Scanning",
   "topics": [
@@ -265,6 +265,17 @@
   "note": "给 Agent 加长期记忆与知识图谱的 DSH 插件（图记忆 + 向量检索 + token 优化）。"
  },
  {
+  "section": "代码审计与安全学习",
+  "owner": "well-lzz",
+  "name": "chronos",
+  "url": "https://github.com/well-lzz/chronos",
+  "stars": 4,
+  "lang": "Go",
+  "desc": "",
+  "topics": [],
+  "note": "Go 写的安全实验/调度项目。"
+ },
+ {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
   "name": "dsh-weixin-clawbot",
@@ -285,17 +296,6 @@
    "weixin"
   ],
   "note": "把微信接入 DeepSeek Harness 的桥接插件。"
- },
- {
-  "section": "代码审计与安全学习",
-  "owner": "well-lzz",
-  "name": "chronos",
-  "url": "https://github.com/well-lzz/chronos",
-  "stars": 3,
-  "lang": "Go",
-  "desc": "",
-  "topics": [],
-  "note": "Go 写的安全实验/调度项目。"
  },
  {
   "section": "DeepSeek Harness 插件生态",
