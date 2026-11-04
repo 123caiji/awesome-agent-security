@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-03T10:03:48.909Z",
+  "generatedAt": "2026-11-04T09:50:06.569Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 29
+    "publicRepos": 31
   },
   "totals": {
-    "repos": 29,
-    "own": 11,
+    "repos": 31,
+    "own": 13,
     "forks": 18,
-    "stars": 17,
+    "stars": 21,
     "openIssues": 0,
-    "active7d": 11,
-    "commits7d": 145,
-    "wikiOn": 0,
-    "blocking": 0,
-    "suggestions": 2
+    "active7d": 12,
+    "commits7d": 169,
+    "wikiOn": 2,
+    "blocking": 1,
+    "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-02T09:56:25.084Z",
+    "since": "2026-11-03T10:03:48.909Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 29,
-        "after": 29,
-        "delta": 0
+        "after": 31,
+        "delta": 2
       },
       {
         "key": "stars",
         "label": "自有仓库 star",
         "before": 17,
-        "after": 17,
-        "delta": 0
+        "after": 21,
+        "delta": 4
       },
       {
         "key": "openIssues",
@@ -45,33 +45,39 @@
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 11,
-        "after": 11,
-        "delta": 0
+        "after": 12,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 133,
-        "after": 145,
-        "delta": 12
+        "before": 145,
+        "after": 169,
+        "delta": 24
       },
       {
         "key": "blocking",
         "label": "阻塞项",
         "before": 0,
-        "after": 0,
-        "delta": 0
+        "after": 1,
+        "delta": 1
       },
       {
         "key": "suggestions",
         "label": "建议项",
         "before": 2,
-        "after": 2,
-        "delta": 0
+        "after": 4,
+        "delta": 2
       }
     ]
   },
-  "blocking": [],
+  "blocking": [
+    {
+      "repo": "agens-harness",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    }
+  ],
   "suggestions": [
     {
       "repo": "stm32-iot-smart-home",
@@ -82,24 +88,70 @@
       "repo": "AI-LLM-Agent-Learning",
       "problem": "许可证未被 GitHub 识别",
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
+    },
+    {
+      "repo": "sapper-v2",
+      "problem": "Wiki 开着但仓库里没有 Wiki 内容",
+      "advice": "仓库 Settings → Features 取消勾选 Wiki（或 gh api -X PATCH repos/123caiji/sapper-v2 -F has_wiki=false）"
+    },
+    {
+      "repo": "agens-harness",
+      "problem": "Wiki 开着但仓库里没有 Wiki 内容",
+      "advice": "仓库 Settings → Features 取消勾选 Wiki（或 gh api -X PATCH repos/123caiji/agens-harness -F has_wiki=false）"
     }
   ],
   "openThreads": [],
   "own": [
     {
-      "name": "ai-world",
-      "url": "https://github.com/123caiji/ai-world",
-      "language": "JavaScript",
+      "name": "sapper-v2",
+      "url": "https://github.com/123caiji/sapper-v2",
+      "language": "Python",
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 3222,
-      "pushedAt": "2026-11-03T08:54:12Z",
+      "sizeKB": 28533,
+      "pushedAt": "2026-11-04T08:36:40Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
+      "hasWiki": true,
+      "commits7d": 13,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "master"
+    },
+    {
+      "name": "agens-harness",
+      "url": "https://github.com/123caiji/agens-harness",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 6002,
+      "pushedAt": "2026-11-04T08:34:51Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "Agensh: Scaling Organizational Intelligence to 1,024 Agents (copy of agens-harness/project)",
+      "hasWiki": true,
+      "commits7d": 0,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "ai-world",
+      "url": "https://github.com/123caiji/ai-world",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 3914,
+      "pushedAt": "2026-11-04T07:00:27Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "hasWiki": false,
-      "commits7d": 72,
+      "commits7d": 80,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -111,13 +163,13 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 110,
-      "pushedAt": "2026-11-03T04:55:31Z",
+      "sizeKB": 111,
+      "pushedAt": "2026-11-04T04:26:49Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "hasWiki": false,
-      "commits7d": 13,
+      "commits7d": 14,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -126,16 +178,16 @@
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 127,
-      "pushedAt": "2026-11-02T11:00:08Z",
+      "sizeKB": 133,
+      "pushedAt": "2026-11-03T10:49:53Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "hasWiki": false,
-      "commits7d": 38,
+      "commits7d": 40,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -144,12 +196,12 @@
       "name": "kangyang-digital-twin",
       "url": "https://github.com/123caiji/kangyang-digital-twin",
       "language": "Vue",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "issues": 0,
       "sizeKB": 2356,
       "pushedAt": "2026-10-31T11:46:01Z",
-      "staleDays": 2,
+      "staleDays": 3,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "hasWiki": false,
@@ -162,12 +214,12 @@
       "name": "dsh-memory-toolkit",
       "url": "https://github.com/123caiji/dsh-memory-toolkit",
       "language": "TypeScript",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "issues": 0,
       "sizeKB": 1706,
       "pushedAt": "2026-10-31T11:37:40Z",
-      "staleDays": 2,
+      "staleDays": 3,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "hasWiki": false,
@@ -185,7 +237,7 @@
       "issues": 0,
       "sizeKB": 267750,
       "pushedAt": "2026-10-29T12:36:30Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
       "hasWiki": false,
@@ -204,7 +256,7 @@
       "issues": 0,
       "sizeKB": 5784,
       "pushedAt": "2026-10-29T12:11:31Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "NOASSERTION",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "hasWiki": false,
@@ -222,7 +274,7 @@
       "issues": 0,
       "sizeKB": 20,
       "pushedAt": "2026-10-29T12:10:05Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "hasWiki": false,
@@ -240,7 +292,7 @@
       "issues": 0,
       "sizeKB": 1951,
       "pushedAt": "2026-10-29T12:04:01Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "hasWiki": false,
@@ -258,7 +310,7 @@
       "issues": 0,
       "sizeKB": 219,
       "pushedAt": "2026-10-29T12:03:26Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "hasWiki": false,
@@ -276,7 +328,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-10-29T12:03:24Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "123caiji的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
       "hasWiki": false,
