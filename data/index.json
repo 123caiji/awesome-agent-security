@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 270461,
+  "stars": 271911,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -237,7 +237,7 @@
   "owner": "123caiji",
   "name": "dsh-memory-toolkit",
   "url": "https://github.com/123caiji/dsh-memory-toolkit",
-  "stars": 4,
+  "stars": 5,
   "lang": "TypeScript",
   "desc": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
   "topics": [
@@ -487,6 +487,44 @@
   "note": "AI / 大模型学习笔记。"
  },
  {
+  "section": "我的项目",
+  "owner": "123caiji",
+  "name": "kangyang-digital-twin",
+  "url": "https://github.com/123caiji/kangyang-digital-twin",
+  "stars": 1,
+  "lang": "Vue",
+  "desc": "kangyang-digital-twin graduation project",
+  "topics": [
+   "3d-visualization",
+   "digital-twin",
+   "graduation-project",
+   "visualization",
+   "vue"
+  ],
+  "note": "康养数字孪生可视化（Vue + 3D）。"
+ },
+ {
+  "section": "我的项目",
+  "owner": "123caiji",
+  "name": "ai-world",
+  "url": "https://github.com/123caiji/ai-world",
+  "stars": 1,
+  "lang": "JavaScript",
+  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
+  "topics": [
+   "ai",
+   "ai-news",
+   "automation",
+   "deepseek-harness",
+   "github-pages",
+   "intelligence",
+   "llm",
+   "news-aggregator",
+   "rss"
+  ],
+  "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
+ },
+ {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
   "name": "dsh-best-dev-optimizer",
@@ -573,43 +611,5 @@
    "sidebar"
   ],
   "note": "DSH 会话现场驾驶舱：当前在做什么、要不要人管、本轮花了多少 token。"
- },
- {
-  "section": "我的项目",
-  "owner": "123caiji",
-  "name": "kangyang-digital-twin",
-  "url": "https://github.com/123caiji/kangyang-digital-twin",
-  "stars": 0,
-  "lang": "Vue",
-  "desc": "kangyang-digital-twin graduation project",
-  "topics": [
-   "3d-visualization",
-   "digital-twin",
-   "graduation-project",
-   "visualization",
-   "vue"
-  ],
-  "note": "康养数字孪生可视化（Vue + 3D）。"
- },
- {
-  "section": "我的项目",
-  "owner": "123caiji",
-  "name": "ai-world",
-  "url": "https://github.com/123caiji/ai-world",
-  "stars": 0,
-  "lang": "JavaScript",
-  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
-  "topics": [
-   "ai",
-   "ai-news",
-   "automation",
-   "deepseek-harness",
-   "github-pages",
-   "intelligence",
-   "llm",
-   "news-aggregator",
-   "rss"
-  ],
-  "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
  }
 ]

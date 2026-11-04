@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 270461 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 271911 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 22 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 3 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
@@ -91,14 +91,14 @@
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | 8 | Python | LLM / Agent 学习路线与笔记（RAG、MCP、LangGraph、提示工程）。 |
-| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | 4 | TypeScript | 给 Agent 加长期记忆与知识图谱的 DSH 插件（图记忆 + 向量检索 + token 优化）。 |
+| [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | 5 | TypeScript | 给 Agent 加长期记忆与知识图谱的 DSH 插件（图记忆 + 向量检索 + token 优化）。 |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | 2 | Python | Web 安全研究工具箱：侦察、SQLi/SSRF/XSS 验证脚本与 CTF 记录。 |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | 2 | C | STM32 + LoRa + FreeRTOS 的环境监测智能家居毕业设计。 |
 | [wulao](https://github.com/123caiji/wulao) | 1 | — | AI / 大模型学习笔记。 |
+| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | 1 | Vue | 康养数字孪生可视化（Vue + 3D）。 |
+| [ai-world](https://github.com/123caiji/ai-world) | 1 | JavaScript | 纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。 |
 | [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | 0 | CSS | 个人技术博客（Jekyll + GitHub Pages）。 |
 | [dsh-live](https://github.com/123caiji/dsh-live) | 0 | JavaScript | DSH 会话现场驾驶舱：当前在做什么、要不要人管、本轮花了多少 token。 |
-| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | 0 | Vue | 康养数字孪生可视化（Vue + 3D）。 |
-| [ai-world](https://github.com/123caiji/ai-world) | 0 | JavaScript | 纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。 |
 <!-- INDEX:END 我的项目 -->
 
 ## 怎么读这份清单
