@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 271911,
+  "stars": 273303,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -67,7 +67,7 @@
   "owner": "Coff0xc",
   "name": "catchclaw",
   "url": "https://github.com/Coff0xc/catchclaw",
-  "stars": 32,
+  "stars": 31,
   "lang": "Rust",
   "desc": "CatchClaw v5.3.0 — 多平台 AI Agent 安全评估工具，支持 OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow 等 9 大平台。78 条 DAG 攻击链 | 78 个 Exploit 模块 | ATT&CK 阶段映射 | 多平台指纹识别 | Async Tokio 引擎 | 攻击图可视化",
   "topics": [
