@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T09:55:58.702Z",
+  "generatedAt": "2026-11-05T10:27:06.830Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -11,21 +11,21 @@
     "forks": 18,
     "stars": 21,
     "openIssues": 8,
-    "active7d": 13,
-    "commits7d": 374,
-    "wikiOn": 2,
-    "blocking": 1,
-    "suggestions": 4
+    "active7d": 14,
+    "commits7d": 376,
+    "wikiOn": 0,
+    "blocking": 0,
+    "suggestions": 3
   },
   "trend": {
-    "since": "2026-11-04T09:50:06.569Z",
+    "since": "2026-11-05T09:55:58.702Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
-        "before": 31,
+        "before": 33,
         "after": 33,
-        "delta": 2
+        "delta": 0
       },
       {
         "key": "stars",
@@ -37,48 +37,47 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 0,
+        "before": 8,
         "after": 8,
-        "delta": 8
+        "delta": 0
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
-        "before": 12,
-        "after": 13,
+        "before": 13,
+        "after": 14,
         "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 169,
-        "after": 374,
-        "delta": 205
+        "before": 374,
+        "after": 376,
+        "delta": 2
       },
       {
         "key": "blocking",
         "label": "阻塞项",
         "before": 1,
-        "after": 1,
-        "delta": 0
+        "after": 0,
+        "delta": -1
       },
       {
         "key": "suggestions",
         "label": "建议项",
         "before": 4,
-        "after": 4,
-        "delta": 0
+        "after": 3,
+        "delta": -1
       }
     ]
   },
-  "blocking": [
+  "blocking": [],
+  "suggestions": [
     {
       "repo": "agens-harness",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    }
-  ],
-  "suggestions": [
+      "problem": "许可证未被 GitHub 识别",
+      "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
+    },
     {
       "repo": "stm32-iot-smart-home",
       "problem": "体积记录 261 MB，但当前 HEAD 只有 0.5 MB",
@@ -88,16 +87,6 @@
       "repo": "AI-LLM-Agent-Learning",
       "problem": "许可证未被 GitHub 识别",
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
-    },
-    {
-      "repo": "rea",
-      "problem": "Wiki 开着但仓库里没有 Wiki 内容",
-      "advice": "仓库 Settings → Features 取消勾选 Wiki（或 gh api -X PATCH repos/123caiji/rea -F has_wiki=false）"
-    },
-    {
-      "repo": "craft-anything",
-      "problem": "Wiki 开着但仓库里没有 Wiki 内容",
-      "advice": "仓库 Settings → Features 取消勾选 Wiki（或 gh api -X PATCH repos/123caiji/craft-anything -F has_wiki=false）"
     }
   ],
   "openThreads": [
@@ -113,6 +102,24 @@
   ],
   "own": [
     {
+      "name": "agens-harness",
+      "url": "https://github.com/123caiji/agens-harness",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 6002,
+      "pushedAt": "2026-11-05T10:26:42Z",
+      "staleDays": 0,
+      "license": "NOASSERTION",
+      "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
       "name": "rea",
       "url": "https://github.com/123caiji/rea",
       "language": "TypeScript",
@@ -120,12 +127,30 @@
       "forks": 0,
       "issues": 7,
       "sizeKB": 0,
-      "pushedAt": "2026-11-05T09:45:01Z",
+      "pushedAt": "2026-11-05T10:07:50Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
-      "hasWiki": true,
+      "hasWiki": false,
       "commits7d": 100,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "issues": 1,
+      "sizeKB": 141,
+      "pushedAt": "2026-11-05T09:56:07Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "hasWiki": false,
+      "commits7d": 40,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -160,7 +185,7 @@
       "staleDays": 0,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
-      "hasWiki": true,
+      "hasWiki": false,
       "commits7d": 100,
       "archived": false,
       "isProfile": false,
@@ -185,24 +210,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "issues": 1,
-      "sizeKB": 141,
-      "pushedAt": "2026-11-04T10:53:07Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "hasWiki": false,
-      "commits7d": 39,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
-    {
       "name": "sapper-v2",
       "url": "https://github.com/123caiji/sapper-v2",
       "language": "Python",
@@ -219,24 +226,6 @@
       "archived": false,
       "isProfile": false,
       "defaultBranch": "master"
-    },
-    {
-      "name": "agens-harness",
-      "url": "https://github.com/123caiji/agens-harness",
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 6002,
-      "pushedAt": "2026-11-04T08:34:51Z",
-      "staleDays": 1,
-      "license": null,
-      "description": "Agensh: Scaling Organizational Intelligence to 1,024 Agents (copy of agens-harness/project)",
-      "hasWiki": false,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
     },
     {
       "name": "kangyang-digital-twin",
