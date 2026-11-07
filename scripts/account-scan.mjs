@@ -106,6 +106,7 @@ async function main() {
       staleDays: days(now - Date.parse(repo.pushed_at)),
       license: repo.license?.spdx_id || null,
       description: repo.description || '',
+      isMirror: /^(?:mirror of|镜像)/i.test(repo.description || ''),
       hasWiki: Boolean(repo.has_wiki),
       commits7d,
       archived: Boolean(repo.archived),
@@ -151,7 +152,14 @@ async function main() {
       // 先看 HEAD 实际内容：历史重写后 size 字段会滞后
       if (r.headKB === undefined) r.headKB = await headSizeKB(`${OWNER}/${r.name}`, r.defaultBranch)
       const headMB = r.headKB === null ? null : (r.headKB / 1024).toFixed(1)
-      if (headMB !== null && r.headKB < BIG_SIZE_KB / 2) {
+      if (r.isMirror) {
+        // 镜像仓：体积继承自上游，本地能做的只有裁剪镜像或停掉镜像，不算待修
+        suggestions.push({
+          repo: r.name,
+          problem: `仓库体积 ${(r.sizeKB / 1024).toFixed(0)} MB（镜像仓，体积来自上游${headMB ? `，HEAD ${headMB} MB` : ''}）`,
+          advice: '镜像仓不追上游历史体积；要减体积只能裁剪镜像内容或停掉镜像，否则无需处理',
+        })
+      } else if (headMB !== null && r.headKB < BIG_SIZE_KB / 2) {
         suggestions.push({
           repo: r.name,
           problem: `体积记录 ${(r.sizeKB / 1024).toFixed(0)} MB，但当前 HEAD 只有 ${headMB} MB`,
@@ -306,7 +314,7 @@ async function main() {
     md.push(`| [${r.name}](${r.html_url}) | ${fmtDate(r.pushed_at)} | ${d > STALE_DAYS ? `${d} 天未动` : '有更新'} |`)
   }
   md.push('')
-  md.push(`_统计口径：GitHub 公开 API 的 /users/${OWNER}/repos。阻塞阈值：无许可证、体积 > ${BIG_SIZE_KB / 1024} MB、超过 ${STALE_DAYS} 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。_`)
+  md.push(`_统计口径：GitHub 公开 API 的 /users/${OWNER}/repos。阻塞阈值：无许可证、体积 > ${BIG_SIZE_KB / 1024} MB、超过 ${STALE_DAYS} 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。声明为镜像（description 以 Mirror of / 镜像 开头）的仓库，体积问题只算建议项。_`)
   md.push('')
 
   if (CHECK_ONLY) {
