@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T05:12:44.119Z",
+  "generatedAt": "2026-11-07T09:15:07.334Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -10,7 +10,7 @@
     "own": 15,
     "forks": 18,
     "stars": 21,
-    "openIssues": 8,
+    "openIssues": 7,
     "active7d": 9,
     "commits7d": 309,
     "wikiOn": 0,
@@ -18,7 +18,7 @@
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-06T09:52:48.490Z",
+    "since": "2026-11-07T05:12:44.119Z",
     "changes": [
       {
         "key": "repos",
@@ -37,9 +37,9 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 7,
-        "after": 8,
-        "delta": 1
+        "before": 8,
+        "after": 7,
+        "delta": -1
       },
       {
         "key": "active7d",
@@ -51,23 +51,23 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 311,
+        "before": 309,
         "after": 309,
-        "delta": -2
+        "delta": 0
       },
       {
         "key": "blocking",
         "label": "阻塞项",
-        "before": 1,
+        "before": 0,
         "after": 0,
-        "delta": -1
+        "delta": 0
       },
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 3,
+        "before": 4,
         "after": 4,
-        "delta": 1
+        "delta": 0
       }
     ]
   },
@@ -94,27 +94,36 @@
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
     }
   ],
-  "openThreads": [
-    {
-      "repo": "awesome-agent-security",
-      "number": 7,
-      "kind": "issue",
-      "title": "账号维护：1 项待处理",
-      "author": "github-actions[bot]",
-      "ageDays": 0,
-      "url": "https://github.com/123caiji/awesome-agent-security/issues/7"
-    }
-  ],
+  "openThreads": [],
   "own": [
+    {
+      "name": "ai-world",
+      "url": "https://github.com/123caiji/ai-world",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 5481,
+      "pushedAt": "2026-11-07T08:39:08Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 60,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
     {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "issues": 1,
-      "sizeKB": 156,
-      "pushedAt": "2026-11-07T05:12:30Z",
+      "issues": 0,
+      "sizeKB": 165,
+      "pushedAt": "2026-11-07T05:12:50Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
@@ -142,25 +151,6 @@
       "commits7d": 8,
       "archived": false,
       "isProfile": true,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "ai-world",
-      "url": "https://github.com/123caiji/ai-world",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 5408,
-      "pushedAt": "2026-11-07T03:08:04Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 60,
-      "archived": false,
-      "isProfile": false,
       "defaultBranch": "main"
     },
     {
@@ -230,7 +220,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 2,
+      "staleDays": 3,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
