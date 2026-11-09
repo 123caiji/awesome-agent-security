@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 276066,
+  "stars": 277088,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -54,7 +54,7 @@
   "url": "https://github.com/Coff0xc/Github-API-scan",
   "stars": 85,
   "lang": "Python",
-  "desc": "企业级AI密钥管理平台 | 23平台全覆盖 | 深度验证(余额/权限/评分) | 实时WebSocket推送 | Web可视化Dashboard | Docker一键部署 | 生产就绪",
+  "desc": "在指定的 GitHub 组织或仓库中查找泄露的 API 密钥，并导出脱敏的披露记录。",
   "topics": [
    "api-scanner",
    "python",
