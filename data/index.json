@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 277088,
+  "stars": 277867,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -22,7 +22,7 @@
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
   "stars": 269,
   "lang": "Python",
-  "desc": "MCP-native security automation workbench (SDK + CLI + MCP) — authorized testing + static AI/MCP attack-surface self-audit to SARIF / GitHub Code Scanning",
+  "desc": "Local MCP/AI attack-surface audit and evidence gate for authorized testing",
   "topics": [
    "active-directory",
    "ai-powered",
@@ -54,7 +54,7 @@
   "url": "https://github.com/Coff0xc/Github-API-scan",
   "stars": 85,
   "lang": "Python",
-  "desc": "在指定的 GitHub 组织或仓库中查找泄露的 API 密钥，并导出脱敏的披露记录。",
+  "desc": "在授权范围内找出泄露的 API 密钥，配对中转地址，扫描结束给出脱敏发现记录。",
   "topics": [
    "api-scanner",
    "python",
