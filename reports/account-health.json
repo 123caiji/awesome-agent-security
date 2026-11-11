@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-10T10:23:49.754Z",
+  "generatedAt": "2026-11-11T09:50:03.782Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 33
+    "publicRepos": 35
   },
   "totals": {
-    "repos": 33,
+    "repos": 35,
     "own": 15,
-    "forks": 18,
+    "forks": 20,
     "stars": 21,
     "openIssues": 7,
-    "active7d": 7,
-    "commits7d": 284,
+    "active7d": 6,
+    "commits7d": 200,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-09T10:19:54.078Z",
+    "since": "2026-11-10T10:23:49.754Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 33,
-        "after": 33,
-        "delta": 0
+        "after": 35,
+        "delta": 2
       },
       {
         "key": "stars",
@@ -45,15 +45,15 @@
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 7,
-        "after": 7,
-        "delta": 0
+        "after": 6,
+        "delta": -1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
         "before": 284,
-        "after": 284,
-        "delta": 0
+        "after": 200,
+        "delta": -84
       },
       {
         "key": "blocking",
@@ -103,14 +103,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 10835,
-      "pushedAt": "2026-11-10T08:29:59Z",
+      "sizeKB": 15007,
+      "pushedAt": "2026-11-11T09:24:15Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 59,
+      "commits7d": 60,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -122,8 +122,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 185,
-      "pushedAt": "2026-11-10T05:37:43Z",
+      "sizeKB": 186,
+      "pushedAt": "2026-11-11T04:10:39Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
@@ -141,14 +141,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 79,
-      "pushedAt": "2026-11-09T11:27:41Z",
+      "sizeKB": 85,
+      "pushedAt": "2026-11-10T11:08:28Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 16,
+      "commits7d": 17,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -162,7 +162,7 @@
       "issues": 0,
       "sizeKB": 6004,
       "pushedAt": "2026-11-05T10:26:42Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "NOASSERTION",
       "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
       "isMirror": true,
@@ -201,12 +201,12 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
       "hasWiki": false,
-      "commits7d": 100,
+      "commits7d": 15,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -220,12 +220,12 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 6,
+      "staleDays": 7,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 1,
+      "commits7d": 0,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "master"
@@ -239,7 +239,7 @@
       "issues": 0,
       "sizeKB": 2356,
       "pushedAt": "2026-10-31T11:46:01Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -258,7 +258,7 @@
       "issues": 0,
       "sizeKB": 1706,
       "pushedAt": "2026-10-31T11:37:40Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "isMirror": false,
@@ -277,7 +277,7 @@
       "issues": 0,
       "sizeKB": 267750,
       "pushedAt": "2026-10-29T12:36:30Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "MIT",
       "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
       "isMirror": false,
@@ -297,7 +297,7 @@
       "issues": 0,
       "sizeKB": 5784,
       "pushedAt": "2026-10-29T12:11:31Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "NOASSERTION",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -316,7 +316,7 @@
       "issues": 0,
       "sizeKB": 20,
       "pushedAt": "2026-10-29T12:10:05Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "MIT",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "isMirror": false,
@@ -335,7 +335,7 @@
       "issues": 0,
       "sizeKB": 1951,
       "pushedAt": "2026-10-29T12:04:01Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -354,7 +354,7 @@
       "issues": 0,
       "sizeKB": 219,
       "pushedAt": "2026-10-29T12:03:26Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -373,7 +373,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-10-29T12:03:24Z",
-      "staleDays": 11,
+      "staleDays": 12,
       "license": "MIT",
       "description": "123caiji的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -386,6 +386,11 @@
   ],
   "forks": [
     {
+      "name": "DeepInfer",
+      "url": "https://github.com/123caiji/DeepInfer",
+      "pushedAt": "2026-11-03T07:31:59Z"
+    },
+    {
       "name": "dsh-recommend",
       "url": "https://github.com/123caiji/dsh-recommend",
       "pushedAt": "2026-10-29T08:41:22Z"
@@ -394,6 +399,11 @@
       "name": "chronos",
       "url": "https://github.com/123caiji/chronos",
       "pushedAt": "2026-10-24T14:43:05Z"
+    },
+    {
+      "name": "anatomy",
+      "url": "https://github.com/123caiji/anatomy",
+      "pushedAt": "2026-10-18T20:20:24Z"
     },
     {
       "name": "AutoRedTeam-Orchestrator",
