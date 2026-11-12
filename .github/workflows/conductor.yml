@@ -1,0 +1,63 @@
+name: conductor
+
+# schedule 触发器实测稳定迟到约 6 小时（account-scan / update-index 都是），
+# 这里做幂等补派：今天该跑的工作流只要既没有 success、也没有在跑/排队，就补派一次。
+# 两个日更任务都会推 main，必须串行：先等 account-scan 跑完再派 update-index。
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: conductor
+  cancel-in-progress: false
+
+jobs:
+  ensure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 补齐今天该跑而没跑成的日更任务
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail
+          day=$(date -u +%F)
+          active_of() {
+            gh api "/repos/${REPO}/actions/workflows/${1}/runs?per_page=20" \
+              --jq '[.workflow_runs[] | select(.status=="in_progress" or .status=="queued" or .status=="waiting" or .status=="pending" or .status=="requested")] | length'
+          }
+          ok_today() {
+            gh api "/repos/${REPO}/actions/workflows/${1}/runs?created=>=${day}T00:00:00Z&per_page=50" \
+              --jq '[.workflow_runs[] | select(.status=="completed" and .conclusion=="success")] | length'
+          }
+          wait_idle() {
+            i=0
+            while [ "$i" -lt 24 ]; do
+              a=$(active_of "$1")
+              [ "$a" = "0" ] && { echo "$1 idle"; return 0; }
+              sleep 20
+              i=$((i+1))
+            done
+            echo "$1 still busy after 8min"
+            return 1
+          }
+          need() {
+            wf=$1
+            ok=$(ok_today "$wf")
+            a=$(active_of "$wf")
+            echo "$wf: success_today=$ok active=$a"
+            if [ "$ok" = "0" ] && [ "$a" = "0" ]; then
+              gh workflow run "$wf" --repo "$REPO" && echo "dispatched $wf"
+              return 0
+            fi
+            return 1
+          }
+          if need account-scan.yml; then
+            wait_idle account-scan.yml || true
+          fi
+          need update-index.yml || true
