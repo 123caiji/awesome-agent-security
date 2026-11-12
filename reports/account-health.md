@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-11-12T04:07:06.441Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-11-12T10:17:30.807Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -9,20 +9,20 @@
 | 公开仓库 | 38（自有 15 / fork 23） |
 | 自有仓库 star 合计 | 21 |
 | 自有仓库未关闭 issue/PR | 7 |
-| 近 7 天有推送的仓库 | 5 / 15 |
-| 近 7 天提交数 | 128 |
+| 近 7 天有推送的仓库 | 7 / 15 |
+| 近 7 天提交数 | 108 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 4 |
 
-## 较上一次扫描（2026-11-11）
+## 较上一次扫描（2026-11-12）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
-| 公开仓库 | 35 | 38 | +3 |
+| 公开仓库 | 38 | 38 | 持平 |
 | 自有仓库 star | 21 | 21 | 持平 |
 | 未关闭 issue/PR | 7 | 7 | 持平 |
-| 近 7 天活跃仓库 | 6 | 5 | -1 |
-| 近 7 天提交 | 200 | 128 | -72 |
+| 近 7 天活跃仓库 | 5 | 7 | +2 |
+| 近 7 天提交 | 128 | 108 | -20 |
 | 阻塞项 | 0 | 0 | 持平 |
 | 建议项 | 4 | 4 | 持平 |
 
@@ -32,8 +32,8 @@
 
 | 仓库 | 问题 | 建议 |
 | --- | --- | --- |
-| agens-harness | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 | rea | 仓库体积 138 MB（镜像仓，体积来自上游，HEAD 85.7 MB） | 镜像仓不追上游历史体积；要减体积只能裁剪镜像内容或停掉镜像，否则无需处理 |
+| agens-harness | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 | stm32-iot-smart-home | 体积记录 261 MB，但当前 HEAD 只有 0.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | AI-LLM-Agent-Learning | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 
@@ -41,21 +41,21 @@
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 187 KB | — | 9 | 2026-11-12 | 缺失 |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 92 KB | — | 18 | 2026-11-12 | MIT |
-| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 1 | 0 | 0 | 13 MB | — | 61 | 2026-11-12 | MIT |
+| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 1 | 0 | 0 | 13 MB | — | 66 | 2026-11-12 | MIT |
+| [rea](https://github.com/123caiji/rea) | TypeScript | 0 | 0 | 7 | 138 MB | 85.7 MB | 0 | 2026-11-12 | MIT |
+| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 1 | 0 | 0 | 2 MB | — | 7 | 2026-11-12 | MIT |
+| [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 2 | 2026-11-12 | MIT |
+| [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 218 KB | — | 0 | 2026-11-12 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 92 KB | — | 12 | 2026-11-12 | 缺失 |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 224 KB | — | 19 | 2026-11-12 | MIT |
+| [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | CSS | 0 | 0 | 0 | 9 KB | — | 1 | 2026-11-12 | MIT |
 | [agens-harness](https://github.com/123caiji/agens-harness) | HTML | 0 | 0 | 0 | 6 MB | — | 1 | 2026-11-05 | NOASSERTION |
-| [rea](https://github.com/123caiji/rea) | TypeScript | 0 | 0 | 7 | 138 MB | 85.7 MB | 39 | 2026-11-05 | MIT |
 | [craft-anything](https://github.com/123caiji/craft-anything) | Rust | 0 | 0 | 0 | 9 MB | — | 0 | 2026-11-05 | Apache-2.0 |
 | [sapper-v2](https://github.com/123caiji/sapper-v2) | Python | 0 | 0 | 0 | 28 MB | — | 0 | 2026-11-04 | MIT |
-| [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 1 | 0 | 0 | 2 MB | — | 0 | 2026-10-31 | MIT |
 | [dsh-memory-toolkit](https://github.com/123caiji/dsh-memory-toolkit) | TypeScript | 5 | 0 | 0 | 2 MB | — | 0 | 2026-10-31 | MIT |
 | [stm32-iot-smart-home](https://github.com/123caiji/stm32-iot-smart-home) | — | 2 | 0 | 0 | 261 MB | 510 KB | 0 | 2026-10-29 | MIT |
 | [AI-LLM-Agent-Learning](https://github.com/123caiji/AI-LLM-Agent-Learning) | Python | 8 | 1 | 0 | 6 MB | — | 0 | 2026-10-29 | NOASSERTION |
 | [dsh-live](https://github.com/123caiji/dsh-live) | JavaScript | 0 | 0 | 0 | 20 KB | — | 0 | 2026-10-29 | MIT |
-| [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 0 | 2026-10-29 | MIT |
-| [wulao](https://github.com/123caiji/wulao) | — | 1 | 0 | 0 | 219 KB | — | 0 | 2026-10-29 | MIT |
-| [123caiji.github.io](https://github.com/123caiji/123caiji.github.io) | CSS | 0 | 0 | 0 | 9 KB | — | 0 | 2026-10-29 | MIT |
 
 ## Fork
 
@@ -71,17 +71,17 @@
 | [toolkit](https://github.com/123caiji/toolkit) | 2026-09-02 | 有更新 |
 | [deepseek-harness](https://github.com/123caiji/deepseek-harness) | 2026-08-27 | 有更新 |
 | [architecture-open-source-research](https://github.com/123caiji/architecture-open-source-research) | 2026-08-12 | 91 天未动 |
-| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 96 天未动 |
-| [Github-API-scan](https://github.com/123caiji/Github-API-scan) | 2026-07-29 | 105 天未动 |
+| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 97 天未动 |
+| [Github-API-scan](https://github.com/123caiji/Github-API-scan) | 2026-07-29 | 106 天未动 |
 | [term3-lab](https://github.com/123caiji/term3-lab) | 2026-07-14 | 120 天未动 |
 | [Bad-Guy](https://github.com/123caiji/Bad-Guy) | 2026-07-02 | 132 天未动 |
 | [astah-diagram-automation](https://github.com/123caiji/astah-diagram-automation) | 2026-07-01 | 134 天未动 |
 | [Code-Audit](https://github.com/123caiji/Code-Audit) | 2026-06-30 | 134 天未动 |
-| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 143 天未动 |
+| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 144 天未动 |
 | [LLM-Security-Assessment-Framework](https://github.com/123caiji/LLM-Security-Assessment-Framework) | 2026-06-03 | 161 天未动 |
-| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 173 天未动 |
-| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 204 天未动 |
-| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 242 天未动 |
+| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 174 天未动 |
+| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 205 天未动 |
+| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 243 天未动 |
 | [teorias-numeradas](https://github.com/123caiji/teorias-numeradas) | 2025-06-02 | 528 天未动 |
 | [manuals](https://github.com/123caiji/manuals) | 2022-04-28 | 1658 天未动 |
 
