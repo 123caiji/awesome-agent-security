@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 279158,
+  "stars": 279459,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -568,7 +568,7 @@
   "url": "https://github.com/123caiji/123caiji.github.io",
   "stars": 0,
   "lang": "CSS",
-  "desc": "123caiji的个人技术博客:AI / Agent 学习记录与开源项目笔记。Markdown 写作,Jekyll + GitHub Pages 自动发布。",
+  "desc": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
   "topics": [
    "agent",
    "ai",
