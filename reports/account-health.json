@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:18:29.912Z",
+  "generatedAt": "2026-11-14T09:24:07.125Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -12,13 +12,13 @@
     "stars": 22,
     "openIssues": 7,
     "active7d": 6,
-    "commits7d": 108,
+    "commits7d": 110,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-13T09:58:18.867Z",
+    "since": "2026-11-14T06:18:29.912Z",
     "changes": [
       {
         "key": "repos",
@@ -30,9 +30,9 @@
       {
         "key": "stars",
         "label": "自有仓库 star",
-        "before": 21,
+        "before": 22,
         "after": 22,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "openIssues",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 109,
-        "after": 108,
-        "delta": -1
+        "before": 108,
+        "after": 110,
+        "delta": 2
       },
       {
         "key": "blocking",
@@ -103,8 +103,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 20550,
-      "pushedAt": "2026-11-14T06:06:32Z",
+      "sizeKB": 20619,
+      "pushedAt": "2026-11-14T08:52:27Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -122,14 +122,14 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 97,
-      "pushedAt": "2026-11-14T04:32:08Z",
+      "sizeKB": 98,
+      "pushedAt": "2026-11-14T06:52:26Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 13,
+      "commits7d": 14,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -141,14 +141,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 243,
-      "pushedAt": "2026-11-13T10:56:01Z",
+      "sizeKB": 249,
+      "pushedAt": "2026-11-14T06:19:00Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 19,
+      "commits7d": 20,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -162,7 +162,7 @@
       "issues": 7,
       "sizeKB": 141140,
       "pushedAt": "2026-11-12T07:29:23Z",
-      "staleDays": 1,
+      "staleDays": 2,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
       "isMirror": true,
@@ -182,7 +182,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 1,
+      "staleDays": 2,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -201,7 +201,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 1,
+      "staleDays": 2,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -296,7 +296,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
