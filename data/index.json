@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 280214,
+  "stars": 280684,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -349,6 +349,27 @@
   "note": "STM32 + LoRa + FreeRTOS 的环境监测智能家居毕业设计。"
  },
  {
+  "section": "我的项目",
+  "owner": "123caiji",
+  "name": "ai-world",
+  "url": "https://github.com/123caiji/ai-world",
+  "stars": 2,
+  "lang": "JavaScript",
+  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
+  "topics": [
+   "ai",
+   "ai-news",
+   "automation",
+   "deepseek-harness",
+   "github-pages",
+   "intelligence",
+   "llm",
+   "news-aggregator",
+   "rss"
+  ],
+  "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
+ },
+ {
   "section": "DeepSeek Harness 插件生态",
   "owner": "zp-home",
   "name": "architecture-open-source-research",
@@ -489,27 +510,6 @@
    "vue"
   ],
   "note": "康养数字孪生可视化（Vue + 3D）。"
- },
- {
-  "section": "我的项目",
-  "owner": "123caiji",
-  "name": "ai-world",
-  "url": "https://github.com/123caiji/ai-world",
-  "stars": 1,
-  "lang": "JavaScript",
-  "desc": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
-  "topics": [
-   "ai",
-   "ai-news",
-   "automation",
-   "deepseek-harness",
-   "github-pages",
-   "intelligence",
-   "llm",
-   "news-aggregator",
-   "rss"
-  ],
-  "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
  },
  {
   "section": "DeepSeek Harness 插件生态",
