@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 281687,
+  "stars": 282089,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -20,7 +20,7 @@
   "owner": "Coff0xc",
   "name": "AutoRedTeam-Orchestrator",
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
-  "stars": 269,
+  "stars": 270,
   "lang": "Python",
   "desc": "Local MCP/AI attack-surface audit and evidence gate for authorized testing",
   "topics": [
@@ -69,11 +69,30 @@
  {
   "section": "AI 安全与红队工具",
   "owner": "Coff0xc",
+  "name": "CTF-MCP",
+  "url": "https://github.com/Coff0xc/CTF-MCP",
+  "stars": 32,
+  "lang": "Python",
+  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn | CTF 挑战 MCP 服务器 - Web/密码学/二进制利用工具集",
+  "topics": [
+   "binary-exploitation",
+   "cryptography",
+   "ctf",
+   "mcp",
+   "penetration-testing",
+   "security",
+   "web-security"
+  ],
+  "note": "126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。"
+ },
+ {
+  "section": "AI 安全与红队工具",
+  "owner": "Coff0xc",
   "name": "catchclaw",
   "url": "https://github.com/Coff0xc/catchclaw",
   "stars": 31,
   "lang": "Rust",
-  "desc": "CatchClaw v5.3.0 — 多平台 AI Agent 安全评估工具，支持 OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow 等 9 大平台。78 条 DAG 攻击链 | 78 个 Exploit 模块 | ATT&CK 阶段映射 | 多平台指纹识别 | Async Tokio 引擎 | 攻击图可视化",
+  "desc": "CatchClaw v5.3.0 — Multi-platform AI Agent security assessment tool for OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow and 9 platforms. 78 DAG attack chains | 78 exploit modules | ATT&CK mapping | multi-platform fingerprinting | Async Tokio engine | attack-graph visualization",
   "topics": [
    "ai-security",
    "automation",
@@ -97,25 +116,6 @@
    "websocket"
   ],
   "note": "Rust 实现的多平台 AI Agent 安全评估，覆盖 OpenClaw / Dify / FastGPT / LobeChat / NextChat。"
- },
- {
-  "section": "AI 安全与红队工具",
-  "owner": "Coff0xc",
-  "name": "CTF-MCP",
-  "url": "https://github.com/Coff0xc/CTF-MCP",
-  "stars": 31,
-  "lang": "Python",
-  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn | CTF 挑战 MCP 服务器 - Web/密码学/二进制利用工具集",
-  "topics": [
-   "binary-exploitation",
-   "cryptography",
-   "ctf",
-   "mcp",
-   "penetration-testing",
-   "security",
-   "web-security"
-  ],
-  "note": "126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。"
  },
  {
   "section": "AI 安全与红队工具",
@@ -284,7 +284,7 @@
   "owner": "zp-home",
   "name": "dsh-weixin-clawbot",
   "url": "https://github.com/zp-home/dsh-weixin-clawbot",
-  "stars": 3,
+  "stars": 4,
   "lang": "JavaScript",
   "desc": "Phone-to-DSH control through Tencent's official Weixin ClawBot/iLink channel | 基于腾讯官方微信 ClawBot/iLink 的 DSH 手机远程控制插件",
   "topics": [
