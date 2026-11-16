@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 281363,
+  "stars": 281687,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -43,9 +43,26 @@
   "lang": "Python",
   "desc": "Scan GitHub / local git for leaked AI API keys (OpenAI, Claude, Gemini, xAI, DeepSeek + 50). Pairs each key with its relay URL, checks if it still works, dashboard included.",
   "topics": [
-   "api-scanner",
+   "anthropic",
+   "api-key",
+   "bug-bounty",
+   "chatgpt",
+   "claude",
+   "deepseek",
+   "gemini",
+   "github-scanner",
+   "groq",
+   "leak-detection",
+   "llm",
+   "openai",
+   "openai-api",
+   "osint",
    "python",
-   "redteam"
+   "redteam",
+   "secret-scanner",
+   "secret-scanning",
+   "security",
+   "xai"
   ],
   "note": "多平台 AI 密钥泄露扫描与可用性验证（23 个平台），带 Web Dashboard 与 Docker 一键部署。"
  },
