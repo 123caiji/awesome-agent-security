@@ -1,28 +1,28 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-11-16T02:43:37.154Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-11-16T10:10:06.532Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
 | 指标 | 数值 |
 | --- | --- |
-| 公开仓库 | 38（自有 15 / fork 23） |
+| 公开仓库 | 39（自有 15 / fork 24） |
 | 自有仓库 star 合计 | 22 |
 | 自有仓库未关闭 issue/PR | 7 |
 | 近 7 天有推送的仓库 | 6 / 15 |
-| 近 7 天提交数 | 114 |
+| 近 7 天提交数 | 117 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 4 |
 
-## 较上一次扫描（2026-11-15）
+## 较上一次扫描（2026-11-16）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
-| 公开仓库 | 38 | 38 | 持平 |
+| 公开仓库 | 38 | 39 | +1 |
 | 自有仓库 star | 22 | 22 | 持平 |
 | 未关闭 issue/PR | 7 | 7 | 持平 |
 | 近 7 天活跃仓库 | 6 | 6 | 持平 |
-| 近 7 天提交 | 113 | 114 | +1 |
+| 近 7 天提交 | 114 | 117 | +3 |
 | 阻塞项 | 0 | 0 | 持平 |
 | 建议项 | 4 | 4 | 持平 |
 
@@ -42,8 +42,8 @@
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 2 | 0 | 0 | 22 MB | — | 66 | 2026-11-16 | MIT |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 103 KB | — | 15 | 2026-11-15 | 缺失 |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 267 KB | — | 23 | 2026-11-15 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 104 KB | — | 16 | 2026-11-16 | 缺失 |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 273 KB | — | 25 | 2026-11-16 | MIT |
 | [rea](https://github.com/123caiji/rea) | TypeScript | 0 | 0 | 7 | 138 MB | 85.7 MB | 0 | 2026-11-12 | MIT |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 1 | 0 | 0 | 2 MB | — | 7 | 2026-11-12 | MIT |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 2 | 2026-11-12 | MIT |
@@ -61,6 +61,7 @@
 
 | 仓库 | 最后推送 | 状态 |
 | --- | --- | --- |
+| [magpie](https://github.com/123caiji/magpie) | 2026-11-16 | 有更新 |
 | [DeepInfer](https://github.com/123caiji/DeepInfer) | 2026-11-03 | 有更新 |
 | [dsh-recommend](https://github.com/123caiji/dsh-recommend) | 2026-10-29 | 有更新 |
 | [chronos](https://github.com/123caiji/chronos) | 2026-10-24 | 有更新 |
@@ -71,17 +72,17 @@
 | [toolkit](https://github.com/123caiji/toolkit) | 2026-09-02 | 有更新 |
 | [deepseek-harness](https://github.com/123caiji/deepseek-harness) | 2026-08-27 | 有更新 |
 | [architecture-open-source-research](https://github.com/123caiji/architecture-open-source-research) | 2026-08-12 | 95 天未动 |
-| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 100 天未动 |
-| [Github-API-scan](https://github.com/123caiji/Github-API-scan) | 2026-07-29 | 109 天未动 |
+| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 101 天未动 |
+| [Github-API-scan](https://github.com/123caiji/Github-API-scan) | 2026-07-29 | 110 天未动 |
 | [term3-lab](https://github.com/123caiji/term3-lab) | 2026-07-14 | 124 天未动 |
 | [Bad-Guy](https://github.com/123caiji/Bad-Guy) | 2026-07-02 | 136 天未动 |
-| [astah-diagram-automation](https://github.com/123caiji/astah-diagram-automation) | 2026-07-01 | 137 天未动 |
+| [astah-diagram-automation](https://github.com/123caiji/astah-diagram-automation) | 2026-07-01 | 138 天未动 |
 | [Code-Audit](https://github.com/123caiji/Code-Audit) | 2026-06-30 | 138 天未动 |
-| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 147 天未动 |
+| [catchclaw](https://github.com/123caiji/catchclaw) | 2026-06-21 | 148 天未动 |
 | [LLM-Security-Assessment-Framework](https://github.com/123caiji/LLM-Security-Assessment-Framework) | 2026-06-03 | 165 天未动 |
-| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 177 天未动 |
-| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 208 天未动 |
-| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 246 天未动 |
+| [coffee-skill](https://github.com/123caiji/coffee-skill) | 2026-05-22 | 178 天未动 |
+| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 209 天未动 |
+| [CTF-MCP](https://github.com/123caiji/CTF-MCP) | 2026-03-14 | 247 天未动 |
 | [teorias-numeradas](https://github.com/123caiji/teorias-numeradas) | 2025-06-02 | 532 天未动 |
 | [manuals](https://github.com/123caiji/manuals) | 2022-04-28 | 1662 天未动 |
 
