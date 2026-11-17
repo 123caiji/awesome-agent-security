@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 282089,
+  "stars": 282734,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -73,7 +73,7 @@
   "url": "https://github.com/Coff0xc/CTF-MCP",
   "stars": 32,
   "lang": "Python",
-  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn | CTF 挑战 MCP 服务器 - Web/密码学/二进制利用工具集",
+  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn",
   "topics": [
    "binary-exploitation",
    "cryptography",
