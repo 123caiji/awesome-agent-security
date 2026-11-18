@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-18T04:18:04.032Z",
+  "generatedAt": "2026-11-18T10:43:47.084Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 39
+    "publicRepos": 40
   },
   "totals": {
-    "repos": 39,
+    "repos": 40,
     "own": 15,
-    "forks": 24,
+    "forks": 25,
     "stars": 22,
     "openIssues": 7,
     "active7d": 6,
-    "commits7d": 118,
+    "commits7d": 120,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-17T11:08:01.178Z",
+    "since": "2026-11-18T04:18:04.032Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 39,
-        "after": 39,
-        "delta": 0
+        "after": 40,
+        "delta": 1
       },
       {
         "key": "stars",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 117,
-        "after": 118,
-        "delta": 1
+        "before": 118,
+        "after": 120,
+        "delta": 2
       },
       {
         "key": "blocking",
@@ -103,8 +103,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 25402,
-      "pushedAt": "2026-11-18T04:01:50Z",
+      "sizeKB": 25655,
+      "pushedAt": "2026-11-18T09:33:59Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -122,14 +122,14 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 107,
-      "pushedAt": "2026-11-17T20:20:58Z",
+      "sizeKB": 108,
+      "pushedAt": "2026-11-18T05:32:11Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 17,
+      "commits7d": 18,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -141,14 +141,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 285,
-      "pushedAt": "2026-11-17T11:48:18Z",
+      "sizeKB": 292,
+      "pushedAt": "2026-11-18T04:18:31Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 25,
+      "commits7d": 26,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -162,7 +162,7 @@
       "issues": 7,
       "sizeKB": 141140,
       "pushedAt": "2026-11-12T07:29:23Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
       "isMirror": true,
@@ -182,7 +182,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -201,7 +201,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -220,7 +220,7 @@
       "issues": 0,
       "sizeKB": 218,
       "pushedAt": "2026-11-12T05:33:32Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -239,7 +239,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-11-12T05:07:53Z",
-      "staleDays": 5,
+      "staleDays": 6,
       "license": "MIT",
       "description": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -258,7 +258,7 @@
       "issues": 0,
       "sizeKB": 6004,
       "pushedAt": "2026-11-05T10:26:42Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "NOASSERTION",
       "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
       "isMirror": true,
@@ -277,7 +277,7 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
@@ -296,7 +296,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 13,
+      "staleDays": 14,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
@@ -385,6 +385,11 @@
     }
   ],
   "forks": [
+    {
+      "name": "ARTEX-contrib",
+      "url": "https://github.com/123caiji/ARTEX-contrib",
+      "pushedAt": "2026-11-17T23:08:32Z"
+    },
     {
       "name": "magpie",
       "url": "https://github.com/123caiji/magpie",
