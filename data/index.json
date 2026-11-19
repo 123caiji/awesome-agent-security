@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 283727,
+  "stars": 284001,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -333,6 +333,7 @@
    "ctf",
    "cybersecurity",
    "ethical-hacking",
+   "hunting",
    "penetration-testing",
    "recon",
    "security-tools",
@@ -382,6 +383,7 @@
    "intelligence",
    "llm",
    "news-aggregator",
+   "osint",
    "rss"
   ],
   "note": "纯 GitHub Actions 的 AI 情报雷达：20 个公开源 + GitHub 四榜 + 插件 diff，产出静态站与 RSS，零依赖零成本。"
@@ -523,6 +525,7 @@
    "3d-visualization",
    "digital-twin",
    "graduation-project",
+   "iot",
    "visualization",
    "vue"
   ],
@@ -606,6 +609,7 @@
   "lang": "JavaScript",
   "desc": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
   "topics": [
+   "agent",
    "cockpit",
    "cordis",
    "deepseek-harness",
