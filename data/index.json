@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 283396,
+  "stars": 283727,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -20,7 +20,7 @@
   "owner": "Coff0xc",
   "name": "AutoRedTeam-Orchestrator",
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
-  "stars": 270,
+  "stars": 271,
   "lang": "Python",
   "desc": "Local MCP/AI attack-surface audit and evidence gate for authorized testing",
   "topics": [
@@ -39,7 +39,7 @@
   "owner": "Coff0xc",
   "name": "Github-API-scan",
   "url": "https://github.com/Coff0xc/Github-API-scan",
-  "stars": 86,
+  "stars": 87,
   "lang": "Python",
   "desc": "Scan GitHub / local git for leaked AI API keys (OpenAI, Claude, Gemini, xAI, DeepSeek + 50). Pairs each key with its relay URL, checks if it still works, dashboard included.",
   "topics": [
@@ -90,7 +90,7 @@
   "owner": "Coff0xc",
   "name": "catchclaw",
   "url": "https://github.com/Coff0xc/catchclaw",
-  "stars": 31,
+  "stars": 32,
   "lang": "Rust",
   "desc": "CatchClaw v5.3.0 — Multi-platform AI Agent security assessment tool for OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow and 9 platforms. 78 DAG attack chains | 78 exploit modules | ATT&CK mapping | multi-platform fingerprinting | Async Tokio engine | attack-graph visualization",
   "topics": [
@@ -122,7 +122,7 @@
   "owner": "Coff0xc",
   "name": "LLM-Security-Assessment-Framework",
   "url": "https://github.com/Coff0xc/LLM-Security-Assessment-Framework",
-  "stars": 24,
+  "stars": 25,
   "lang": "Python",
   "desc": "FORGEDAN — An Evolutionary Framework for LLM Security Assessment | 6 Attack Methods | 18 Model Adapters | Vue 3 Dashboard | Web Security Scanning",
   "topics": [
@@ -161,7 +161,7 @@
   "owner": "Coff0xc",
   "name": "coffee-skill",
   "url": "https://github.com/Coff0xc/coffee-skill",
-  "stars": 16,
+  "stars": 17,
   "lang": "Python",
   "desc": "Installable Codex/AgentSkills workflow pack for dev, Agent/RAG, API/data, Office artifacts, research diagrams, and authorized security review.",
   "topics": [
