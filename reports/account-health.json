@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-21T01:31:47.478Z",
+  "generatedAt": "2026-11-21T10:11:59.578Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 49
+    "publicRepos": 50
   },
   "totals": {
-    "repos": 49,
-    "own": 15,
+    "repos": 50,
+    "own": 16,
     "forks": 34,
     "stars": 22,
     "openIssues": 0,
-    "active7d": 3,
-    "commits7d": 112,
+    "active7d": 4,
+    "commits7d": 141,
     "wikiOn": 0,
-    "blocking": 0,
+    "blocking": 1,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-20T10:28:41.069Z",
+    "since": "2026-11-21T01:31:47.478Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 49,
-        "after": 49,
-        "delta": 0
+        "after": 50,
+        "delta": 1
       },
       {
         "key": "stars",
@@ -45,22 +45,22 @@
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 3,
-        "after": 3,
-        "delta": 0
+        "after": 4,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 111,
-        "after": 112,
-        "delta": 1
+        "before": 112,
+        "after": 141,
+        "delta": 29
       },
       {
         "key": "blocking",
         "label": "阻塞项",
         "before": 0,
-        "after": 0,
-        "delta": 0
+        "after": 1,
+        "delta": 1
       },
       {
         "key": "suggestions",
@@ -71,7 +71,13 @@
       }
     ]
   },
-  "blocking": [],
+  "blocking": [
+    {
+      "repo": "hunt-lab",
+      "problem": "缺少许可证",
+      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
+    }
+  ],
   "suggestions": [
     {
       "repo": "rea",
@@ -103,8 +109,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 36642,
-      "pushedAt": "2026-11-21T01:08:25Z",
+      "sizeKB": 45304,
+      "pushedAt": "2026-11-21T09:25:44Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -116,20 +122,39 @@
       "defaultBranch": "main"
     },
     {
+      "name": "hunt-lab",
+      "url": "https://github.com/123caiji/hunt-lab",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 53,
+      "pushedAt": "2026-11-21T07:18:43Z",
+      "staleDays": 0,
+      "license": null,
+      "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 27,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
       "name": "123caiji",
       "url": "https://github.com/123caiji/123caiji",
       "language": "JavaScript",
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 144,
-      "pushedAt": "2026-11-20T19:30:29Z",
+      "sizeKB": 132,
+      "pushedAt": "2026-11-21T06:50:11Z",
       "staleDays": 0,
       "license": null,
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 25,
+      "commits7d": 27,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -141,8 +166,8 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 323,
-      "pushedAt": "2026-11-20T11:34:25Z",
+      "sizeKB": 332,
+      "pushedAt": "2026-11-21T06:22:11Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
@@ -162,7 +187,7 @@
       "issues": 0,
       "sizeKB": 140855,
       "pushedAt": "2026-11-20T09:24:55Z",
-      "staleDays": 0,
+      "staleDays": 1,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
       "isMirror": true,
@@ -182,7 +207,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 8,
+      "staleDays": 9,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -201,7 +226,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 8,
+      "staleDays": 9,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -220,7 +245,7 @@
       "issues": 0,
       "sizeKB": 218,
       "pushedAt": "2026-11-12T05:33:32Z",
-      "staleDays": 8,
+      "staleDays": 9,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -239,7 +264,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-11-12T05:07:53Z",
-      "staleDays": 8,
+      "staleDays": 9,
       "license": "MIT",
       "description": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -277,7 +302,7 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 15,
+      "staleDays": 16,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
@@ -296,7 +321,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 16,
+      "staleDays": 17,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
