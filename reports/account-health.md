@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-11-22T05:48:23.584Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-11-22T10:16:59.179Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -8,22 +8,22 @@
 | --- | --- |
 | 公开仓库 | 64（自有 16 / fork 48） |
 | 自有仓库 star 合计 | 22 |
-| 自有仓库未关闭 issue/PR | 1 |
+| 自有仓库未关闭 issue/PR | 0 |
 | 近 7 天有推送的仓库 | 4 / 16 |
 | 近 7 天提交数 | 143 |
 | 待处理（阻塞） | 0 |
 | 待处理（建议） | 4 |
 
-## 较上一次扫描（2026-11-21）
+## 较上一次扫描（2026-11-22）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
-| 公开仓库 | 50 | 64 | +14 |
+| 公开仓库 | 64 | 64 | 持平 |
 | 自有仓库 star | 22 | 22 | 持平 |
-| 未关闭 issue/PR | 0 | 1 | +1 |
+| 未关闭 issue/PR | 1 | 0 | -1 |
 | 近 7 天活跃仓库 | 4 | 4 | 持平 |
-| 近 7 天提交 | 141 | 143 | +2 |
-| 阻塞项 | 1 | 0 | -1 |
+| 近 7 天提交 | 143 | 143 | 持平 |
+| 阻塞项 | 0 | 0 | 持平 |
 | 建议项 | 4 | 4 | 持平 |
 
 ## 待处理
@@ -37,20 +37,14 @@
 | stm32-iot-smart-home | 体积记录 261 MB，但当前 HEAD 只有 0.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | AI-LLM-Agent-Learning | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 
-## 未关闭的 issue / PR
-
-| 仓库 | 类型 | 标题 | 作者 | 挂了多久 |
-| --- | --- | --- | --- | --- |
-| awesome-agent-security | [issue #8](https://github.com/123caiji/awesome-agent-security/issues/8) | 账号维护：1 项待处理 | github-actions[bot] | 0 天 |
-
 ## 自有仓库
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 137 KB | — | 28 | 2026-11-22 | MIT |
-| [hunt-lab](https://github.com/123caiji/hunt-lab) | JavaScript | 0 | 0 | 0 | 53 KB | — | 28 | 2026-11-22 | MIT |
-| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 2 | 0 | 0 | 25 MB | — | 61 | 2026-11-22 | MIT |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 1 | 344 KB | — | 26 | 2026-11-22 | MIT |
+| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 2 | 0 | 0 | 34 MB | — | 61 | 2026-11-22 | MIT |
+| [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 138 KB | — | 28 | 2026-11-22 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 347 KB | — | 26 | 2026-11-22 | MIT |
+| [hunt-lab](https://github.com/123caiji/hunt-lab) | JavaScript | 0 | 0 | 0 | 54 KB | — | 28 | 2026-11-22 | MIT |
 | [rea](https://github.com/123caiji/rea) | TypeScript | 0 | 0 | 0 | 138 MB | 85.7 MB | 0 | 2026-11-20 | MIT |
 | [kangyang-digital-twin](https://github.com/123caiji/kangyang-digital-twin) | Vue | 1 | 0 | 0 | 2 MB | — | 0 | 2026-11-12 | MIT |
 | [security-research-toolkit](https://github.com/123caiji/security-research-toolkit) | Python | 2 | 0 | 0 | 2 MB | — | 0 | 2026-11-12 | MIT |
@@ -97,7 +91,7 @@
 | [deepseek-harness](https://github.com/123caiji/deepseek-harness) | 2026-08-27 | 有更新 |
 | [architecture-open-source-research](https://github.com/123caiji/architecture-open-source-research) | 2026-08-12 | 101 天未动 |
 | [binwalk](https://github.com/123caiji/binwalk) | 2026-08-11 | 102 天未动 |
-| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 106 天未动 |
+| [vero](https://github.com/123caiji/vero) | 2026-08-07 | 107 天未动 |
 | [hexstrike-ai](https://github.com/123caiji/hexstrike-ai) | 2026-08-03 | 110 天未动 |
 | [term3-lab](https://github.com/123caiji/term3-lab) | 2026-07-14 | 130 天未动 |
 | [Bad-Guy](https://github.com/123caiji/Bad-Guy) | 2026-07-02 | 142 天未动 |
@@ -105,16 +99,16 @@
 | [Code-Audit](https://github.com/123caiji/Code-Audit) | 2026-06-30 | 144 天未动 |
 | [database_scan](https://github.com/123caiji/database_scan) | 2026-06-17 | 158 天未动 |
 | [audit-skills](https://github.com/123caiji/audit-skills) | 2026-06-16 | 159 天未动 |
-| [CACM](https://github.com/123caiji/CACM) | 2026-06-10 | 164 天未动 |
-| [net-audit-skills](https://github.com/123caiji/net-audit-skills) | 2026-06-01 | 173 天未动 |
-| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 214 天未动 |
+| [CACM](https://github.com/123caiji/CACM) | 2026-06-10 | 165 天未动 |
+| [net-audit-skills](https://github.com/123caiji/net-audit-skills) | 2026-06-01 | 174 天未动 |
+| [Hexstrike-ai-6.2](https://github.com/123caiji/Hexstrike-ai-6.2) | 2026-04-21 | 215 天未动 |
 | [java-decompile-mcp](https://github.com/123caiji/java-decompile-mcp) | 2026-01-23 | 302 天未动 |
 | [memory-shell-mcp](https://github.com/123caiji/memory-shell-mcp) | 2026-01-14 | 312 天未动 |
-| [Code-Audit-Scanner](https://github.com/123caiji/Code-Audit-Scanner) | 2025-12-25 | 331 天未动 |
-| [DarKnuclei](https://github.com/123caiji/DarKnuclei) | 2025-06-06 | 533 天未动 |
+| [Code-Audit-Scanner](https://github.com/123caiji/Code-Audit-Scanner) | 2025-12-25 | 332 天未动 |
+| [DarKnuclei](https://github.com/123caiji/DarKnuclei) | 2025-06-06 | 534 天未动 |
 | [teorias-numeradas](https://github.com/123caiji/teorias-numeradas) | 2025-06-02 | 538 天未动 |
 | [xxl-job-FLM](https://github.com/123caiji/xxl-job-FLM) | 2025-01-26 | 664 天未动 |
-| [mqtt-pwn](https://github.com/123caiji/mqtt-pwn) | 2024-08-09 | 834 天未动 |
+| [mqtt-pwn](https://github.com/123caiji/mqtt-pwn) | 2024-08-09 | 835 天未动 |
 | [manuals](https://github.com/123caiji/manuals) | 2022-04-28 | 1668 天未动 |
 
 _统计口径：GitHub 公开 API 的 /users/123caiji/repos。阻塞阈值：无许可证、体积 > 50 MB、超过 90 天无推送；体积会再用当前 HEAD 的树大小交叉校验，历史已重写但 GitHub 记录滞后的仓库只算建议项。声明为镜像（description 以 Mirror of / 镜像 开头）的仓库，体积问题只算建议项。_

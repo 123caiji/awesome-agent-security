@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T05:48:23.584Z",
+  "generatedAt": "2026-11-22T10:16:59.179Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -10,7 +10,7 @@
     "own": 16,
     "forks": 48,
     "stars": 22,
-    "openIssues": 1,
+    "openIssues": 0,
     "active7d": 4,
     "commits7d": 143,
     "wikiOn": 0,
@@ -18,14 +18,14 @@
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-21T10:11:59.578Z",
+    "since": "2026-11-22T05:48:23.584Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
-        "before": 50,
+        "before": 64,
         "after": 64,
-        "delta": 14
+        "delta": 0
       },
       {
         "key": "stars",
@@ -37,9 +37,9 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 0,
-        "after": 1,
-        "delta": 1
+        "before": 1,
+        "after": 0,
+        "delta": -1
       },
       {
         "key": "active7d",
@@ -51,16 +51,16 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 141,
+        "before": 143,
         "after": 143,
-        "delta": 2
+        "delta": 0
       },
       {
         "key": "blocking",
         "label": "阻塞项",
-        "before": 1,
+        "before": 0,
         "after": 0,
-        "delta": -1
+        "delta": 0
       },
       {
         "key": "suggestions",
@@ -94,56 +94,8 @@
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
     }
   ],
-  "openThreads": [
-    {
-      "repo": "awesome-agent-security",
-      "number": 8,
-      "kind": "issue",
-      "title": "账号维护：1 项待处理",
-      "author": "github-actions[bot]",
-      "ageDays": 0,
-      "url": "https://github.com/123caiji/awesome-agent-security/issues/8"
-    }
-  ],
+  "openThreads": [],
   "own": [
-    {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 137,
-      "pushedAt": "2026-11-22T05:48:10Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 28,
-      "archived": false,
-      "isProfile": true,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "hunt-lab",
-      "url": "https://github.com/123caiji/hunt-lab",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 53,
-      "pushedAt": "2026-11-22T05:48:08Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 28,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
     {
       "name": "ai-world",
       "url": "https://github.com/123caiji/ai-world",
@@ -151,8 +103,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 26104,
-      "pushedAt": "2026-11-22T04:44:50Z",
+      "sizeKB": 35142,
+      "pushedAt": "2026-11-22T10:16:49Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -164,20 +116,58 @@
       "defaultBranch": "main"
     },
     {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 138,
+      "pushedAt": "2026-11-22T05:48:32Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 28,
+      "archived": false,
+      "isProfile": true,
+      "defaultBranch": "main"
+    },
+    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "issues": 1,
-      "sizeKB": 344,
-      "pushedAt": "2026-11-22T03:10:47Z",
+      "issues": 0,
+      "sizeKB": 347,
+      "pushedAt": "2026-11-22T05:48:30Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
       "commits7d": 26,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "hunt-lab",
+      "url": "https://github.com/123caiji/hunt-lab",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 54,
+      "pushedAt": "2026-11-22T05:48:08Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 28,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -191,7 +181,7 @@
       "issues": 0,
       "sizeKB": 140855,
       "pushedAt": "2026-11-20T09:24:55Z",
-      "staleDays": 1,
+      "staleDays": 2,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
       "isMirror": true,
@@ -211,7 +201,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -230,7 +220,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -306,7 +296,7 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 16,
+      "staleDays": 17,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
@@ -325,7 +315,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 17,
+      "staleDays": 18,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
