@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-21T10:11:59.578Z",
+  "generatedAt": "2026-11-22T05:48:23.584Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 50
+    "publicRepos": 64
   },
   "totals": {
-    "repos": 50,
+    "repos": 64,
     "own": 16,
-    "forks": 34,
+    "forks": 48,
     "stars": 22,
-    "openIssues": 0,
+    "openIssues": 1,
     "active7d": 4,
-    "commits7d": 141,
+    "commits7d": 143,
     "wikiOn": 0,
-    "blocking": 1,
+    "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-21T01:31:47.478Z",
+    "since": "2026-11-21T10:11:59.578Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
-        "before": 49,
-        "after": 50,
-        "delta": 1
+        "before": 50,
+        "after": 64,
+        "delta": 14
       },
       {
         "key": "stars",
@@ -38,29 +38,29 @@
         "key": "openIssues",
         "label": "未关闭 issue/PR",
         "before": 0,
-        "after": 0,
-        "delta": 0
+        "after": 1,
+        "delta": 1
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
-        "before": 3,
+        "before": 4,
         "after": 4,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 112,
-        "after": 141,
-        "delta": 29
+        "before": 141,
+        "after": 143,
+        "delta": 2
       },
       {
         "key": "blocking",
         "label": "阻塞项",
-        "before": 0,
-        "after": 1,
-        "delta": 1
+        "before": 1,
+        "after": 0,
+        "delta": -1
       },
       {
         "key": "suggestions",
@@ -71,13 +71,7 @@
       }
     ]
   },
-  "blocking": [
-    {
-      "repo": "hunt-lab",
-      "problem": "缺少许可证",
-      "advice": "选择一个 OSI 许可（MIT / Apache-2.0）并加上 LICENSE 文件"
-    }
-  ],
+  "blocking": [],
   "suggestions": [
     {
       "repo": "rea",
@@ -100,8 +94,56 @@
       "advice": "用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE"
     }
   ],
-  "openThreads": [],
+  "openThreads": [
+    {
+      "repo": "awesome-agent-security",
+      "number": 8,
+      "kind": "issue",
+      "title": "账号维护：1 项待处理",
+      "author": "github-actions[bot]",
+      "ageDays": 0,
+      "url": "https://github.com/123caiji/awesome-agent-security/issues/8"
+    }
+  ],
   "own": [
+    {
+      "name": "123caiji",
+      "url": "https://github.com/123caiji/123caiji",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 137,
+      "pushedAt": "2026-11-22T05:48:10Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 28,
+      "archived": false,
+      "isProfile": true,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "hunt-lab",
+      "url": "https://github.com/123caiji/hunt-lab",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 53,
+      "pushedAt": "2026-11-22T05:48:08Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 28,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
     {
       "name": "ai-world",
       "url": "https://github.com/123caiji/ai-world",
@@ -109,8 +151,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 45304,
-      "pushedAt": "2026-11-21T09:25:44Z",
+      "sizeKB": 26104,
+      "pushedAt": "2026-11-22T04:44:50Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -122,52 +164,14 @@
       "defaultBranch": "main"
     },
     {
-      "name": "hunt-lab",
-      "url": "https://github.com/123caiji/hunt-lab",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 53,
-      "pushedAt": "2026-11-21T07:18:43Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 27,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "123caiji",
-      "url": "https://github.com/123caiji/123caiji",
-      "language": "JavaScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 132,
-      "pushedAt": "2026-11-21T06:50:11Z",
-      "staleDays": 0,
-      "license": null,
-      "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 27,
-      "archived": false,
-      "isProfile": true,
-      "defaultBranch": "main"
-    },
-    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "issues": 0,
-      "sizeKB": 332,
-      "pushedAt": "2026-11-21T06:22:11Z",
+      "issues": 1,
+      "sizeKB": 344,
+      "pushedAt": "2026-11-22T03:10:47Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
@@ -245,7 +249,7 @@
       "issues": 0,
       "sizeKB": 218,
       "pushedAt": "2026-11-12T05:33:32Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -264,7 +268,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-11-12T05:07:53Z",
-      "staleDays": 9,
+      "staleDays": 10,
       "license": "MIT",
       "description": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -283,7 +287,7 @@
       "issues": 0,
       "sizeKB": 6004,
       "pushedAt": "2026-11-05T10:26:42Z",
-      "staleDays": 15,
+      "staleDays": 16,
       "license": "NOASSERTION",
       "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
       "isMirror": true,
@@ -340,7 +344,7 @@
       "issues": 0,
       "sizeKB": 1706,
       "pushedAt": "2026-10-31T11:37:40Z",
-      "staleDays": 20,
+      "staleDays": 21,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "isMirror": false,
@@ -359,7 +363,7 @@
       "issues": 0,
       "sizeKB": 267750,
       "pushedAt": "2026-10-29T12:36:30Z",
-      "staleDays": 22,
+      "staleDays": 23,
       "license": "MIT",
       "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
       "isMirror": false,
@@ -379,7 +383,7 @@
       "issues": 0,
       "sizeKB": 5784,
       "pushedAt": "2026-10-29T12:11:31Z",
-      "staleDays": 22,
+      "staleDays": 23,
       "license": "NOASSERTION",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -398,7 +402,7 @@
       "issues": 0,
       "sizeKB": 20,
       "pushedAt": "2026-10-29T12:10:05Z",
-      "staleDays": 22,
+      "staleDays": 23,
       "license": "MIT",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "isMirror": false,
@@ -411,9 +415,19 @@
   ],
   "forks": [
     {
+      "name": "ARTEX",
+      "url": "https://github.com/123caiji/ARTEX",
+      "pushedAt": "2026-11-21T08:41:47Z"
+    },
+    {
       "name": "cve-poc",
       "url": "https://github.com/123caiji/cve-poc",
       "pushedAt": "2026-11-20T09:14:23Z"
+    },
+    {
+      "name": "AgentMirror",
+      "url": "https://github.com/123caiji/AgentMirror",
+      "pushedAt": "2026-11-19T13:01:48Z"
     },
     {
       "name": "LLM-Security-Assessment-Framework",
@@ -439,11 +453,6 @@
       "name": "catchclaw",
       "url": "https://github.com/123caiji/catchclaw",
       "pushedAt": "2026-11-19T05:59:32Z"
-    },
-    {
-      "name": "ARTEX-contrib",
-      "url": "https://github.com/123caiji/ARTEX-contrib",
-      "pushedAt": "2026-11-19T05:59:30Z"
     },
     {
       "name": "AutoRedTeam-Orchestrator",
@@ -501,6 +510,21 @@
       "pushedAt": "2026-10-18T20:20:24Z"
     },
     {
+      "name": "Norma",
+      "url": "https://github.com/123caiji/Norma",
+      "pushedAt": "2026-10-18T11:34:34Z"
+    },
+    {
+      "name": "AegisHook",
+      "url": "https://github.com/123caiji/AegisHook",
+      "pushedAt": "2026-10-12T08:56:41Z"
+    },
+    {
+      "name": "ScopeSentry",
+      "url": "https://github.com/123caiji/ScopeSentry",
+      "pushedAt": "2026-10-11T03:21:00Z"
+    },
+    {
       "name": "kb-graph",
       "url": "https://github.com/123caiji/kb-graph",
       "pushedAt": "2026-09-10T10:35:30Z"
@@ -509,6 +533,11 @@
       "name": "AgentRed",
       "url": "https://github.com/123caiji/AgentRed",
       "pushedAt": "2026-09-08T05:43:51Z"
+    },
+    {
+      "name": "Cairn",
+      "url": "https://github.com/123caiji/Cairn",
+      "pushedAt": "2026-09-07T15:23:06Z"
     },
     {
       "name": "toolkit",
@@ -561,14 +590,59 @@
       "pushedAt": "2026-06-30T14:11:48Z"
     },
     {
+      "name": "database_scan",
+      "url": "https://github.com/123caiji/database_scan",
+      "pushedAt": "2026-06-17T04:26:44Z"
+    },
+    {
+      "name": "audit-skills",
+      "url": "https://github.com/123caiji/audit-skills",
+      "pushedAt": "2026-06-16T03:50:50Z"
+    },
+    {
+      "name": "CACM",
+      "url": "https://github.com/123caiji/CACM",
+      "pushedAt": "2026-06-10T09:52:12Z"
+    },
+    {
+      "name": "net-audit-skills",
+      "url": "https://github.com/123caiji/net-audit-skills",
+      "pushedAt": "2026-06-01T08:09:55Z"
+    },
+    {
       "name": "Hexstrike-ai-6.2",
       "url": "https://github.com/123caiji/Hexstrike-ai-6.2",
       "pushedAt": "2026-04-21T10:00:15Z"
     },
     {
+      "name": "java-decompile-mcp",
+      "url": "https://github.com/123caiji/java-decompile-mcp",
+      "pushedAt": "2026-01-23T10:40:02Z"
+    },
+    {
+      "name": "memory-shell-mcp",
+      "url": "https://github.com/123caiji/memory-shell-mcp",
+      "pushedAt": "2026-01-14T05:42:29Z"
+    },
+    {
+      "name": "Code-Audit-Scanner",
+      "url": "https://github.com/123caiji/Code-Audit-Scanner",
+      "pushedAt": "2025-12-25T06:56:15Z"
+    },
+    {
+      "name": "DarKnuclei",
+      "url": "https://github.com/123caiji/DarKnuclei",
+      "pushedAt": "2025-06-06T10:03:16Z"
+    },
+    {
       "name": "teorias-numeradas",
       "url": "https://github.com/123caiji/teorias-numeradas",
       "pushedAt": "2025-06-02T01:45:08Z"
+    },
+    {
+      "name": "xxl-job-FLM",
+      "url": "https://github.com/123caiji/xxl-job-FLM",
+      "pushedAt": "2025-01-26T10:18:21Z"
     },
     {
       "name": "mqtt-pwn",
