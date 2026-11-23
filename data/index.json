@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 285557,
+  "stars": 285892,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -20,7 +20,7 @@
   "owner": "Coff0xc",
   "name": "AutoRedTeam-Orchestrator",
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
-  "stars": 272,
+  "stars": 273,
   "lang": "Python",
   "desc": "Local MCP/AI attack-surface audit and evidence gate for authorized testing",
   "topics": [
@@ -39,7 +39,7 @@
   "owner": "Coff0xc",
   "name": "Github-API-scan",
   "url": "https://github.com/Coff0xc/Github-API-scan",
-  "stars": 87,
+  "stars": 89,
   "lang": "Python",
   "desc": "Scan GitHub / local git for leaked AI API keys (OpenAI, Claude, Gemini, xAI, DeepSeek + 50). Pairs each key with its relay URL, checks if it still works, dashboard included.",
   "topics": [
@@ -69,28 +69,9 @@
  {
   "section": "AI 安全与红队工具",
   "owner": "Coff0xc",
-  "name": "CTF-MCP",
-  "url": "https://github.com/Coff0xc/CTF-MCP",
-  "stars": 32,
-  "lang": "Python",
-  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn",
-  "topics": [
-   "binary-exploitation",
-   "cryptography",
-   "ctf",
-   "mcp",
-   "penetration-testing",
-   "security",
-   "web-security"
-  ],
-  "note": "126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。"
- },
- {
-  "section": "AI 安全与红队工具",
-  "owner": "Coff0xc",
   "name": "catchclaw",
   "url": "https://github.com/Coff0xc/catchclaw",
-  "stars": 32,
+  "stars": 33,
   "lang": "Rust",
   "desc": "CatchClaw v5.3.0 — Multi-platform AI Agent security assessment tool for OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow and 9 platforms. 78 DAG attack chains | 78 exploit modules | ATT&CK mapping | multi-platform fingerprinting | Async Tokio engine | attack-graph visualization",
   "topics": [
@@ -116,6 +97,25 @@
    "websocket"
   ],
   "note": "Rust 实现的多平台 AI Agent 安全评估，覆盖 OpenClaw / Dify / FastGPT / LobeChat / NextChat。"
+ },
+ {
+  "section": "AI 安全与红队工具",
+  "owner": "Coff0xc",
+  "name": "CTF-MCP",
+  "url": "https://github.com/Coff0xc/CTF-MCP",
+  "stars": 32,
+  "lang": "Python",
+  "desc": "MCP Server for CTF challenges - 126 tools for Web/Crypto/Pwn",
+  "topics": [
+   "binary-exploitation",
+   "cryptography",
+   "ctf",
+   "mcp",
+   "penetration-testing",
+   "security",
+   "web-security"
+  ],
+  "note": "126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。"
  },
  {
   "section": "AI 安全与红队工具",

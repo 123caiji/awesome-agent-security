@@ -36,10 +36,10 @@
 <!-- INDEX:START AI 安全与红队工具 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | 272 | Python | MCP 原生的安全自动化工作台，SDK + CLI + MCP 三件套，把授权测试从侦察一路编排到报告。 |
-| [Github-API-scan](https://github.com/Coff0xc/Github-API-scan) | 87 | Python | 多平台 AI 密钥泄露扫描与可用性验证（23 个平台），带 Web Dashboard 与 Docker 一键部署。 |
+| [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | 273 | Python | MCP 原生的安全自动化工作台，SDK + CLI + MCP 三件套，把授权测试从侦察一路编排到报告。 |
+| [Github-API-scan](https://github.com/Coff0xc/Github-API-scan) | 89 | Python | 多平台 AI 密钥泄露扫描与可用性验证（23 个平台），带 Web Dashboard 与 Docker 一键部署。 |
+| [catchclaw](https://github.com/Coff0xc/catchclaw) | 33 | Rust | Rust 实现的多平台 AI Agent 安全评估，覆盖 OpenClaw / Dify / FastGPT / LobeChat / NextChat。 |
 | [CTF-MCP](https://github.com/Coff0xc/CTF-MCP) | 32 | Python | 126 个 CTF 工具的 MCP 服务器，让 Agent 直接上手 Web / Crypto / Pwn。 |
-| [catchclaw](https://github.com/Coff0xc/catchclaw) | 32 | Rust | Rust 实现的多平台 AI Agent 安全评估，覆盖 OpenClaw / Dify / FastGPT / LobeChat / NextChat。 |
 | [LLM-Security-Assessment-Framework](https://github.com/Coff0xc/LLM-Security-Assessment-Framework) | 25 | Python | FORGEDAN：6 类攻击方法 + 18 项指标的 LLM 安全评测框架。 |
 | [coffee-skill](https://github.com/Coff0xc/coffee-skill) | 17 | Python | 开箱即用的 AgentSkills 工作流包（开发 / RAG / API / 数据处理 / Office 产物）。 |
 | [Hexstrike-ai-6.2](https://github.com/Coff0xc/Hexstrike-ai-6.2) | 13 | Python | HexStrike 社区分支，强化了 MCP 集成与工具链。 |
@@ -54,7 +54,7 @@
 <!-- INDEX:START DeepSeek Harness 插件生态 -->
 | 项目 | ★ | 语言 | 简介 |
 | --- | --- | --- | --- |
-| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 285557 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
+| [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 285892 | TypeScript | DSH Agent 框架本体：一切皆插件（Cordis 插件体系 + profile 组合 + Web 客户端），下面这些插件都挂在它上面。 |
 | [dsh-recommend](https://github.com/zp-home/dsh-recommend) | 24 | JavaScript | DSH 生态里最热的插件发现面板，用来筛选值得装的插件。 |
 | [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) | 4 | JavaScript | 把微信接入 DeepSeek Harness 的桥接插件。 |
 | [dsh-dev-sandbox](https://github.com/zp-home/dsh-dev-sandbox) | 2 | TypeScript | 给 DSH 会话加隔离沙箱的开发插件。 |
