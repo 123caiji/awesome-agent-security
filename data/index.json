@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 286597,
+  "stars": 286865,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -22,7 +22,7 @@
   "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
   "stars": 272,
   "lang": "Python",
-  "desc": "Local MCP/AI attack-surface audit and evidence gate for authorized testing",
+  "desc": "Local MCP/AI attack-surface audit and authorized-engagement evidence gate",
   "topics": [
    "ai",
    "attack-surface",
