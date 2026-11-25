@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:55:57.567Z",
+  "generatedAt": "2026-11-25T02:24:43.777Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -12,13 +12,13 @@
     "stars": 22,
     "openIssues": 0,
     "active7d": 4,
-    "commits7d": 145,
+    "commits7d": 147,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-24T05:59:45.904Z",
+    "since": "2026-11-24T12:55:57.567Z",
     "changes": [
       {
         "key": "repos",
@@ -51,9 +51,9 @@
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 144,
-        "after": 145,
-        "delta": 1
+        "before": 145,
+        "after": 147,
+        "delta": 2
       },
       {
         "key": "blocking",
@@ -103,8 +103,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 47703,
-      "pushedAt": "2026-11-24T11:59:45Z",
+      "sizeKB": 39138,
+      "pushedAt": "2026-11-25T01:50:48Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -122,8 +122,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 151,
-      "pushedAt": "2026-11-24T07:56:21Z",
+      "sizeKB": 154,
+      "pushedAt": "2026-11-24T21:49:56Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
@@ -141,14 +141,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 371,
-      "pushedAt": "2026-11-24T06:00:20Z",
+      "sizeKB": 377,
+      "pushedAt": "2026-11-24T13:39:26Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 27,
+      "commits7d": 29,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -162,7 +162,7 @@
       "issues": 0,
       "sizeKB": 55,
       "pushedAt": "2026-11-23T01:13:04Z",
-      "staleDays": 1,
+      "staleDays": 2,
       "license": "MIT",
       "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
       "isMirror": false,
