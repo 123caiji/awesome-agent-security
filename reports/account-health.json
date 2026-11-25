@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-25T02:24:43.777Z",
+  "generatedAt": "2026-11-25T11:43:10.600Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
-    "publicRepos": 64
+    "publicRepos": 67
   },
   "totals": {
-    "repos": 64,
-    "own": 16,
-    "forks": 48,
-    "stars": 22,
+    "repos": 67,
+    "own": 17,
+    "forks": 50,
+    "stars": 23,
     "openIssues": 0,
-    "active7d": 4,
-    "commits7d": 147,
+    "active7d": 5,
+    "commits7d": 171,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-24T12:55:57.567Z",
+    "since": "2026-11-25T02:24:43.777Z",
     "changes": [
       {
         "key": "repos",
         "label": "公开仓库",
         "before": 64,
-        "after": 64,
-        "delta": 0
+        "after": 67,
+        "delta": 3
       },
       {
         "key": "stars",
         "label": "自有仓库 star",
         "before": 22,
-        "after": 22,
-        "delta": 0
+        "after": 23,
+        "delta": 1
       },
       {
         "key": "openIssues",
@@ -45,15 +45,15 @@
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 4,
-        "after": 4,
-        "delta": 0
+        "after": 5,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 145,
-        "after": 147,
-        "delta": 2
+        "before": 147,
+        "after": 171,
+        "delta": 24
       },
       {
         "key": "blocking",
@@ -103,8 +103,8 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 39138,
-      "pushedAt": "2026-11-25T01:50:48Z",
+      "sizeKB": 49787,
+      "pushedAt": "2026-11-25T10:08:09Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -122,8 +122,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 154,
-      "pushedAt": "2026-11-24T21:49:56Z",
+      "sizeKB": 220,
+      "pushedAt": "2026-11-25T08:58:26Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
@@ -135,20 +135,39 @@
       "defaultBranch": "main"
     },
     {
+      "name": "tama",
+      "url": "https://github.com/123caiji/tama",
+      "language": "C++",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 2622,
+      "pushedAt": "2026-11-25T07:38:47Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Tama · Windows 桌面猫：键帽气泡 + DSH 状态联动 + 数据驱动皮肤（单文件原生 / 零依赖 / 离线）",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 26,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
       "name": "awesome-agent-security",
       "url": "https://github.com/123caiji/awesome-agent-security",
       "language": "JavaScript",
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 377,
-      "pushedAt": "2026-11-24T13:39:26Z",
+      "sizeKB": 383,
+      "pushedAt": "2026-11-25T02:25:17Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 29,
+      "commits7d": 27,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -181,7 +200,7 @@
       "issues": 0,
       "sizeKB": 140855,
       "pushedAt": "2026-11-20T09:24:55Z",
-      "staleDays": 4,
+      "staleDays": 5,
       "license": "MIT",
       "description": "Mirror of morluto/rea",
       "isMirror": true,
@@ -201,7 +220,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -220,7 +239,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -239,7 +258,7 @@
       "issues": 0,
       "sizeKB": 218,
       "pushedAt": "2026-11-12T05:33:32Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -258,7 +277,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-11-12T05:07:53Z",
-      "staleDays": 12,
+      "staleDays": 13,
       "license": "MIT",
       "description": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -277,7 +296,7 @@
       "issues": 0,
       "sizeKB": 6004,
       "pushedAt": "2026-11-05T10:26:42Z",
-      "staleDays": 19,
+      "staleDays": 20,
       "license": "NOASSERTION",
       "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
       "isMirror": true,
@@ -296,7 +315,7 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 19,
+      "staleDays": 20,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
@@ -315,7 +334,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 20,
+      "staleDays": 21,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
@@ -334,7 +353,7 @@
       "issues": 0,
       "sizeKB": 1706,
       "pushedAt": "2026-10-31T11:37:40Z",
-      "staleDays": 24,
+      "staleDays": 25,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "isMirror": false,
@@ -405,19 +424,54 @@
   ],
   "forks": [
     {
-      "name": "ARTEX",
-      "url": "https://github.com/123caiji/ARTEX",
-      "pushedAt": "2026-11-21T08:41:47Z"
-    },
-    {
-      "name": "cve-poc",
-      "url": "https://github.com/123caiji/cve-poc",
-      "pushedAt": "2026-11-20T09:14:23Z"
+      "name": "Norma",
+      "url": "https://github.com/123caiji/Norma",
+      "pushedAt": "2026-11-25T11:09:44Z"
     },
     {
       "name": "AgentMirror",
       "url": "https://github.com/123caiji/AgentMirror",
-      "pushedAt": "2026-11-19T13:01:48Z"
+      "pushedAt": "2026-11-25T11:09:41Z"
+    },
+    {
+      "name": "Claude-BugHunter",
+      "url": "https://github.com/123caiji/Claude-BugHunter",
+      "pushedAt": "2026-11-25T11:09:32Z"
+    },
+    {
+      "name": "cve-poc",
+      "url": "https://github.com/123caiji/cve-poc",
+      "pushedAt": "2026-11-25T11:09:30Z"
+    },
+    {
+      "name": "dsh-recommend",
+      "url": "https://github.com/123caiji/dsh-recommend",
+      "pushedAt": "2026-11-25T11:09:24Z"
+    },
+    {
+      "name": "catchclaw",
+      "url": "https://github.com/123caiji/catchclaw",
+      "pushedAt": "2026-11-25T11:09:22Z"
+    },
+    {
+      "name": "AutoRedTeam-Orchestrator",
+      "url": "https://github.com/123caiji/AutoRedTeam-Orchestrator",
+      "pushedAt": "2026-11-25T11:09:20Z"
+    },
+    {
+      "name": "kurocat-qianyiai",
+      "url": "https://github.com/123caiji/kurocat-qianyiai",
+      "pushedAt": "2026-11-25T11:06:30Z"
+    },
+    {
+      "name": "KuroCat-chanke17",
+      "url": "https://github.com/123caiji/KuroCat-chanke17",
+      "pushedAt": "2026-11-24T16:08:28Z"
+    },
+    {
+      "name": "ARTEX",
+      "url": "https://github.com/123caiji/ARTEX",
+      "pushedAt": "2026-11-21T08:41:47Z"
     },
     {
       "name": "LLM-Security-Assessment-Framework",
@@ -440,24 +494,9 @@
       "pushedAt": "2026-11-19T05:59:33Z"
     },
     {
-      "name": "catchclaw",
-      "url": "https://github.com/123caiji/catchclaw",
-      "pushedAt": "2026-11-19T05:59:32Z"
-    },
-    {
-      "name": "AutoRedTeam-Orchestrator",
-      "url": "https://github.com/123caiji/AutoRedTeam-Orchestrator",
-      "pushedAt": "2026-11-19T05:59:29Z"
-    },
-    {
       "name": "amass",
       "url": "https://github.com/123caiji/amass",
       "pushedAt": "2026-11-19T02:24:23Z"
-    },
-    {
-      "name": "Claude-BugHunter",
-      "url": "https://github.com/123caiji/Claude-BugHunter",
-      "pushedAt": "2026-11-18T23:51:01Z"
     },
     {
       "name": "nuclei",
@@ -485,11 +524,6 @@
       "pushedAt": "2026-11-03T07:31:59Z"
     },
     {
-      "name": "dsh-recommend",
-      "url": "https://github.com/123caiji/dsh-recommend",
-      "pushedAt": "2026-10-29T08:41:22Z"
-    },
-    {
       "name": "chronos",
       "url": "https://github.com/123caiji/chronos",
       "pushedAt": "2026-10-24T14:43:05Z"
@@ -498,11 +532,6 @@
       "name": "anatomy",
       "url": "https://github.com/123caiji/anatomy",
       "pushedAt": "2026-10-18T20:20:24Z"
-    },
-    {
-      "name": "Norma",
-      "url": "https://github.com/123caiji/Norma",
-      "pushedAt": "2026-10-18T11:34:34Z"
     },
     {
       "name": "AegisHook",
