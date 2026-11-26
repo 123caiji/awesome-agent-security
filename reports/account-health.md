@@ -1,6 +1,6 @@
 # 账号健康报告 · 123caiji
 
-> 自动生成于 2026-11-26T05:00:27.432Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
+> 自动生成于 2026-11-26T05:34:03.987Z（UTC）· 由 .github/workflows/account-scan.yml 每日扫描，请勿手改
 
 ## 概览
 
@@ -8,48 +8,49 @@
 | --- | --- |
 | 公开仓库 | 67（自有 17 / fork 50） |
 | 自有仓库 star 合计 | 23 |
-| 自有仓库未关闭 issue/PR | 0 |
+| 自有仓库未关闭 issue/PR | 1 |
 | 近 7 天有推送的仓库 | 5 / 17 |
-| 近 7 天提交数 | 170 |
-| 待处理（阻塞） | 1 |
-| 待处理（建议） | 4 |
+| 近 7 天提交数 | 175 |
+| 待处理（阻塞） | 0 |
+| 待处理（建议） | 5 |
 
-## 较上一次扫描（2026-11-25）
+## 较上一次扫描（2026-11-26）
 
 | 指标 | 上次 | 现在 | 变化 |
 | --- | --- | --- | --- |
 | 公开仓库 | 67 | 67 | 持平 |
 | 自有仓库 star | 23 | 23 | 持平 |
-| 未关闭 issue/PR | 0 | 0 | 持平 |
+| 未关闭 issue/PR | 0 | 1 | +1 |
 | 近 7 天活跃仓库 | 5 | 5 | 持平 |
-| 近 7 天提交 | 171 | 170 | -1 |
-| 阻塞项 | 0 | 1 | +1 |
-| 建议项 | 4 | 4 | 持平 |
+| 近 7 天提交 | 170 | 175 | +5 |
+| 阻塞项 | 1 | 0 | -1 |
+| 建议项 | 4 | 5 | +1 |
 
 ## 待处理
-
-### 阻塞项
-
-| 仓库 | 问题 | 建议 |
-| --- | --- | --- |
-| ai-world | 仓库体积 50 MB | 清理历史大文件（git filter-repo / BFG），或把二进制移出仓库 |
 
 ### 建议
 
 | 仓库 | 问题 | 建议 |
 | --- | --- | --- |
+| ai-world | 体积记录 50 MB，但当前 HEAD 只有 11.4 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | rea | 仓库体积 138 MB（镜像仓，体积来自上游，HEAD 85.7 MB） | 镜像仓不追上游历史体积；要减体积只能裁剪镜像内容或停掉镜像，否则无需处理 |
 | agens-harness | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 | stm32-iot-smart-home | 体积记录 261 MB，但当前 HEAD 只有 0.5 MB | 历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理 |
 | AI-LLM-Agent-Learning | 许可证未被 GitHub 识别 | 用了自定义或 CC 类许可时可忽略；想统一成 MIT / Apache-2.0 就换掉 LICENSE |
 
+## 未关闭的 issue / PR
+
+| 仓库 | 类型 | 标题 | 作者 | 挂了多久 |
+| --- | --- | --- | --- | --- |
+| awesome-agent-security | [issue #9](https://github.com/123caiji/awesome-agent-security/issues/9) | 账号维护：1 项待处理 | github-actions[bot] | 0 天 |
+
 ## 自有仓库
 
 | 仓库 | 语言 | ★ | Fork | Issue/PR | 记录体积 | HEAD 体积 | 近 7 天提交 | 最后推送 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 2 | 0 | 0 | 50 MB | 11.4 MB | 63 | 2026-11-26 | MIT |
+| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 1 | 390 KB | — | 29 | 2026-11-26 | MIT |
 | [123caiji](https://github.com/123caiji/123caiji) | JavaScript | 0 | 0 | 0 | 226 KB | — | 28 | 2026-11-26 | MIT |
-| [ai-world](https://github.com/123caiji/ai-world) | JavaScript | 2 | 0 | 0 | 50 MB | 40.8 MB | 60 | 2026-11-26 | MIT |
-| [awesome-agent-security](https://github.com/123caiji/awesome-agent-security) | JavaScript | 1 | 0 | 0 | 390 KB | — | 27 | 2026-11-25 | MIT |
 | [tama](https://github.com/123caiji/tama) | C++ | 1 | 0 | 0 | 3 MB | — | 26 | 2026-11-25 | MIT |
 | [hunt-lab](https://github.com/123caiji/hunt-lab) | JavaScript | 0 | 0 | 0 | 55 KB | — | 29 | 2026-11-23 | MIT |
 | [rea](https://github.com/123caiji/rea) | TypeScript | 0 | 0 | 0 | 138 MB | 85.7 MB | 0 | 2026-11-20 | MIT |
