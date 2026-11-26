@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 286865,
+  "stars": 287168,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -26,7 +26,9 @@
   "topics": [
    "ai",
    "attack-surface",
+   "audit",
    "mcp",
+   "owasp",
    "python",
    "sarif",
    "security",
