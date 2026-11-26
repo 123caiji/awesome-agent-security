@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 287168,
+  "stars": 287375,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -74,7 +74,7 @@
   "name": "catchclaw",
   "url": "https://github.com/Coff0xc/catchclaw",
   "stars": 33,
-  "lang": "Rust",
+  "lang": "Go",
   "desc": "CatchClaw v5.3.0 — Multi-platform AI Agent security assessment tool for OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow and 9 platforms. 78 DAG attack chains | 78 exploit modules | ATT&CK mapping | multi-platform fingerprinting | Async Tokio engine | attack-graph visualization",
   "topics": [
    "ai-security",
@@ -208,7 +208,7 @@
   "owner": "123caiji",
   "name": "AI-LLM-Agent-Learning",
   "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
-  "stars": 8,
+  "stars": 9,
   "lang": "Python",
   "desc": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
   "topics": [
