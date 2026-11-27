@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:28:18.747Z",
+  "generatedAt": "2026-11-27T08:26:03.403Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -10,15 +10,15 @@
     "own": 17,
     "forks": 50,
     "stars": 24,
-    "openIssues": 11,
-    "active7d": 5,
-    "commits7d": 168,
+    "openIssues": 0,
+    "active7d": 6,
+    "commits7d": 175,
     "wikiOn": 0,
     "blocking": 0,
-    "suggestions": 5
+    "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-26T05:34:03.987Z",
+    "since": "2026-11-26T11:28:18.747Z",
     "changes": [
       {
         "key": "repos",
@@ -30,30 +30,30 @@
       {
         "key": "stars",
         "label": "自有仓库 star",
-        "before": 23,
+        "before": 24,
         "after": 24,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 1,
-        "after": 11,
-        "delta": 10
+        "before": 11,
+        "after": 0,
+        "delta": -11
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
         "before": 5,
-        "after": 5,
-        "delta": 0
+        "after": 6,
+        "delta": 1
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 175,
-        "after": 168,
-        "delta": -7
+        "before": 168,
+        "after": 175,
+        "delta": 7
       },
       {
         "key": "blocking",
@@ -66,21 +66,16 @@
         "key": "suggestions",
         "label": "建议项",
         "before": 5,
-        "after": 5,
-        "delta": 0
+        "after": 4,
+        "delta": -1
       }
     ]
   },
   "blocking": [],
   "suggestions": [
     {
-      "repo": "ai-world",
-      "problem": "体积记录 53 MB，但当前 HEAD 只有 11.5 MB",
-      "advice": "历史已重写，等 GitHub 服务端回收（可主动联系支持加速），无需再处理"
-    },
-    {
       "repo": "rea",
-      "problem": "仓库体积 138 MB（镜像仓，体积来自上游，HEAD 85.7 MB）",
+      "problem": "仓库体积 137 MB（镜像仓，体积来自上游，HEAD 85.7 MB）",
       "advice": "镜像仓不追上游历史体积；要减体积只能裁剪镜像内容或停掉镜像，否则无需处理"
     },
     {
@@ -102,14 +97,33 @@
   "openThreads": [],
   "own": [
     {
+      "name": "tama",
+      "url": "https://github.com/123caiji/tama",
+      "language": "C++",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 2859,
+      "pushedAt": "2026-11-27T07:54:20Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Tama · Windows 桌面猫：键帽气泡 + DSH 状态联动 + 数据驱动皮肤（单文件原生 / 零依赖 / 离线）",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 32,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
       "name": "ai-world",
       "url": "https://github.com/123caiji/ai-world",
       "language": "JavaScript",
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 54219,
-      "pushedAt": "2026-11-26T11:05:23Z",
+      "sizeKB": 41768,
+      "pushedAt": "2026-11-27T06:24:38Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
@@ -118,28 +132,7 @@
       "commits7d": 63,
       "archived": false,
       "isProfile": false,
-      "defaultBranch": "main",
-      "headKB": 11741
-    },
-    {
-      "name": "rea",
-      "url": "https://github.com/123caiji/rea",
-      "language": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 11,
-      "sizeKB": 141465,
-      "pushedAt": "2026-11-26T07:31:53Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "Mirror of morluto/rea",
-      "isMirror": true,
-      "hasWiki": false,
-      "commits7d": 0,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main",
-      "headKB": 87714
+      "defaultBranch": "main"
     },
     {
       "name": "123caiji",
@@ -148,17 +141,37 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 226,
-      "pushedAt": "2026-11-26T06:24:36Z",
+      "sizeKB": 295,
+      "pushedAt": "2026-11-27T06:13:42Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 21,
+      "commits7d": 22,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
+    },
+    {
+      "name": "rea",
+      "url": "https://github.com/123caiji/rea",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 140750,
+      "pushedAt": "2026-11-27T03:32:26Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "Mirror of morluto/rea",
+      "isMirror": true,
+      "hasWiki": false,
+      "commits7d": 1,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main",
+      "headKB": 87713
     },
     {
       "name": "awesome-agent-security",
@@ -167,33 +180,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 263,
-      "pushedAt": "2026-11-26T05:34:12Z",
+      "sizeKB": 269,
+      "pushedAt": "2026-11-26T12:27:44Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 29,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
-    },
-    {
-      "name": "tama",
-      "url": "https://github.com/123caiji/tama",
-      "language": "C++",
-      "stars": 1,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 2622,
-      "pushedAt": "2026-11-25T07:38:47Z",
-      "staleDays": 1,
-      "license": "MIT",
-      "description": "Tama · Windows 桌面猫：键帽气泡 + DSH 状态联动 + 数据驱动皮肤（单文件原生 / 零依赖 / 离线）",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 26,
+      "commits7d": 28,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -207,7 +201,7 @@
       "issues": 0,
       "sizeKB": 55,
       "pushedAt": "2026-11-23T01:13:04Z",
-      "staleDays": 3,
+      "staleDays": 4,
       "license": "MIT",
       "description": "白名单内的狩猎自动化：只打公开授权靶场（scanme/vulnweb），限速 + 非侵入模板，不扫自有资产。",
       "isMirror": false,
@@ -226,7 +220,7 @@
       "issues": 0,
       "sizeKB": 2375,
       "pushedAt": "2026-11-12T06:31:20Z",
-      "staleDays": 14,
+      "staleDays": 15,
       "license": "MIT",
       "description": "kangyang-digital-twin graduation project",
       "isMirror": false,
@@ -245,7 +239,7 @@
       "issues": 0,
       "sizeKB": 1958,
       "pushedAt": "2026-11-12T06:20:06Z",
-      "staleDays": 14,
+      "staleDays": 15,
       "license": "MIT",
       "description": "Security Research Toolkit and HackSkills Knowledge Base - Authorized Penetration Testing, Bug Bounty, Web/API Security",
       "isMirror": false,
@@ -264,7 +258,7 @@
       "issues": 0,
       "sizeKB": 218,
       "pushedAt": "2026-11-12T05:33:32Z",
-      "staleDays": 14,
+      "staleDays": 15,
       "license": "MIT",
       "description": "中文大模型学习笔记:MLY 与大模型基础系列的图文深度总结、要点提炼与多轮验证版整理。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -283,7 +277,7 @@
       "issues": 0,
       "sizeKB": 9,
       "pushedAt": "2026-11-12T05:07:53Z",
-      "staleDays": 14,
+      "staleDays": 15,
       "license": "MIT",
       "description": "AI / Agent 学习记录与开源项目笔记。Markdown 写作，Jekyll + GitHub Pages 自动发布。",
       "isMirror": false,
@@ -359,7 +353,7 @@
       "issues": 0,
       "sizeKB": 1706,
       "pushedAt": "2026-10-31T11:37:40Z",
-      "staleDays": 25,
+      "staleDays": 26,
       "license": "MIT",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "isMirror": false,
@@ -378,7 +372,7 @@
       "issues": 0,
       "sizeKB": 267750,
       "pushedAt": "2026-10-29T12:36:30Z",
-      "staleDays": 27,
+      "staleDays": 28,
       "license": "MIT",
       "description": "基于 STM32 的物联网智能家居与环境监测项目集合:智能家居控制系统(STM32F103)、LoRa 环境监测网络、FreeRTOS 工程、电路图与元器件清单,附 IoT 平台从 0 到 1 构建指南笔记。",
       "isMirror": false,
@@ -398,7 +392,7 @@
       "issues": 0,
       "sizeKB": 5784,
       "pushedAt": "2026-10-29T12:11:31Z",
-      "staleDays": 27,
+      "staleDays": 28,
       "license": "NOASSERTION",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "isMirror": false,
@@ -417,7 +411,7 @@
       "issues": 0,
       "sizeKB": 20,
       "pushedAt": "2026-10-29T12:10:05Z",
-      "staleDays": 27,
+      "staleDays": 28,
       "license": "MIT",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "isMirror": false,
@@ -429,6 +423,11 @@
     }
   ],
   "forks": [
+    {
+      "name": "cve-poc",
+      "url": "https://github.com/123caiji/cve-poc",
+      "pushedAt": "2026-11-27T05:11:00Z"
+    },
     {
       "name": "catchclaw",
       "url": "https://github.com/123caiji/catchclaw",
@@ -458,11 +457,6 @@
       "name": "KuroCat-chanke17",
       "url": "https://github.com/123caiji/KuroCat-chanke17",
       "pushedAt": "2026-11-26T03:22:36Z"
-    },
-    {
-      "name": "cve-poc",
-      "url": "https://github.com/123caiji/cve-poc",
-      "pushedAt": "2026-11-26T03:22:35Z"
     },
     {
       "name": "nuclei",
