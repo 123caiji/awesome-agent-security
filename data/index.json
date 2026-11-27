@@ -4,7 +4,7 @@
   "owner": "deepseek-ai",
   "name": "deepseek-harness",
   "url": "https://github.com/deepseek-ai/deepseek-harness",
-  "stars": 287375,
+  "stars": 287813,
   "lang": "TypeScript",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
   "topics": [
@@ -75,7 +75,7 @@
   "url": "https://github.com/Coff0xc/catchclaw",
   "stars": 33,
   "lang": "Go",
-  "desc": "CatchClaw v5.3.0 — Multi-platform AI Agent security assessment tool for OpenClaw / Dify / FastGPT / LobeChat / NextChat / AnythingLLM / Flowise / RagFlow and 9 platforms. 78 DAG attack chains | 78 exploit modules | ATT&CK mapping | multi-platform fingerprinting | Async Tokio engine | attack-graph visualization",
+  "desc": "CatchClaw v6.0.0 (Go), MIT license. Authorized AI/LLM platform assessment: 25 stacks, 412 modules, DAG orchestration, Nuclei, OSINT, MCP. Written authorization required for every target.",
   "topics": [
    "ai-security",
    "automation",
