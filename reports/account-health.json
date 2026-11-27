@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T08:26:03.403Z",
+  "generatedAt": "2026-11-27T11:24:40.188Z",
   "owner": "123caiji",
   "profile": {
     "followers": 5,
@@ -12,13 +12,13 @@
     "stars": 24,
     "openIssues": 0,
     "active7d": 6,
-    "commits7d": 175,
+    "commits7d": 174,
     "wikiOn": 0,
     "blocking": 0,
     "suggestions": 4
   },
   "trend": {
-    "since": "2026-11-26T11:28:18.747Z",
+    "since": "2026-11-27T08:26:03.403Z",
     "changes": [
       {
         "key": "repos",
@@ -37,23 +37,23 @@
       {
         "key": "openIssues",
         "label": "未关闭 issue/PR",
-        "before": 11,
+        "before": 0,
         "after": 0,
-        "delta": -11
+        "delta": 0
       },
       {
         "key": "active7d",
         "label": "近 7 天活跃仓库",
-        "before": 5,
+        "before": 6,
         "after": 6,
-        "delta": 1
+        "delta": 0
       },
       {
         "key": "commits7d",
         "label": "近 7 天提交",
-        "before": 168,
-        "after": 175,
-        "delta": 7
+        "before": 175,
+        "after": 174,
+        "delta": -1
       },
       {
         "key": "blocking",
@@ -65,9 +65,9 @@
       {
         "key": "suggestions",
         "label": "建议项",
-        "before": 5,
+        "before": 4,
         "after": 4,
-        "delta": -1
+        "delta": 0
       }
     ]
   },
@@ -103,14 +103,14 @@
       "stars": 1,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 2859,
-      "pushedAt": "2026-11-27T07:54:20Z",
+      "sizeKB": 3012,
+      "pushedAt": "2026-11-27T09:25:33Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "Tama · Windows 桌面猫：键帽气泡 + DSH 状态联动 + 数据驱动皮肤（单文件原生 / 零依赖 / 离线）",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 32,
+      "commits7d": 35,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -122,14 +122,33 @@
       "stars": 2,
       "forks": 0,
       "issues": 0,
-      "sizeKB": 41768,
-      "pushedAt": "2026-11-27T06:24:38Z",
+      "sizeKB": 41860,
+      "pushedAt": "2026-11-27T09:10:15Z",
       "staleDays": 0,
       "license": "MIT",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 63,
+      "commits7d": 62,
+      "archived": false,
+      "isProfile": false,
+      "defaultBranch": "main"
+    },
+    {
+      "name": "awesome-agent-security",
+      "url": "https://github.com/123caiji/awesome-agent-security",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "sizeKB": 276,
+      "pushedAt": "2026-11-27T08:26:34Z",
+      "staleDays": 0,
+      "license": "MIT",
+      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
+      "isMirror": false,
+      "hasWiki": false,
+      "commits7d": 29,
       "archived": false,
       "isProfile": false,
       "defaultBranch": "main"
@@ -148,7 +167,7 @@
       "description": "GitHub profile README with live stats and an auto-generated contribution snake.",
       "isMirror": false,
       "hasWiki": false,
-      "commits7d": 22,
+      "commits7d": 18,
       "archived": false,
       "isProfile": true,
       "defaultBranch": "main"
@@ -172,25 +191,6 @@
       "isProfile": false,
       "defaultBranch": "main",
       "headKB": 87713
-    },
-    {
-      "name": "awesome-agent-security",
-      "url": "https://github.com/123caiji/awesome-agent-security",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "issues": 0,
-      "sizeKB": 269,
-      "pushedAt": "2026-11-26T12:27:44Z",
-      "staleDays": 0,
-      "license": "MIT",
-      "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
-      "isMirror": false,
-      "hasWiki": false,
-      "commits7d": 28,
-      "archived": false,
-      "isProfile": false,
-      "defaultBranch": "main"
     },
     {
       "name": "hunt-lab",
@@ -296,7 +296,7 @@
       "issues": 0,
       "sizeKB": 6004,
       "pushedAt": "2026-11-05T10:26:42Z",
-      "staleDays": 21,
+      "staleDays": 22,
       "license": "NOASSERTION",
       "description": "镜像：Agensh 论文项目页（arXiv:2609.26781，Microsoft Research），非原作者仓库",
       "isMirror": true,
@@ -315,7 +315,7 @@
       "issues": 0,
       "sizeKB": 9316,
       "pushedAt": "2026-11-05T09:36:09Z",
-      "staleDays": 21,
+      "staleDays": 22,
       "license": "Apache-2.0",
       "description": "Mirror of storytold/craft-anything",
       "isMirror": true,
@@ -334,7 +334,7 @@
       "issues": 0,
       "sizeKB": 28533,
       "pushedAt": "2026-11-04T08:36:40Z",
-      "staleDays": 22,
+      "staleDays": 23,
       "license": "MIT",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph (copy of N1nEmAn/sapper-v2)",
       "isMirror": false,
